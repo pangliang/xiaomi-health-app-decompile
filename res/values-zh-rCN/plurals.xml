@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="picker_number_of_items_selected">
+        <item quantity="other">选中了 %1$d 项</item>
+        <item quantity="zero">选中了 %1$d 项</item>
+        <item quantity="one">选中了 %1$d 项</item>
+    </plurals>
+    <plurals name="numberOfPullUpdateReport">
+        <item quantity="other">更新了%d条记录</item>
+        <item quantity="one">更新了%d条记录</item>
+    </plurals>
+    <plurals name="numberFoot">
+        <item quantity="other">%s英尺</item>
+    </plurals>
+    <plurals name="numberInch">
+        <item quantity="other">%s英寸</item>
+    </plurals>
+    <plurals name="weight_match_user">
+        <item quantity="other">为你匹配了%1$d个体重相似的人，选一个呗</item>
+    </plurals>
+</resources>

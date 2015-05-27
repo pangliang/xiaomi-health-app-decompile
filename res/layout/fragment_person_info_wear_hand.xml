@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/dialog_empty_area" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="#fff4f5f5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/common_list_item_sub_font" android:textColor="@color/main_ui_content_color" android:paddingLeft="@dimen/common_list_item_left_right_padding" android:paddingRight="@dimen/common_list_item_left_right_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_dlg_padding_top" android:layout_marginBottom="5.0dip" android:text="@string/wear_hand" />
+        <include layout="@layout/split_line_with_margin" />
+        <FrameLayout android:id="@id/person_info_left_hand_area" android:background="@drawable/bg_item" android:paddingRight="@dimen/common_list_item_left_right_padding" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/common_list_item_1_height" android:layout_marginTop="@dimen/stroke_width_minus" android:layout_marginBottom="@dimen/stroke_width_minus">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/person_info_left_hand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/select_item_padding_left" android:src="@drawable/arrow_single_choice" />
+            <TextView android:textSize="@dimen/common_list_item_main_font" android:textColor="@color/main_ui_title_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/person_info_left_hand_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_list_item_left_right_padding" android:text="@string/left_hand" />
+        </FrameLayout>
+        <include layout="@layout/split_line_with_margin" />
+        <FrameLayout android:id="@id/person_info_right_hand_area" android:background="@drawable/bg_item" android:paddingRight="@dimen/common_list_item_left_right_padding" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/common_list_item_1_height" android:layout_marginTop="@dimen/stroke_width_minus" android:layout_marginBottom="@dimen/stroke_width_minus">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/person_info_right_hand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/select_item_padding_left" android:src="@drawable/arrow_single_choice" />
+            <TextView android:textSize="@dimen/common_list_item_main_font" android:textColor="@color/main_ui_title_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/person_info_right_hand_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_list_item_left_right_padding" android:text="@string/right_hand" />
+        </FrameLayout>
+        <include layout="@layout/split_line_with_margin" />
+        <FrameLayout android:id="@id/person_info_body_area" android:background="@drawable/bg_item" android:paddingRight="@dimen/common_list_item_left_right_padding" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/common_list_item_1_height" android:layout_marginTop="@dimen/stroke_width_minus" android:layout_marginBottom="@dimen/stroke_width_minus">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/person_info_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/select_item_padding_left" android:src="@drawable/arrow_single_choice" />
+            <TextView android:textSize="@dimen/common_list_item_main_font" android:textColor="@color/main_ui_title_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/person_info_body_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_list_item_left_right_padding" android:text="@string/body" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
