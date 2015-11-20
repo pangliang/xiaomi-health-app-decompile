@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/home_back_area" android:background="@color/bg_mode_weight" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_h">
+        <TextView android:id="@id/home_back" android:text="@string/weight_reference" style="@style/BackButton" />
+        <ImageButton android:id="@id/go2_txt_detail_btn" android:background="@drawable/baby_weight_info_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="22.0sp" android:textColor="@android:color/black" android:gravity="center" android:id="@id/baby_weight_info_titl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="37.0dip" android:layout_below="@id/home_back_area" />
+    <View android:id="@id/divider1" android:background="@color/line_color_gray" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:layout_below="@id/baby_weight_info_titl" />
+    <ScrollView android:id="@id/baby_weight_info_grid" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:fillViewport="true" android:layout_above="@id/divider2" android:layout_below="@id/divider1" android:isScrollContainer="true">
+        <cn.com.smartdevices.bracelet.ui.WeightTableView android:id="@id/weight_table_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </ScrollView>
+    <View android:id="@id/divider2" android:background="@color/line_color_gray" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="5.0dip" android:layout_above="@id/baby_weight_info_btm_tv" />
+    <TextView android:gravity="center" android:id="@id/baby_weight_info_btm_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="37.0dip" android:text="@string/baby_weight_ref" android:layout_alignParentBottom="true" />
+</RelativeLayout>

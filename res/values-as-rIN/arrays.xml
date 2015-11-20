@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="running_months">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>সোমবাৰ</item>
+        <item>মংগলবাৰ</item>
+        <item>বুধবাৰ</item>
+        <item>বৃহস্পতিবাৰ</item>
+        <item>শুক্ৰবাৰ</item>
+        <item>শনিবাৰ</item>
+        <item>দেওবাৰ</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>সোম</item>
+        <item>মংগল</item>
+        <item>বুধ</item>
+        <item>বৃহস্পতি</item>
+        <item>শুক্ৰ</item>
+        <item>শনি</item>
+        <item>দেও</item>
+    </string-array>
+    <string-array name="months">
+        <item>জানুৱাৰী</item>
+        <item>ফেব্ৰুৱাৰী</item>
+        <item>মাৰ্চ</item>
+        <item>এপ্ৰিল</item>
+        <item>মে</item>
+        <item>জুন</item>
+        <item>জুলাই</item>
+        <item>আগষ্ট</item>
+        <item>ছেপ্টেম্বৰ</item>
+        <item>অক্টোবৰ</item>
+        <item>নৱেম্বৰ</item>
+        <item>ডিচেম্বৰ</item>
+    </string-array>
+    <string-array name="select_days_simple">
+        <item>এবাৰ</item>
+        <item>প্ৰতিদিন</item>
+        <item>কৰ্মদিনসমূহ</item>
+        <item>অনুকূলিত কৰক</item>
+    </string-array>
+    <string-array name="fortune">
+        <item>স্থিৰতাৰ কোনো বিকল্প নাই।</item>
+        <item>প্ৰগতিৰ বাবে সংগ্ৰাম কৰক, সঠিকতাৰ বাবে নহয়।</item>
+        <item>অভ্যাসেই সফলতাৰ জনক।</item>
+        <item>শক্তি আৰু একাগ্ৰতাই সকলোকে জয় কৰিব পাৰে।</item>
+        <item>সৰু লক্ষ্য স্থাপন কৰক আৰু আগবাঢ়ি যাওক।</item>
+        <item>সকলো যাত্ৰাই এটা পদক্ষেপেৰে আৰম্ভ হয়।</item>
+        <item>এদিনত এটা লক্ষ্যত উপনীত হওক।</item>
+        <item>আপুনি যিমানেই মন্থৰ গতিৰে নাযাওক কিয়, তথাপিতো আপুনি চোফাত বহি থকা প্ৰতিজন ব্যক্তিতকৈ আগত আছে।</item>
+        <item>সম্ভৱ হলে দৌৰক। যদিহে প্ৰয়োজন হয় খোজ কাঢ়ক। বাধ্য হলে লাহে লাহে যাওক। কিন্তু কেতিয়াও সাহস নেহেৰুৱাব।</item>
+        <item>মনত ৰাখিব, ভালদৰে ব্যায়াম কৰাৰ পিছত যি অনুভৱ হয় সেয়া আপুনি বহি থাকি ব্যায়াম কৰাৰ কথা চিন্তা কৰি থকাৰ অনুভৱতকৈ অধিক সুন্দৰ।</item>
+    </string-array>
+    <string-array name="weather_aqi_descriptions">
+        <item>উৎকৃষ্ট</item>
+        <item>ভাল</item>
+        <item>মধ্যমীয়া</item>
+        <item>সতৰ্কতা</item>
+        <item>অস্বাস্থ্যকৰ</item>
+        <item>খুবেই অস্বাস্থ্যকৰ</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>কি.গ্ৰা.</item>
+        <item>jin</item>
+        <item>lb</item>
+    </string-array>
+    <string-array name="weight_body_figures">
+        <item>কম ওজন</item>
+        <item>স্বাভাৱিক</item>
+        <item>অত্যাধিক ওজন</item>
+        <item>অত্যাধিক শকত</item>
+        <item>অত্যাধিক শকত</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>কম ওজন</item>
+        <item>স্বাভাৱিক</item>
+        <item>অত্যাধিক ওজন</item>
+        <item>অত্যাধিক শকত</item>
+        <item>অত্যাধিক শকত</item>
+    </string-array>
+    <string-array name="weight_dynamic_list_bmi_tips">
+        <item>BMI বৰ্গ: কম ওজন</item>
+        <item>BMI বৰ্গ: স্বাভাৱিক ওজন</item>
+        <item>BMI বৰ্গ: অত্যাধিক ওজন</item>
+        <item>BMI বৰ্গ: অত্যাধিক শকত</item>
+    </string-array>
+    <string-array name="weight_report_suggestions_boy">
+        <item>আপোনাৰ ওজন প্ৰৱন্ধনত সহায় কৰিবলৈ এটা লক্ষ্য ছেট কৰক।</item>
+        <item>অভিনন্দন! আপোনাৰ ওজন লক্ষ্য ওজনৰ সমান।</item>
+        <item>আপোনাৰ ওজন লক্ষ্য ওজনতকৈ কম</item>
+        <item>আপোনাৰ ওজন লক্ষ্য ওজনতকৈ অধিক</item>
+    </string-array>
+    <string-array name="weight_report_suggestions_girl">
+        <item>আপোনাৰ ওজন প্ৰৱন্ধনত সহায় কৰিবলৈ এটা লক্ষ্য ছেট কৰক।</item>
+        <item>অভিনন্দন! আপোনাৰ ওজন লক্ষ্য ওজনৰ সমান।</item>
+        <item>আপোনাৰ ওজন লক্ষ্য ওজনতকৈ কম</item>
+        <item>আপোনাৰ ওজন লক্ষ্য ওজনতকৈ অধিক</item>
+    </string-array>
+    <string-array name="weight_report_result_without_goal">
+        <item>লক্ষ্য অতিক্ৰম কৰিলে</item>
+        <item>"আপোনাৰ লক্ষ্যত উপনীত নহ'ল"</item>
+        <item>"আপুনি নিজৰ লক্ষ্যত উপনীত হ'ল!"</item>
+    </string-array>
+    <string-array name="weight_report_result_with_goal_gainweight">
+        <item>আপুনি এতিয়ালৈকে নিজৰ লক্ষ্যত উপনীত হোৱা নাই</item>
+        <item>আপুনি এতিয়ালৈকে নিজৰ লক্ষ্যত উপনীত হোৱা নাই</item>
+        <item>আপুনি এতিয়ালৈকে নিজৰ লক্ষ্যত উপনীত হোৱা নাই</item>
+        <item>"আপুনি নিজৰ লক্ষ্যত উপনীত হ'ল (%1$s%2$s)!"</item>
+    </string-array>
+    <string-array name="weight_report_result_with_goal_loseweight">
+        <item>আপুনি এতিয়ালৈকে নিজৰ লক্ষ্যত উপনীত হোৱা নাই</item>
+        <item>আপুনি এতিয়ালৈকে নিজৰ লক্ষ্যত উপনীত হোৱা নাই</item>
+        <item>আপুনি এতিয়ালৈকে নিজৰ লক্ষ্যত উপনীত হোৱা নাই</item>
+        <item>"আপুনি নিজৰ লক্ষ্যত উপনীত হ'ল (%1$s%2$s)!"</item>
+    </string-array>
+    <string-array name="phone_notify_tips">
+        <item>যোৰ হৈ থকা ডিভাইচত ইনকামিং কল আহিলে বেণ্ড কম্পন কৰক</item>
+        <item>যোৰ হৈ থকা ডিভাইচত এলাৰ্ম বাজিলে বেণ্ড কম্পন কৰক</item>
+        <item>যোৰ হৈ থকা ডিভাইচত SMS বাৰ্তা প্ৰাপ্ত কৰিলে বেণ্ড কম্পন কৰক</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>কেৱল সম্পৰ্কৰ পৰা অহা কলৰ বাবে</item>
+        <item>কেৱল সম্পৰ্কৰ পৰা অহা SMS-ৰ বাবে</item>
+    </string-array>
+</resources>

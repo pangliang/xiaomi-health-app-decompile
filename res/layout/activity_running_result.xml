@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:orientation="vertical" android:background="@color/main_ui_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<RelativeLayout android:id="@id/root_container" android:background="@color/main_ui_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <com.huami.android.view.CustomViewPager android:id="@id/vp_result" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-        <LinearLayout android:gravity="center" android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/dot_ll" android:paddingBottom="@dimen/running_pace_dot_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
-            <View android:id="@id/dot1" android:background="@drawable/running_slidable_dot_focused" android:visibility="invisible" android:layout_width="8.5dip" android:layout_height="8.5dip" android:layout_marginRight="8.5dip" />
-            <View android:id="@id/dot2" android:background="@drawable/running_slidable_dot_normal" android:visibility="invisible" android:layout_width="8.5dip" android:layout_height="8.5dip" android:layout_marginLeft="8.5dip" />
-        </LinearLayout>
-    </RelativeLayout>
-    <RelativeLayout android:gravity="center" android:layout_gravity="bottom" android:id="@id/share_pane_container" android:background="#ffebebeb" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/running_bottom_bar_height">
-        <View android:id="@id/strut" android:background="@color/item_stroke" android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_centerHorizontal="true" />
-        <Button android:textSize="13.5sp" android:textColor="@drawable/running_btn_share_normal_content_selector" android:id="@id/share_normal" android:background="@drawable/running_click_btn_bg_left_white_corners" android:layout_width="0.0dip" android:layout_height="41.5dip" android:text="@string/running_share" android:layout_alignRight="@id/strut" android:layout_alignParentLeft="true" android:onClick="onShare" />
-        <Button android:textSize="13.5sp" android:textColor="@drawable/running_btn_share_watermark_content_selector" android:id="@id/btn_watermark" android:background="@drawable/running_click_btn_bg_right_blue_corners" android:layout_width="0.0dip" android:layout_height="41.5dip" android:text="@string/running_watermark" android:layout_alignLeft="@id/strut" android:layout_alignParentRight="true" android:onClick="onWatermark" />
-    </RelativeLayout>
-</FrameLayout>
+    <include android:layout_gravity="bottom" android:id="@id/share_pane_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/running_detail_share_panel" />
+    <LinearLayout android:orientation="vertical" android:id="@id/share_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/share_pane_container" android:layout_alignParentTop="true">
+        <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.amap.api.maps.MapView android:id="@id/map" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <View android:layout_gravity="fill" android:id="@id/dim_view" android:background="#77000000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:layout_gravity="center" android:id="@id/simple_track" android:background="#22000000" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <RelativeLayout android:gravity="center" android:id="@id/loading_track" android:background="@color/running_progress_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ProgressBar android:id="@id/progressbar" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="4.0dip" android:indeterminate="true" android:indeterminateDrawable="@drawable/custom_progress_draw" android:indeterminateDuration="700" android:layout_centerVertical="true" />
+                <TextView android:textColor="@color/running_sub_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/running_data_loading" android:layout_toRightOf="@id/progressbar" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </FrameLayout>
+        <ViewStub android:id="@id/layout_infos_hr" android:layout="@layout/fragment_running_share_detail_info_hr" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/layout_infos" android:layout="@layout/fragment_running_share_detail_info" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/share_logo_container" android:background="@color/running_detail_bg" android:padding="10.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/share_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/running_logo_white" />
+        <TextView android:textSize="@dimen/font_size_f3" android:textColor="@color/font_color_c8" android:id="@id/share_logo_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/running_share_to_title" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="running_months">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
     <string-array name="weeks">
-        <item>திங்கள்.</item>
-        <item>செவ்வாய்.</item>
-        <item>புதன்.</item>
-        <item>வியாழன்.</item>
-        <item>வெள்ளி.</item>
-        <item>சனி.</item>
-        <item>ஞாயி.</item>
+        <item>திங்கட்கிழமை</item>
+        <item>செவ்வாய்க்கிழமை</item>
+        <item>புதன்கிழமை</item>
+        <item>வியாழக்கிழமை</item>
+        <item>வெள்ளிக்கிழமை</item>
+        <item>சனிக்கிழமை</item>
+        <item>ஞாயிற்றுக்கிழமை</item>
     </string-array>
     <string-array name="weeks_short">
-        <item>திங்கள்.</item>
-        <item>செவ்வாய்.</item>
-        <item>புதன்.</item>
-        <item>வியாழன்.</item>
-        <item>வெள்ளி.</item>
+        <item>திங்கள்</item>
+        <item>செவ்வாய்</item>
+        <item>புதன்</item>
+        <item>வியாழன்</item>
+        <item>வெள்ளி</item>
         <item>சனி.</item>
         <item>ஞாயி.</item>
     </string-array>
@@ -33,15 +47,15 @@
         <item>டிசம்பர்</item>
     </string-array>
     <string-array name="select_days_simple">
-        <item>ஒரே</item>
+        <item>ஒருமுறை</item>
         <item>தினசரி</item>
         <item>வாரநாட்கள்</item>
-        <item>விருப்பமாக்கு</item>
+        <item>தனிப்பயனாக்கு</item>
     </string-array>
     <string-array name="fortune">
         <item>நிலைத்தன்மைக்கு ஈடாக வேறு எதுவும் இல்லை.</item>
-        <item>முன்னேற்றத்திற்காக பாடுபடு, பூர்ணத்துவத்திற்காக இல்லை.</item>
-        <item>மீண்டும் செய்தலே வெற்றியின் தந்தை.</item>
+        <item>முன்னேற்றத்திற்காக பாடுபடவும், பூர்ணத்துவத்திற்காக இல்லை.</item>
+        <item>மீண்டும் செய்தலே வெற்றியின் ஆசான்.</item>
         <item>ஆற்றல் மற்றும் நிலைபேறு சகலத்தையும் வெற்றி பெற செய்யும்.</item>
         <item>சிறு இலக்குகளை அமைத்து அவற்றின் மீது கட்டமைக்கவும்.</item>
         <item>ஒவ்வொரு பயணம் ஒரு படியுடனே தொடங்குகிறது.</item>
@@ -59,32 +73,39 @@
         <item>மிகவும் ஆரோக்கியமற்ற</item>
     </string-array>
     <string-array name="weight_unit">
-        <item>kg</item>
+        <item>கிகி</item>
         <item>jin</item>
         <item>lb</item>
     </string-array>
     <string-array name="weight_body_figures">
         <item>எடைகுறைவு</item>
-        <item>இயல்பான எடை</item>
+        <item>வழக்கமானது</item>
+        <item>அதிக எடை</item>
+        <item>பருமன்</item>
+        <item>பருமன்</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>எடைகுறைவு</item>
+        <item>இயல்பானது</item>
         <item>அதிக எடை</item>
         <item>பருமன்</item>
         <item>பருமன்</item>
     </string-array>
     <string-array name="weight_dynamic_list_bmi_tips">
         <item>BIM வகை: எடைகுறைவு</item>
-        <item>BIM வகை: இயல்பான எடை</item>
-        <item>BIM வகை: அதிக எடை</item>
-        <item>BIM வகை: பருமன்</item>
+        <item>BMI வகை: எடைகுறைவு</item>
+        <item>BMI வகை: அதிக எடை</item>
+        <item>BMI வகை: பருமன்</item>
     </string-array>
     <string-array name="weight_report_suggestions_boy">
         <item>உங்கள் எடையை நிர்வகிக்க உதவுவதற்கு ஒரு இலக்கை அமைக்கவும்.</item>
-        <item>வாழ்த்துக்கள்! உங்கள் இலக்கு எடையில் நீங்கள் உள்ளீர்கள்.</item>
+        <item>வாழ்த்துகள்! இலக்கு எடையை அடைந்தீர்கள்.</item>
         <item>உங்கள் இலக்கு எடைக்கு கீழ் நீங்கள் இருக்கிறீர்கள்</item>
         <item>உங்கள் இலக்கு எடைக்கு மேல் நீங்கள் இருக்கிறீர்கள்</item>
     </string-array>
     <string-array name="weight_report_suggestions_girl">
         <item>உங்கள் எடையை நிர்வகிக்க உதவுவதற்கு ஒரு இலக்கை அமைக்கவும்.</item>
-        <item>வாழ்த்துக்கள்! உங்கள் இலக்கு எடையில் நீங்கள் உள்ளீர்கள்.</item>
+        <item>வாழ்த்துகள்! இலக்கு எடையை அடைந்தீர்கள்.</item>
         <item>உங்கள் இலக்கு எடைக்கு கீழ் நீங்கள் இருக்கிறீர்கள்</item>
         <item>உங்கள் இலக்கு எடைக்கு மேல் நீங்கள் இருக்கிறீர்கள்</item>
     </string-array>
@@ -104,5 +125,14 @@
         <item>நீங்கள் இன்னும் உங்கள் இலக்கை அடையவில்லை</item>
         <item>நீங்கள் இன்னும் உங்கள் இலக்கை அடையவில்லை</item>
         <item>நீங்கள் உங்கள் இலக்கை அடைந்தீர்கள் (%1$s%2$s)!</item>
+    </string-array>
+    <string-array name="phone_notify_tips">
+        <item>இணைக்கப்பட்டுள்ள சாதனத்திற்கு உள்வரும் அழைப்பு வரும்போது பேண்டை அதிர்வூட்டவும்</item>
+        <item>இணைக்கப்பட்டுள்ள சாதனத்தில் ஒலிக்கடிகையின்போது பேண்டை அதிர்வூட்டவும்</item>
+        <item>இணைக்கப்பட்டுள்ள சாதனத்திற்கு குறுஞ்செய்தி வரும்போது பேண்டை அதிர்வூட்டவும்</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>தொடர்புகளின் அழைப்புகள் மட்டும்</item>
+        <item>தொடர்புகளிலிருந்து வரும் SMS மட்டும்</item>
     </string-array>
 </resources>

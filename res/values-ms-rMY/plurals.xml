@@ -4,9 +4,12 @@
         <item quantity="other">%d item dikemaskini.</item>
     </plurals>
     <plurals name="numberFoot">
-        <item quantity="other">%s feet</item>
+        <item quantity="other">%s kaki</item>
     </plurals>
     <plurals name="numberInch">
-        <item quantity="other">%s inches</item>
+        <item quantity="other">%s inci</item>
+    </plurals>
+    <plurals name="weight_match_user">
+        <item quantity="other">%1$d padan.</item>
     </plurals>
 </resources>

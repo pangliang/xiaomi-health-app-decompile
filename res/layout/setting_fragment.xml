@@ -27,7 +27,7 @@
                         <TextView android:id="@id/device_light_color_txt" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/blue" style="@style/ListItemValueText" />
                         <ImageView android:layout_gravity="right|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_indicator_right_arrow" />
                     </LinearLayout>
-                    <include layout="@layout/split_line_with_margin" />
+                    <include android:id="@id/margin_light_color" layout="@layout/split_line_with_margin" />
                     <LinearLayout android:id="@id/device_wear_hand" android:background="@drawable/bg_item" android:paddingLeft="@dimen/mili_margin" android:paddingTop="6.0dip" android:paddingRight="@dimen/mili_margin" android:paddingBottom="6.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/stroke_width_minus" android:layout_marginBottom="@dimen/stroke_width_minus" android:minHeight="@dimen/item_height">
                         <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
                             <TextView android:id="@id/item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wear_hand" style="@style/ListItemTitleText" />
@@ -44,14 +44,32 @@
                         <ImageView android:layout_gravity="right|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_indicator_right_arrow" />
                     </LinearLayout>
                     <include android:id="@id/device_unlock_split" layout="@layout/split_line_with_margin" />
-                    <TextView android:paddingLeft="@dimen/mili_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="31.0dip" android:layout_marginBottom="5.0dip" android:text="@string/notify_setting" style="@style/ListItemValueText" />
-                    <include android:visibility="gone" layout="@layout/split_line_with_margin" />
+                    <TextView android:id="@id/notify_setting_tv" android:paddingLeft="@dimen/mili_margin" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="31.0dip" android:layout_marginBottom="5.0dip" android:text="@string/notify_setting" style="@style/ListItemValueText" />
+                    <include android:id="@id/notify_setting_split" android:visibility="visible" layout="@layout/split_line_with_margin" />
+                    <LinearLayout android:id="@id/notification_setting" android:background="@drawable/bg_item" android:paddingLeft="@dimen/mili_margin" android:paddingRight="@dimen/mili_margin" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/stroke_width_minus" android:layout_marginBottom="@dimen/stroke_width_minus" android:minHeight="@dimen/item_height">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <TextView android:id="@id/item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/phone_app_notifi" style="@style/ListItemTitleText" />
+                        </LinearLayout>
+                        <TextView android:id="@id/notification_available" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/ListItemValueText" />
+                        <ImageView android:layout_gravity="right|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_indicator_right_arrow" />
+                    </LinearLayout>
+                    <include layout="@layout/split_line_with_margin" />
                     <LinearLayout android:id="@id/incoming_call_notify" android:background="@drawable/bg_item" android:paddingLeft="@dimen/mili_margin" android:paddingRight="@dimen/mili_margin" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/stroke_width_minus" android:layout_marginBottom="@dimen/stroke_width_minus" android:minHeight="@dimen/item_height">
                         <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
                             <TextView android:id="@id/item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/incoming_call_notify" style="@style/ListItemTitleText" />
                         </LinearLayout>
                         <TextView android:id="@id/incoming_call_notify_text" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/ListItemValueText" />
                         <ImageView android:layout_gravity="right|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_indicator_right_arrow" />
+                    </LinearLayout>
+                    <include layout="@layout/split_line_with_margin" />
+                    <LinearLayout android:id="@id/sleep_assist_contaier" android:background="@drawable/bg_item" android:paddingLeft="@dimen/mili_margin" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/common_list_item_2_height" android:layout_marginTop="@dimen/stroke_width_minus" android:layout_marginBottom="@dimen/stroke_width_minus" android:minHeight="@dimen/item_height">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <TextView android:textSize="@dimen/common_list_item_main_font" android:id="@id/item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sleep_assist_title" style="@style/ListItemTitleText" />
+                            <TextView android:textSize="@dimen/common_list_item_sub_font" android:id="@id/sleep_assist_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sleep_assist_tips" android:singleLine="false" style="@style/ListItemValueText" />
+                        </LinearLayout>
+                        <RelativeLayout android:gravity="center" android:paddingRight="@dimen/mili_margin" android:clickable="true" android:layout_width="63.0dip" android:layout_height="fill_parent">
+                            <Switch android:layout_gravity="center" android:id="@id/sleep_assist_switch" android:background="@drawable/switch_track_enable" android:focusable="false" android:focusableInTouchMode="false" android:clickable="true" android:layout_width="40.0dip" android:layout_height="21.0dip" android:textOn="" android:textOff="" android:thumb="@drawable/switch_thumb" android:track="@drawable/switch_track_trans" android:switchMinWidth="38.0dip" android:thumbTextPadding="10.0dip" />
+                        </RelativeLayout>
                     </LinearLayout>
                     <include layout="@layout/split_line_with_margin" />
                     <LinearLayout android:id="@id/alarm_notify" android:background="@drawable/bg_item" android:paddingLeft="@dimen/mili_margin" android:paddingRight="@dimen/mili_margin" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/stroke_width_minus" android:layout_marginBottom="@dimen/stroke_width_minus" android:minHeight="@dimen/item_height">
@@ -70,8 +88,8 @@
                         <ImageView android:layout_gravity="right|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_indicator_right_arrow" />
                     </LinearLayout>
                     <include android:id="@id/sms_notify_split" layout="@layout/split_line_with_margin" />
-                    <TextView android:paddingLeft="@dimen/mili_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="31.0dip" android:layout_marginBottom="5.0dip" android:text="@string/other" style="@style/ListItemValueText" />
-                    <include android:visibility="gone" layout="@layout/split_line_with_margin" />
+                    <TextView android:id="@id/other_tv" android:paddingLeft="@dimen/mili_margin" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="31.0dip" android:layout_marginBottom="5.0dip" android:text="@string/other" style="@style/ListItemValueText" />
+                    <include android:id="@id/other_split" android:visibility="visible" layout="@layout/split_line_with_margin" />
                     <LinearLayout android:id="@id/vibrate_notify" android:background="@drawable/bg_item" android:paddingLeft="@dimen/mili_margin" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/common_list_item_2_height" android:layout_marginTop="@dimen/stroke_width_minus" android:layout_marginBottom="@dimen/stroke_width_minus" android:minHeight="@dimen/item_height">
                         <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
                             <TextView android:textSize="@dimen/common_list_item_main_font" android:id="@id/item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/vibrate_notify" style="@style/ListItemTitleText" />
@@ -99,6 +117,16 @@
                         </LinearLayout>
                         <RelativeLayout android:gravity="center" android:paddingRight="@dimen/mili_margin" android:clickable="true" android:layout_width="63.0dip" android:layout_height="fill_parent">
                             <Switch android:layout_gravity="center" android:id="@id/setting_daily_sleep_notify_switch" android:background="@drawable/switch_track_enable" android:focusable="false" android:focusableInTouchMode="false" android:clickable="true" android:layout_width="40.0dip" android:layout_height="21.0dip" android:textOn="" android:textOff="" android:thumb="@drawable/switch_thumb" android:track="@drawable/switch_track_trans" android:switchMinWidth="38.0dip" android:thumbTextPadding="10.0dip" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <include layout="@layout/split_line_with_margin" />
+                    <LinearLayout android:id="@id/setting_realtime_hr_ll" android:background="@drawable/bg_item" android:paddingLeft="@dimen/mili_margin" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/common_list_item_2_height" android:layout_marginTop="@dimen/stroke_width_minus" android:layout_marginBottom="@dimen/stroke_width_minus" android:minHeight="@dimen/item_height">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <TextView android:textSize="@dimen/common_list_item_main_font" android:id="@id/item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_realtime_hr" style="@style/ListItemTitleText" />
+                            <TextView android:textSize="@dimen/common_list_item_sub_font" android:id="@id/setting_realtime_hr_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_realtime_hr_info" style="@style/ListItemValueText" />
+                        </LinearLayout>
+                        <RelativeLayout android:gravity="center" android:paddingRight="@dimen/mili_margin" android:clickable="true" android:layout_width="63.0dip" android:layout_height="fill_parent">
+                            <Switch android:layout_gravity="center" android:id="@id/setting_realtime_hr_switch" android:background="@drawable/switch_track_enable" android:focusable="false" android:focusableInTouchMode="false" android:clickable="true" android:layout_width="40.0dip" android:layout_height="21.0dip" android:textOn="" android:textOff="" android:thumb="@drawable/switch_thumb" android:track="@drawable/switch_track_trans" android:switchMinWidth="38.0dip" android:thumbTextPadding="10.0dip" />
                         </RelativeLayout>
                     </LinearLayout>
                     <include layout="@layout/split_line_with_margin" />
@@ -135,9 +163,16 @@
                         <TextView android:textSize="@dimen/info_content_size" android:textColor="@color/main_ui_content_color" android:gravity="center_vertical" android:id="@id/device_firmware_version_text" android:layout_width="wrap_content" android:layout_height="fill_parent" />
                         <ImageView android:layout_gravity="right|center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:src="@drawable/ic_indicator_right_arrow" />
                     </LinearLayout>
+                    <include layout="@layout/split_line_with_margin" />
+                    <LinearLayout android:id="@id/item_heart" android:background="@drawable/bg_item" android:paddingLeft="@dimen/mili_margin" android:paddingTop="6.0dip" android:paddingRight="@dimen/mili_margin" android:paddingBottom="6.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/stroke_width_minus" android:layout_marginBottom="@dimen/stroke_width_minus" android:minHeight="@dimen/item_height">
+                        <TextView android:gravity="center_vertical" android:id="@id/item_title" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/heartrate_version" android:layout_weight="1.0" style="@style/ListItemTitleText" />
+                        <TextView android:textSize="@dimen/info_content_size" android:textColor="@color/main_ui_content_color" android:gravity="center_vertical" android:id="@id/device_heartrate_firmware_version_text" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                        <ImageView android:layout_gravity="right|center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:src="@drawable/ic_indicator_right_arrow" />
+                    </LinearLayout>
                 </LinearLayout>
                 <RelativeLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/mask_view" android:background="#90ffffff" android:paddingBottom="@dimen/item_height" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
-                    <LinearLayout android:id="@id/device_unbind_in_mask" android:background="@drawable/bg_item" android:paddingLeft="@dimen/mili_margin" android:paddingRight="@dimen/mili_margin" android:paddingBottom="6.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/stroke_width_minus" android:minHeight="@dimen/item_height">
+                    <View android:id="@id/view_fill" android:paddingLeft="@dimen/mili_margin" android:paddingRight="@dimen/mili_margin" android:paddingBottom="6.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="49.0dip" android:layout_marginBottom="@dimen/stroke_width_minus" android:minHeight="@dimen/item_height" android:layout_alignParentBottom="true" />
+                    <LinearLayout android:id="@id/device_unbind_in_mask" android:background="@drawable/bg_item" android:paddingLeft="@dimen/mili_margin" android:paddingRight="@dimen/mili_margin" android:paddingBottom="6.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/stroke_width_minus" android:minHeight="@dimen/item_height" android:layout_above="@id/view_fill">
                         <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
                             <TextView android:textSize="@dimen/main_ui_item_title_size" android:textColor="@color/main_ui_title_color" android:id="@id/mili_rebind_tips_in_mask" android:paddingTop="3.5dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bind_new_mili" android:singleLine="true" />
                         </LinearLayout>

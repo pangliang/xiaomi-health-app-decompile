@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="running_months">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
     <string-array name="weeks">
-        <item>Isn.</item>
-        <item>Sel.</item>
-        <item>Rab.</item>
-        <item>Kham.</item>
-        <item>Jum.</item>
-        <item>Sab.</item>
-        <item>Ah.</item>
+        <item>Isnin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Khamis</item>
+        <item>Jumaat</item>
+        <item>Sabtu</item>
+        <item>Ahad</item>
     </string-array>
     <string-array name="weeks_short">
         <item>Isn.</item>
@@ -65,7 +79,14 @@
     </string-array>
     <string-array name="weight_body_figures">
         <item>Berat kurang</item>
-        <item>Berat normal</item>
+        <item>Biasa</item>
+        <item>Berat Berlebihan</item>
+        <item>Obesiti</item>
+        <item>Obesiti</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>Berat kurang</item>
+        <item>Biasa</item>
         <item>Berat Berlebihan</item>
         <item>Obesiti</item>
         <item>Obesiti</item>
@@ -77,16 +98,16 @@
         <item>Kategori BMI : Obesiti</item>
     </string-array>
     <string-array name="weight_report_suggestions_boy">
-        <item>Set a goal to help manage your weight.</item>
-        <item>"Congratulations! You're at your at your target weight."</item>
-        <item>"You're under your target weight"</item>
-        <item>"You're over your target weight"</item>
+        <item>Tetapkan sasaran untuk membantu menguruskan berat anda.</item>
+        <item>Tahniah! Anda berada pada berat target.</item>
+        <item>Anda dibawah berat target anda</item>
+        <item>Anda melebihi berat target anda</item>
     </string-array>
     <string-array name="weight_report_suggestions_girl">
-        <item>Set a goal to help manage your weight.</item>
-        <item>"Congratulations! You're at your at your target weight."</item>
-        <item>"You're under your target weight"</item>
-        <item>"You're over your target weight"</item>
+        <item>Tetapkan sasaran untuk membantu menguruskan berat anda.</item>
+        <item>Tahniah! Anda berada pada berat target.</item>
+        <item>Anda dibawah berat target anda</item>
+        <item>Anda melebihi berat target anda</item>
     </string-array>
     <string-array name="weight_report_result_without_goal">
         <item>Melepasi gol</item>
@@ -104,5 +125,14 @@
         <item>Masih belum mencapai gol anda</item>
         <item>Masih belum mencapai gol anda</item>
         <item>Anda telah mencapai gol anda (%1$s%2$s)!</item>
+    </string-array>
+    <string-array name="phone_notify_tips">
+        <item>Band getar apabila pasangankan dengan peranti semasa ada panggilan masuk</item>
+        <item>Getar band apabila penggera dipasangankan</item>
+        <item>Getar band apabila peranti pasangan menerima SMS</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>Hanya panggilan daripada kenalan</item>
+        <item>Hanya SMS daripada kenalan</item>
     </string-array>
 </resources>

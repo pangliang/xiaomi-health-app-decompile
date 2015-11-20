@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.com.smartdevices.bracelet.gps.ui.gadget.MaskableLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/background" android:background="@color/running_default_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.huami.android.view.TypefaceTextView android:textSize="100.0dip" android:textColor="@color/font_color_c8" android:id="@id/total_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginTop="84.0dip" android:text="0.0" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:translationX="-10.0dip" android:fontFamily="miui-bold" />
+    <TextView android:textSize="@dimen/font_size_v2_f3" android:textColor="@color/font_color_c8" android:id="@id/distance_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:text="@string/running_kilometers" android:layout_toRightOf="@id/total_distance" android:layout_alignBaseline="@id/total_distance" />
+    <ViewStub android:id="@id/stub_hr_info" android:layout="@layout/layout_running_hr_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/total_distance" />
+    <ViewStub android:id="@id/stub_info" android:layout="@layout/layout_running_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="70.0dip" android:layout_below="@id/total_distance" />
+</cn.com.smartdevices.bracelet.gps.ui.gadget.MaskableLayout>

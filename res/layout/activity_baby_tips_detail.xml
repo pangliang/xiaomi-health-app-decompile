@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/home_back_area" android:background="@color/bg_mode_weight" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_h">
+        <TextView android:id="@id/home_back" android:text="@string/baby_weight_help" style="@style/BackButton" />
+    </RelativeLayout>
+    <TextView android:textSize="20.0sp" android:textColor="@color/text_color_black" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:text="@string/baby_weight_help_title_new" android:layout_below="@id/home_back_area" />
+    <View android:id="@id/divider" android:background="@color/line_color_gray" android:layout_width="fill_parent" android:layout_height="0.30000007dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="20.0dip" android:layout_below="@id/title" />
+    <TextView android:textColor="@color/text_color_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:text="@string/baby_weight_detail_tips" android:layout_below="@id/divider" />
+</RelativeLayout>

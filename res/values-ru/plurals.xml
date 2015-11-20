@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="numberOfPullUpdateReport">
-        <item quantity="other">Updated %d items.</item>
-        <item quantity="one">Updated %d item.</item>
-        <item quantity="few">Updated %d items.</item>
+        <item quantity="other">Обновлено %d элементов.</item>
+        <item quantity="one">Обновлен %d элемент.</item>
+        <item quantity="few">Обновлено %d элемента.</item>
     </plurals>
     <plurals name="numberFoot">
-        <item quantity="other">%s feet</item>
-        <item quantity="one">%s ft</item>
-        <item quantity="few">%s feet</item>
+        <item quantity="other">%s футов</item>
+        <item quantity="one">%s фут</item>
+        <item quantity="few">%s фута</item>
     </plurals>
     <plurals name="numberInch">
-        <item quantity="other">%s inches</item>
-        <item quantity="one">%s inch</item>
-        <item quantity="few">%s inches</item>
+        <item quantity="other">%s дюймов</item>
+        <item quantity="one">%s дюйм</item>
+        <item quantity="few">%s дюйма</item>
+    </plurals>
+    <plurals name="weight_match_user">
+        <item quantity="other">%1$d совпадений.</item>
+        <item quantity="one">%1$d совпадение.</item>
+        <item quantity="few">%1$d совпадения.</item>
     </plurals>
 </resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/bg_color_blue" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/home_back" android:text="@string/phone_app_notifi_manager" style="@style/BackButton" />
+        <Button android:textSize="@dimen/common_header_btn_font" android:textColor="@color/content_color" android:layout_gravity="right|center" android:background="@drawable/click_btn_bg_small" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/common_header_btn_height" android:layout_marginRight="@dimen/common_header_btn_margin" android:text="@string/phone_app_notifi_all_apps" android:onClick="onSystemUserAppSwitch" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/info_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/total_distance"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/total_time_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/total_time_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/running_time" />
+        <TextView android:textSize="@dimen/font_size_v2_f2" android:textColor="@color/running_gps_main_text" android:id="@id/total_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="00:00:00" />
+        <TextView android:textSize="@dimen/font_size_v2_f4" android:textColor="@color/running_gps_main_normal_desc" android:id="@id/total_time_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/running_gps_main_statistics_cost_time_disc" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/speed_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/speed_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/running_speed" />
+        <TextView android:textSize="@dimen/font_size_v2_f2" android:textColor="@color/running_gps_main_text" android:id="@id/speed_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="0" />
+        <TextView android:textSize="@dimen/font_size_v2_f4" android:textColor="@color/running_gps_main_normal_desc" android:id="@id/speed_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/running_gps_main_statistics_speed_disc" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/pace_freq_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/pace_freq_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/running_shoes_3" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <ImageView android:id="@id/help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/help_icon_100" />
+            <TextView android:textSize="@dimen/font_size_v2_f7" android:textColor="@color/running_gps_main_text" android:id="@id/pace_freq_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/font_size_v2_f4" android:textColor="@color/running_gps_main_normal_desc" android:id="@id/pace_freq_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/running_gps_main_statistics_pace_freq" />
+    </LinearLayout>
+</LinearLayout>

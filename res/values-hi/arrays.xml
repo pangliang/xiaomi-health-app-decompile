@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="running_months">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
     <string-array name="weeks">
-        <item>सोम.</item>
-        <item>मंगल.</item>
-        <item>बुध.</item>
-        <item>गुरू.</item>
-        <item>शुक्र.</item>
-        <item>शनि.</item>
-        <item>रवि.</item>
+        <item>सोमवार</item>
+        <item>मंगलवार</item>
+        <item>बुधवार</item>
+        <item>गुरुवार</item>
+        <item>शुक्रवार</item>
+        <item>शनिवार</item>
+        <item>रविवार</item>
     </string-array>
     <string-array name="weeks_short">
         <item>सोम.</item>
@@ -39,15 +53,15 @@
         <item>कस्टमाइज़ करें</item>
     </string-array>
     <string-array name="fortune">
-        <item>संगतता का कोई पर्याय नहीं है.</item>
-        <item>प्रगति के लिए प्रयास करें, सटीकता के लिए नहीं.</item>
-        <item>दोहराव सफलता का जनक है.</item>
-        <item>ऊर्जा और धैर्य सभी चीज़ों को जीत लेते हैं.</item>
-        <item>छोटे लक्ष्य सेट करें और आगे बढ्रते रहें.</item>
+        <item>अनुरूपता का कोई पर्याय नहीं है.</item>
+        <item>परिश्रम प्रगति के लिए होनी चाहिए, न कि सटीकता के लिए.</item>
+        <item>अभ्यास ही सफलता का जनक है.</item>
+        <item>ऊर्जा और धैर्य से सब कुछ हासिल किया जा सकता है.</item>
+        <item>छोटे लक्ष्य निर्धारित करें और आगे बढ़ते रहें.</item>
         <item>हर यात्रा एक अकेले कदम से आरंभ होती है.</item>
         <item>एक दिन में एक लक्ष्य हासिल करें.</item>
         <item>आप चाहे जितना धीमें चलें, आप फिर भी सोफ़े पर बैठे हर व्यक्ति से आगे ही हैं.</item>
-        <item>जब आप दौड़ सकें तो दौड़ें. ज़रूरी हो तो चलें. ज़्यादा जरूरी हो तो रेंगें. लेकिन हिम्मत न हारें.</item>
+        <item>जब आप दौड़ सकें तो दौड़ें. ज़रूरी हो तो चलें. ज़्यादा जरूरी हो तो धीरे-धीरे चलें. लेकिन हिम्मत न हारें.</item>
         <item>याद रखें, एक अच्छा व्यायाम करने के बाद जो अनुभूति होती है, वह उस अनुभूति से कहीं बेहतर है जो बैठे बैठे यह इच्छा करने से होती है कि काश आपने व्यायाम किया होता.</item>
     </string-array>
     <string-array name="weather_aqi_descriptions">
@@ -65,10 +79,17 @@
     </string-array>
     <string-array name="weight_body_figures">
         <item>सामान्य से कम वज़न</item>
-        <item>सामान्य वज़न</item>
+        <item>सामान्य</item>
         <item>सामान्य से अधिक वज़न</item>
-        <item>स्थूलकाय</item>
-        <item>स्थूलकाय</item>
+        <item>मोटापा</item>
+        <item>मोटापा</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>सामान्य से कम वज़न</item>
+        <item>सामान्य</item>
+        <item>सामान्य से अधिक वज़न</item>
+        <item>मोटापा</item>
+        <item>मोटापा</item>
     </string-array>
     <string-array name="weight_dynamic_list_bmi_tips">
         <item>BMI श्रेणी: सामान्य से कम वज़न</item>
@@ -77,32 +98,41 @@
         <item>BMI श्रेणी: स्थूलकाय</item>
     </string-array>
     <string-array name="weight_report_suggestions_boy">
-        <item>Set a goal to help manage your weight.</item>
-        <item>"Congratulations! You're at your at your target weight."</item>
-        <item>"You're under your target weight"</item>
-        <item>"You're over your target weight"</item>
+        <item>अपने वज़न को प्रबंधित करने में सहायता करने के लिए लक्ष्य निर्धारित करें.</item>
+        <item>बधाई हो! आप अपने लक्षित वज़न पर हैं.</item>
+        <item>आपका वजन आपके लक्षित वज़न से कम है</item>
+        <item>आपका वजन आपके लक्षित वज़न से अधिक है</item>
     </string-array>
     <string-array name="weight_report_suggestions_girl">
-        <item>Set a goal to help manage your weight.</item>
-        <item>"Congratulations! You're at your at your target weight."</item>
-        <item>"You're under your target weight"</item>
-        <item>"You're over your target weight"</item>
+        <item>अपने वज़न को प्रबंधित करने में सहायता करने के लिए लक्ष्य निर्धारित करें.</item>
+        <item>बधाई हो! आप अपने लक्षित वज़न पर हैं.</item>
+        <item>आपका वजन आपके लक्षित वज़न से कम है</item>
+        <item>आपका वजन आपके लक्षित वज़न से अधिक है</item>
     </string-array>
     <string-array name="weight_report_result_without_goal">
-        <item>लक्ष्य पार किए</item>
-        <item>आपके लक्ष्य तक पहुंच नहीं सके</item>
-        <item>आप अपन लक्ष्य तक पहुंच गए!</item>
+        <item>लक्ष्य पार कर चुके हैं</item>
+        <item>आपका लक्ष्य पूरा नहीं हुआ है</item>
+        <item>आपने अपना लक्ष्य पूरा कर लिया है!</item>
     </string-array>
     <string-array name="weight_report_result_with_goal_gainweight">
-        <item>आप अभी तक अपने लक्ष्य तक नहीं पहुंचे हैं</item>
-        <item>आप अभी तक अपने लक्ष्य तक नहीं पहुंचे हैं</item>
-        <item>आप अभी तक अपने लक्ष्य तक नहीं पहुंचे हैं</item>
-        <item>आप अपने लक्ष्य तक पहुंच गए हैं (%1$s%2$s)!</item>
+        <item>आपने अभी भी अपना लक्ष्य पूरा नहीं किया है</item>
+        <item>आपने अभी भी अपना लक्ष्य पूरा नहीं किया है</item>
+        <item>आपने अभी भी अपना लक्ष्य पूरा नहीं किया है</item>
+        <item>आपने अपना लक्ष्य पूरा कर लिया है (%1$s%2$s)!</item>
     </string-array>
     <string-array name="weight_report_result_with_goal_loseweight">
-        <item>आप अभी तक अपने लक्ष्य तक नहीं पहुंचे हैं</item>
-        <item>आप अभी तक अपने लक्ष्य तक नहीं पहुंचे हैं</item>
-        <item>आप अभी तक अपने लक्ष्य तक नहीं पहुंचे हैं</item>
-        <item>आप अपने लक्ष्य तक पहुंच गए हैं (%1$s%2$s)!</item>
+        <item>आपने अभी भी अपना लक्ष्य पूरा नहीं किया है</item>
+        <item>आपने अभी भी अपना लक्ष्य पूरा नहीं किया है</item>
+        <item>आपने अभी भी अपना लक्ष्य पूरा नहीं किया है</item>
+        <item>आपने अपना लक्ष्य पूरा कर लिया है (%1$s%2$s)!</item>
+    </string-array>
+    <string-array name="phone_notify_tips">
+        <item>पेयर किए गए डिवाइस पर इनकमिंग कॉल आने पर बैंड को वाइब्रेट करें</item>
+        <item>पेयर किए गए डिवाइस पर अलार्म बजने पर बैंड वाइब्रेट करें</item>
+        <item>पेयर किए हुए डिवाइस पर कोई एसएमएस संदेश प्राप्त होने पर बैंड वाइब्रेट करें</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>केवल संपर्कों से आए कॉल के लिए</item>
+        <item>केवल संपर्कों से आए एसएमएस के लिए</item>
     </string-array>
 </resources>

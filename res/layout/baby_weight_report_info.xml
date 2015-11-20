@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/baby_layout" android:layout_width="fill_parent" android:layout_height="160.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/baby_title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/weight_report_white_50" android:id="@id/left_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+        <TextView android:textColor="@color/weight_report_white_50" android:id="@id/right_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/baby_weight_see_all" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/baby_title_layout">
+        <RelativeLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textColor="@color/weight_report_white_50" android:gravity="center" android:id="@id/title_min_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="-3" />
+            <TextView android:textColor="@color/weight_report_white_90" android:gravity="center" android:id="@id/content_min_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="14.7" android:layout_below="@id/title_min_3" />
+        </RelativeLayout>
+        <View android:background="@color/weight_report_white_30" android:layout_width="0.30000007dip" android:layout_height="fill_parent" />
+        <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textColor="@color/weight_report_white_50" android:gravity="center" android:id="@id/title_min_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="-2" />
+            <TextView android:textColor="@color/weight_report_white_90" android:gravity="center" android:id="@id/content_min_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="14.7" android:layout_below="@id/title_min_2" />
+        </RelativeLayout>
+        <View android:background="@color/weight_report_white_30" android:layout_width="0.30000007dip" android:layout_height="fill_parent" />
+        <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textColor="@color/weight_report_white_50" android:gravity="center" android:id="@id/title_min_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="-1" />
+            <TextView android:textColor="@color/weight_report_white_90" android:gravity="center" android:id="@id/content_min_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="14.7" android:layout_below="@id/title_min_1" />
+        </RelativeLayout>
+        <View android:background="@color/weight_report_white_30" android:layout_width="0.30000007dip" android:layout_height="fill_parent" />
+        <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.5">
+            <TextView android:textColor="@color/weight_report_white_50" android:gravity="center" android:id="@id/title_min_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/median" />
+            <TextView android:textColor="@color/weight_report_white_90" android:gravity="center" android:id="@id/content_min_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="14.7" android:layout_below="@id/title_min_0" />
+        </RelativeLayout>
+        <View android:background="@color/weight_report_white_30" android:layout_width="0.30000007dip" android:layout_height="fill_parent" />
+        <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textColor="@color/weight_report_white_50" android:gravity="center" android:id="@id/title_add_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="+1" />
+            <TextView android:textColor="@color/weight_report_white_90" android:gravity="center" android:id="@id/content_add_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="14.7" android:layout_below="@id/title_add_1" />
+        </RelativeLayout>
+        <View android:background="@color/weight_report_white_30" android:layout_width="0.30000007dip" android:layout_height="fill_parent" />
+        <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textColor="@color/weight_report_white_50" android:gravity="center" android:id="@id/title_add_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="+2" />
+            <TextView android:textColor="@color/weight_report_white_90" android:gravity="center" android:id="@id/content_add_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="14.7" android:layout_below="@id/title_add_2" />
+        </RelativeLayout>
+        <View android:background="@color/weight_report_white_30" android:layout_width="0.30000007dip" android:layout_height="fill_parent" />
+        <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textColor="@color/weight_report_white_50" android:gravity="center" android:id="@id/title_add_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="+3" />
+            <TextView android:textColor="@color/weight_report_white_90" android:gravity="center" android:id="@id/content_add_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="14.7" android:layout_below="@id/title_add_3" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

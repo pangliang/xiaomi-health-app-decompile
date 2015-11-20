@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wv="http://schemas.android.com/apk/res-auto">
     <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
         <RelativeLayout android:id="@id/wr_header" android:layout_width="fill_parent" android:layout_height="45.0dip">
-            <TextView android:id="@id/wr_home_back" android:layout_width="fill_parent" android:singleLine="true" android:layout_toLeftOf="@id/wr_share" style="@style/BackButton" />
+            <TextView android:id="@id/wr_home_back" android:layout_width="wrap_content" android:singleLine="true" android:layout_alignParentLeft="true" style="@style/BackButton" />
             <ImageButton android:layout_gravity="center" android:id="@id/wr_share" android:background="@null" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/btn_share" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
         </RelativeLayout>
         <include android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" layout="@layout/userimg_with_name" />
@@ -12,7 +12,8 @@
         <cn.com.smartdevices.bracelet.chart.typeface.TypefaceTextView android:textSize="68.0sp" android:textColor="@color/weight_report_white_90" android:gravity="center" android:id="@id/current_weight_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:fontFamily="miui-light" />
         <TextView android:textSize="15.0sp" android:textColor="@color/weight_report_white_70" android:gravity="center" android:id="@id/current_weight_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
         <View android:background="@color/weight_report_white_30" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="35.0dip" />
-        <RelativeLayout android:layout_gravity="center" android:id="@id/bmi_layout" android:layout_width="fill_parent" android:layout_height="180.0dip">
+        <include layout="@layout/baby_weight_report_info" />
+        <RelativeLayout android:layout_gravity="center" android:id="@id/bmi_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="180.0dip">
             <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="42.0dip" android:layout_toLeftOf="@id/middle_line">
                 <ImageView android:id="@id/weight_report_figure" android:background="@drawable/weight_report_figure" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_centerHorizontal="true" />
                 <TextView android:textSize="12.0sp" android:textColor="@color/weight_report_white_40" android:id="@id/wr_figure_tips_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/body_figure" android:layout_below="@id/weight_report_figure" android:layout_centerHorizontal="true" />

@@ -12,4 +12,8 @@
         <item quantity="other">%s zoll</item>
         <item quantity="one">%s zoll</item>
     </plurals>
+    <plurals name="weight_match_user">
+        <item quantity="other">%1$d Spiele.</item>
+        <item quantity="one">%1$d Spiel.</item>
+    </plurals>
 </resources>

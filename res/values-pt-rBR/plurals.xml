@@ -12,4 +12,8 @@
         <item quantity="other">%s polegadas</item>
         <item quantity="one">%s polegada</item>
     </plurals>
+    <plurals name="weight_match_user">
+        <item quantity="other">%1$d correspondências.</item>
+        <item quantity="one">%1$d correspondência.</item>
+    </plurals>
 </resources>

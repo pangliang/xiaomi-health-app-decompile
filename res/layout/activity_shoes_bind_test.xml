@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/shoes_mac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+    <TextView android:id="@id/shoe_rt_steps" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+    <Button android:id="@id/scan" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="扫描跑鞋二维码" />
+    <Button android:id="@id/shoe_bind" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="绑定跑鞋" />
+    <Button android:id="@id/shoe_sync_data" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="同步数据" />
+    <Button android:id="@id/shoe_fw_upgrade" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="固件升级" />
+    <Button android:id="@id/shoe_sensor_data" android:tag="start" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="开始实时数据传输" />
+    <Button android:id="@id/shoe_get_realtime_steps" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="读取实时步数" />
+    <Button android:id="@id/shoe_get_battery_level" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="查看电量" />
+    <Button android:id="@id/shoe_calibrate_new" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="开始静态标定" />
+    <Button android:id="@id/shoe_latency" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="设置心跳包" />
+    <Button android:id="@id/shoe_disconnect" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="断开连接" />
+    <Button android:id="@id/shoe_quit" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="退出测试" />
+</LinearLayout>

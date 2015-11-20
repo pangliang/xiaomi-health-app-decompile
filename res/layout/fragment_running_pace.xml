@@ -2,7 +2,7 @@
 <RelativeLayout android:orientation="vertical" android:background="@color/main_ui_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <include android:id="@id/pace_head_layout" layout="@layout/fragment_running_pace_head" />
-    <ListView android:id="@id/listView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/running_share_pane_margin" android:listSelector="@android:color/transparent" android:divider="@null" android:layout_below="@id/pace_head_layout" android:footerDividersEnabled="false" />
-    <TextView android:background="@drawable/running_list_fading_bg" android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_marginBottom="@dimen/running_share_pane_margin" android:layout_alignParentBottom="true" />
-    <include layout="@layout/brand_pane" />
+    <ListView android:id="@id/listView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:divider="@null" android:layout_below="@id/pace_head_layout" android:footerDividersEnabled="false" />
+    <TextView android:textSize="@dimen/font_size_v2_f2" android:textColor="@color/font_color_c8" android:gravity="center" android:id="@id/share_title" android:background="#ff008ed0" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/running_detail_title" />
+    <include android:id="@id/share_logo" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/brand_pane" />
 </RelativeLayout>

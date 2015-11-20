@@ -12,4 +12,8 @@
         <item quantity="other">%s అంగుళాలు</item>
         <item quantity="one">%s అంగుళం</item>
     </plurals>
+    <plurals name="weight_match_user">
+        <item quantity="other">%1$d సరిపోలికలు.</item>
+        <item quantity="one">%1$d సరిపోలిక.</item>
+    </plurals>
 </resources>

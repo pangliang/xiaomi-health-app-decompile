@@ -1,108 +1,138 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="running_months">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
     <string-array name="weeks">
-        <item>Mon.</item>
-        <item>Tues.</item>
-        <item>Wed.</item>
-        <item>Thurs.</item>
-        <item>Fri.</item>
-        <item>Sat.</item>
-        <item>Sun.</item>
+        <item>തിങ്കൾ</item>
+        <item>ചൊവ്വ</item>
+        <item>ബുധൻ</item>
+        <item>വ്യാഴം</item>
+        <item>വെള്ളി</item>
+        <item>ശനി</item>
+        <item>ഞായർ</item>
     </string-array>
     <string-array name="weeks_short">
-        <item>Mon.</item>
-        <item>Tues.</item>
-        <item>Wed.</item>
-        <item>Thurs.</item>
-        <item>Fri.</item>
-        <item>Sat.</item>
-        <item>Sun.</item>
+        <item>തി.</item>
+        <item>ചൊ.</item>
+        <item>ബു.</item>
+        <item>വ്യാ.</item>
+        <item>വെ.</item>
+        <item>ശ.</item>
+        <item>ഞാ.</item>
     </string-array>
     <string-array name="months">
-        <item>January</item>
-        <item>February</item>
-        <item>March</item>
-        <item>April</item>
-        <item>May</item>
-        <item>June</item>
-        <item>July</item>
-        <item>August</item>
-        <item>September</item>
-        <item>October</item>
-        <item>November</item>
-        <item>December</item>
+        <item>ജനുവരി</item>
+        <item>ഫെബ്രുവരി</item>
+        <item>മാര്‍ച്ച്</item>
+        <item>ഏപ്രില്‍</item>
+        <item>മെയ്</item>
+        <item>ജൂണ്‍</item>
+        <item>ജൂലായ്</item>
+        <item>ആഗസ്റ്റ്</item>
+        <item>സെപ്തംബര്‍</item>
+        <item>ഒക്ടോബര്‍</item>
+        <item>നവംബര്‍</item>
+        <item>ഡിസംബര്‍</item>
     </string-array>
     <string-array name="select_days_simple">
-        <item>Once</item>
-        <item>Everyday</item>
-        <item>Weekdays</item>
-        <item>Customize</item>
+        <item>ഒരിക്കൽ മാത്രം</item>
+        <item>എല്ലാ ദിവസവും</item>
+        <item>പ്രവൃത്തിദിനങ്ങൾ</item>
+        <item>ഇഷ്ടാനുസൃതമാക്കുക</item>
     </string-array>
     <string-array name="fortune">
-        <item>There is no substitute for consistency.</item>
-        <item>Strive for progress, not perfection.</item>
-        <item>Repetition is the father of success.</item>
-        <item>Energy and persistence conquer all things.</item>
-        <item>Set small goals and build upon them.</item>
-        <item>Every journey begins with a single step.</item>
-        <item>Achieve one goal a day.</item>
-        <item>"No matter how slow you go, you're still lapping everybody on the couch."</item>
-        <item>Run when you can. Walk if you have to. Crawl if you must. Just never give up.</item>
-        <item>Remember, the feeling you get from a good workout is far better than the feeling you get from sitting around wishing you had worked out.</item>
+        <item>സ്ഥിരതയ്ക്കായി ബദൽ ഇല്ല.</item>
+        <item>പുരോഗതിക്കായി പരിശ്രമിക്കുക, പൂർണ്ണതയ്ക്ക് വേണ്ടിയല്ല.</item>
+        <item>ആവർത്തനമാണ് വിജയത്തിന്റെ പിതാവ്.</item>
+        <item>ഊർജ്ജവും സ്ഥിരതയും എല്ലാ കാര്യങ്ങളെയും കീഴ്പ്പെടുത്തുന്നു.</item>
+        <item>ചെറിയ ലക്ഷ്യങ്ങൾ ക്രമീകരിക്കുക, തുടർന്ന് അവയ്ക്ക് മുകളിൽ വലിയ ലക്ഷ്യങ്ങൾ ഉന്നംവയ്ക്കാം.</item>
+        <item>ഒരൊറ്റ ചുവടുവയ്പ്പിൽ നിന്നാണ് എല്ലാ യാത്രയും തുടങ്ങുന്നത്.</item>
+        <item>ഒരു ദിവസം ഒരു ലക്ഷ്യം കൈവരിക്കുക.</item>
+        <item>നിങ്ങൾ പോകുന്നത് എത്ര പതുക്കെയാണെന്നത് നോക്കേണ്ട, കിടക്കയിൽ കിടന്ന് വിശ്രമിക്കാൻ ഇഷ്ടപ്പെടുന്നവരേക്കാൾ മുമ്പിൽ തന്നെയാണ് നിങ്ങൾ.</item>
+        <item>സാധിക്കുന്നിടത്ത് ഓടുക. ആവശ്യമെങ്കിൽ നടക്കുക. അത്യാവശ്യമെങ്കിൽ ഇഴയുക. എന്നാൽ ഒരിക്കലും പരിശ്രമം കൈവിടരുത്.</item>
+        <item>വ്യായാമം ചെയ്താൽ എത്ര നന്നായിരുന്നുവെന്ന് ഒരിടത്തിരുന്ന് ചിന്തിക്കുന്നതിനേക്കാളും നല്ലൊരു വ്യായാമം ചെയ്യുന്നതിൽ നിന്ന് കിട്ടുന്ന അനുഭൂതി ഏറെ മഹത്തരമാണെന്ന് ഓർക്കുക.</item>
     </string-array>
     <string-array name="weather_aqi_descriptions">
-        <item>Great</item>
-        <item>Good</item>
-        <item>Moderate</item>
-        <item>Caution</item>
-        <item>Unhealthy</item>
-        <item>Very Unhealthy</item>
+        <item>മഹത്തരം</item>
+        <item>ഇടത്തരം</item>
+        <item>മിതമായത്</item>
+        <item>മുന്നറിയിപ്പ്</item>
+        <item>അനാരോഗ്യകരം</item>
+        <item>വളരെ അനാരോഗ്യകരം</item>
     </string-array>
     <string-array name="weight_unit">
-        <item>kg</item>
-        <item>jin</item>
-        <item>lb</item>
+        <item>കിലോ</item>
+        <item>ജിൻ</item>
+        <item>പൗണ്ട്</item>
     </string-array>
     <string-array name="weight_body_figures">
-        <item>Underweight</item>
-        <item>Normal weight</item>
-        <item>Overweight</item>
-        <item>Obese</item>
-        <item>Obese</item>
+        <item>ഭാരക്കുറവ്</item>
+        <item>സാധാരണം</item>
+        <item>അമിതവണ്ണം</item>
+        <item>പൊണ്ണത്തടി</item>
+        <item>പൊണ്ണത്തടി</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>ആവശ്യമായ ഭാരമില്ല</item>
+        <item>സാധാരണം</item>
+        <item>അമിതവണ്ണം</item>
+        <item>പൊണ്ണത്തടി</item>
+        <item>പൊണ്ണത്തടി</item>
     </string-array>
     <string-array name="weight_dynamic_list_bmi_tips">
-        <item>BMI Category: Underweight</item>
-        <item>BMI Category: Normal weight</item>
-        <item>BMI Category: Overweight</item>
-        <item>BMI Category: Obese</item>
+        <item>BMI വിഭാഗം: ആവശ്യമായ ഭാരമില്ല</item>
+        <item>BMI വിഭാഗം: സാധാരണ ഭാരം</item>
+        <item>BMI വിഭാഗം: അമിതവണ്ണം</item>
+        <item>BMI വിഭാഗം: പൊണ്ണത്തടി</item>
     </string-array>
     <string-array name="weight_report_suggestions_boy">
-        <item>Set a goal to help manage your weight.</item>
-        <item>"Congratulations! You're at your at your target weight."</item>
-        <item>"You're under your target weight"</item>
-        <item>"You're over your target weight"</item>
+        <item>നിങ്ങളുടെ ഭാരം മാനേജുചെയ്യുന്നതിന് സഹായിക്കാൻ ഒരു ലക്ഷ്യം ക്രമീകരിക്കുക.</item>
+        <item>അഭിനന്ദനങ്ങൾ! നിങ്ങളുടെ ലക്ഷ്യ ഭാരത്തിലാണ് നിങ്ങളുള്ളത്.</item>
+        <item>നിങ്ങളുടെ ലക്ഷ്യ ഭാരത്തിനേക്കാൾ താഴെയാണ് നിങ്ങൾ</item>
+        <item>നിങ്ങളുടെ ലക്ഷ്യ ഭാരത്തിനേക്കാൾ മുകളിലാണ് നിങ്ങൾ</item>
     </string-array>
     <string-array name="weight_report_suggestions_girl">
-        <item>Set a goal to help manage your weight.</item>
-        <item>"Congratulations! You're at your at your target weight."</item>
-        <item>"You're under your target weight"</item>
-        <item>"You're over your target weight"</item>
+        <item>നിങ്ങളുടെ ഭാരം മാനേജുചെയ്യുന്നതിന് സഹായിക്കാൻ ഒരു ലക്ഷ്യം ക്രമീകരിക്കുക.</item>
+        <item>അഭിനന്ദനങ്ങൾ! നിങ്ങളുടെ ലക്ഷ്യ ഭാരത്തിലാണ് നിങ്ങളുള്ളത്.</item>
+        <item>നിങ്ങളുടെ ലക്ഷ്യ ഭാരത്തിനേക്കാൾ താഴെയാണ് നിങ്ങൾ</item>
+        <item>നിങ്ങളുടെ ലക്ഷ്യ ഭാരത്തിനേക്കാൾ മുകളിലാണ് നിങ്ങൾ</item>
     </string-array>
     <string-array name="weight_report_result_without_goal">
-        <item>Surpassed goal</item>
-        <item>"Didn't reach your goal"</item>
-        <item>You reached your goal!</item>
+        <item>ലക്ഷ്യത്തെ മറികടന്നു</item>
+        <item>നിങ്ങൾ ലക്ഷ്യം കൈവരിച്ചില്ല</item>
+        <item>നിങ്ങൾ ലക്ഷ്യം കൈവരിച്ചിരിക്കുന്നു!</item>
     </string-array>
     <string-array name="weight_report_result_with_goal_gainweight">
-        <item>"You haven't reached your goal yet"</item>
-        <item>"You haven't reached your goal yet"</item>
-        <item>"You haven't reached your goal yet"</item>
-        <item>You reached your goal (%1$s%2$s)!</item>
+        <item>നിങ്ങളിനിയും ലക്ഷ്യം കൈവരിച്ചിട്ടില്ല</item>
+        <item>നിങ്ങളിനിയും ലക്ഷ്യം കൈവരിച്ചിട്ടില്ല</item>
+        <item>നിങ്ങളിനിയും ലക്ഷ്യം കൈവരിച്ചിട്ടില്ല</item>
+        <item>നിങ്ങൾ ലക്ഷ്യം കൈവരിച്ചിരിക്കുന്നു (%1$s%2$s)!</item>
     </string-array>
     <string-array name="weight_report_result_with_goal_loseweight">
-        <item>"You haven't reached your goal yet"</item>
-        <item>"You haven't reached your goal yet"</item>
-        <item>"You haven't reached your goal yet"</item>
-        <item>You reached your goal (%1$s%2$s)!</item>
+        <item>നിങ്ങളിനിയും ലക്ഷ്യം കൈവരിച്ചിട്ടില്ല</item>
+        <item>നിങ്ങളിനിയും ലക്ഷ്യം കൈവരിച്ചിട്ടില്ല</item>
+        <item>നിങ്ങളിനിയും ലക്ഷ്യം കൈവരിച്ചിട്ടില്ല</item>
+        <item>നിങ്ങൾ ലക്ഷ്യം കൈവരിച്ചിരിക്കുന്നു (%1$s%2$s)!</item>
+    </string-array>
+    <string-array name="phone_notify_tips">
+        <item>ജോടിയാക്കിയ ഉപകരണത്തിൽ ഇൻകമിംഗ് കോൾ വരുമ്പോൾ ബാൻഡ് വൈബ്രേറ്റുചെയ്യുക</item>
+        <item>ജോടിയാക്കിയ ഉപകരണത്തിൽ അലാറം അടിക്കുമ്പോൾ ബാൻഡ്‌ വൈബ്രേറ്റുചെയ്യുക</item>
+        <item>ജോടിയാക്കിയ ഉപകരണത്തിൽ SMS സന്ദേശം ലഭിക്കുമ്പോൾ ബാൻഡ് വൈബ്രേറ്റുചെയ്യും</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>കോൺടാക്‌റ്റുകളിൽ നിന്നുള്ള കോളുകൾ മാത്രം</item>
+        <item>കോൺടാക്‌റ്റുകളിൽ നിന്നുള്ള SMS മാത്രം</item>
     </string-array>
 </resources>

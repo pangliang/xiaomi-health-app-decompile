@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="running_months">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
     <string-array name="weeks">
-        <item>Mo.</item>
-        <item>Di.</item>
-        <item>Mi.</item>
-        <item>Do.</item>
-        <item>Fr.</item>
-        <item>Sa.</item>
-        <item>So.</item>
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+        <item>Sonntag</item>
     </string-array>
     <string-array name="weeks_short">
         <item>Mo.</item>
@@ -65,7 +79,14 @@
     </string-array>
     <string-array name="weight_body_figures">
         <item>Untergewicht</item>
-        <item>Normalgewicht</item>
+        <item>Normal</item>
+        <item>Übergewicht</item>
+        <item>Fettleibig</item>
+        <item>Fettleibig</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>Untergewicht</item>
+        <item>Normal</item>
         <item>Übergewicht</item>
         <item>Fettleibig</item>
         <item>Fettleibig</item>
@@ -78,13 +99,13 @@
     </string-array>
     <string-array name="weight_report_suggestions_boy">
         <item>Ein Ziel setzen um Ihr Gewicht zu kontrollieren.</item>
-        <item>Herzlichen Glückwunsch! Sie befinden sich auf Ihrem Zielgewicht.</item>
+        <item>Gratuliere!Du hast dein Wunschgewicht erreicht.</item>
         <item>Sie sind unter Ihrem Zielgewicht</item>
         <item>Sie sind über Ihrem Zielgewicht</item>
     </string-array>
     <string-array name="weight_report_suggestions_girl">
         <item>Ein Ziel setzen um Ihr Gewicht zu kontrollieren.</item>
-        <item>Herzlichen Glückwunsch! Sie befinden sich auf Ihr Zielgewicht.</item>
+        <item>Gratuliere!Du hast dein Wunschgewicht erreicht.</item>
         <item>Sie sind unter Ihrem Zielgewicht</item>
         <item>Sie sind über Ihrem Zielgewicht</item>
     </string-array>
@@ -104,5 +125,14 @@
         <item>Sie haben Ihr Ziel noch nicht erreicht</item>
         <item>Sie haben Ihr Ziel noch nicht erreicht</item>
         <item>Sie haben Ihr Ziel noch nicht erreicht (%1$s%2$s)!</item>
+    </string-array>
+    <string-array name="phone_notify_tips">
+        <item>MiBand vibriert wenn auf dem verbundenen Gerät ein Anruf eingeht</item>
+        <item>MiBand vibriert wenn der Alarmsound auf dem Gerät ertönt</item>
+        <item>MiBand vibriert wenn auf dem Gerät eine SMS eingeht</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>Nur für Anrufe von Kontakte</item>
+        <item>SMS nur für Kontakte</item>
     </string-array>
 </resources>

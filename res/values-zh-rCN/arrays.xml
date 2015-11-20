@@ -82,6 +82,12 @@
         <item>偏胖</item>
         <item>肥胖</item>
     </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>偏瘦</item>
+        <item>正常</item>
+        <item>偏胖</item>
+        <item>肥胖</item>
+    </string-array>
     <string-array name="weight_dynamic_list_bmi_tips">
         <item>有点偏瘦哦, 点击查看详情</item>
         <item>恭喜你身材很标准</item>
@@ -104,5 +110,9 @@
         <item>当手环和手机连接时，手机有新来电，手环会同步振动</item>
         <item>当手环和手机连接时，手机闹钟响铃，手环会同步振动</item>
         <item>当手环和手机连接时，手机有新短信，手环会同步振动</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>只提醒联系人的来电</item>
+        <item>只提醒联系人的短信</item>
     </string-array>
 </resources>

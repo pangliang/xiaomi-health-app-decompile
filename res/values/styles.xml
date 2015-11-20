@@ -17,8 +17,12 @@
         <item name="android:homeAsUpIndicator">@drawable/ic_home_back</item>
         <item name="android:actionMenuTextAppearance">@style/MenuTextStyle</item>
         <item name="android:actionMenuTextColor">#e6ffffff</item>
+        <item name="android:textAllCaps">false</item>
     </style>
     <style name="TitleBarTheme" parent="@style/BaseActionBar" />
+    <style name="TitleBarTheme.WindowTranslucent" parent="@style/TitleBarTheme">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
     <style name="MenuTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu">
         <item name="android:textSize">15.0sp</item>
         <item name="android:textStyle">normal</item>
@@ -58,12 +62,12 @@
         <item name="android:windowAnimationStyle">@android:style/Animation.InputMethod</item>
         <item name="android:backgroundDimEnabled">true</item>
     </style>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light.NoActionBar" />
     <style name="AppTheme" parent="@style/AppBaseTheme">
         <item name="android:windowBackground">@color/window_bg</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
     </style>
-    <style name="AppBaseTheme" parent="@android:style/Theme.Light.NoTitleBar" />
     <style name="CaptureTheme" parent="@android:style/Theme.Translucent.NoTitleBar">
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:background">@android:color/transparent</item>
@@ -140,12 +144,41 @@
         <item name="android:textSize">15.5sp</item>
         <item name="android:textColor">#70000000</item>
     </style>
+    <style name="TranslucentActionBar" parent="@android:style/Widget.ActionBar">
+        <item name="android:background">@null</item>
+        <item name="android:backgroundSplit">@null</item>
+    </style>
+    <style name="TranslucentActionBarTheme" parent="@style/TitleBarTheme">
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:actionBarStyle">@style/TranslucentActionBar</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+    <style name="TranslucentActionBarFitsSystemWindowsTheme" parent="@style/TitleBarTheme">
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:actionBarStyle">@style/TranslucentActionBar</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
     <style name="WindowTransparent">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="RunningProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:maxHeight">5.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@android:drawable/progress_horizontal</item>
+        <item name="android:minHeight">1.0dip</item>
+    </style>
+    <style name="RunningHelpLabel">
+        <item name="android:textSize">13.399994dip</item>
+        <item name="android:textColor">#dd000000</item>
+    </style>
+    <style name="RunningHelpContent">
+        <item name="android:textSize">13.399994dip</item>
+        <item name="android:textColor">#8a000000</item>
     </style>
     <style name="InfoTitle">
         <item name="android:textSize">@dimen/info_title_size</item>
@@ -179,7 +212,7 @@
         <item name="android:windowExitAnimation">@null</item>
     </style>
     <style name="MenuPanel" parent="@style/DimPanel">
-        <item name="android:windowAnimationStyle">@style/Menu</item>
+        <item name="android:windowAnimationStyle">@null</item>
     </style>
     <style name="FwUpgradePanel" parent="@style/DimPanel">
         <item name="android:windowAnimationStyle">@style/FwUpgradeAnim</item>
@@ -329,6 +362,9 @@
         <item name="android:taskToFrontExitAnimation">@null</item>
         <item name="android:taskToBackEnterAnimation">@null</item>
         <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+    <style name="BabyWeightFirstNotify">
+        <item name="android:button">@drawable/baby_weight_first_notity</item>
     </style>
     <style name="SportVoteItemText">
         <item name="android:textSize">13.299988sp</item>

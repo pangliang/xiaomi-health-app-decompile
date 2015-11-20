@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:c="http://schemas.android.com/apk/res-auto">
+    <cn.com.smartdevices.bracelet.gps.ui.gadget.CustomRoundProgressBar android:id="@id/pause_button" android:background="@drawable/running_pause_button_normal_mode" android:layout_width="@dimen/running_gps_button" android:layout_height="@dimen/running_gps_button" android:layout_centerInParent="true" c:RoundProgressBarTotal="1000" c:RoundProgressBarProgressWidth="8.0dip" c:RoundProgressBarProgressColor="#ff008ecd" c:RoundProgressBarText="@string/running_long_press_to_pause" c:RoundProgressBarTextSize="@dimen/font_size_v2_f3" c:RoundProgressBarTextColor="@color/font_color_c8" c:RoundProgressBarProgressBgColor="#ff475160" c:RoundProgressBarProgressBgWidth="8.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <Button android:textSize="@dimen/running_gps_main_text" android:textColor="@color/running_gps_main_text" android:id="@id/finish_button" android:background="@drawable/running_button_normal_mode" android:layout_width="@dimen/running_gps_sub_button" android:layout_height="@dimen/running_gps_sub_button" android:layout_marginRight="23.0dip" android:text="@string/running_gps_main_finish_btn_text" />
+        <View android:id="@id/start_pos" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        <Button android:textSize="@dimen/running_gps_main_text" android:textColor="@color/running_gps_main_text" android:id="@id/continue_button" android:background="@drawable/running_button_normal_mode" android:layout_width="@dimen/running_gps_sub_button" android:layout_height="@dimen/running_gps_sub_button" android:layout_marginLeft="23.0dip" android:text="@string/running_gps_main_continue_btn_text" />
+    </LinearLayout>
+</RelativeLayout>

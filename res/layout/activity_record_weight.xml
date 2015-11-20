@@ -7,18 +7,18 @@
     </RelativeLayout>
     <View android:background="@color/line_color_gray" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" android:layout_marginTop="20.0dip" />
     <RelativeLayout android:id="@id/weight_layout" android:layout_width="fill_parent" android:layout_height="60.0dip">
-        <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:text="体重" />
-        <EditText android:textColor="@color/text_color_gray" android:textColorHint="@color/text_color_gray" android:gravity="right|center" android:id="@id/manual_weight_edittext" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:singleLine="true" android:numeric="decimal" android:layout_toLeftOf="@id/manual_weight_unit" />
+        <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:text="@string/your_weight" />
+        <EditText android:textColor="@color/text_color_gray" android:textColorHint="@color/text_color_gray" android:gravity="right|center" android:id="@id/manual_weight_edittext" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:minWidth="50.0dip" android:singleLine="true" android:numeric="decimal" android:layout_toLeftOf="@id/manual_weight_unit" />
         <TextView android:textColor="@color/text_color_gray" android:gravity="center_vertical" android:id="@id/manual_weight_unit" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" />
     </RelativeLayout>
     <View android:background="@color/line_color_gray" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
     <RelativeLayout android:id="@id/date_layout" android:layout_width="fill_parent" android:layout_height="60.0dip">
-        <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:text="日期" />
+        <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:text="@string/date" />
         <TextView android:textColor="@color/text_color_gray" android:gravity="center_vertical" android:id="@id/manual_weight_date" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" />
     </RelativeLayout>
     <View android:background="@color/line_color_gray" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
     <RelativeLayout android:id="@id/user_layout" android:layout_width="fill_parent" android:layout_height="60.0dip">
-        <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:text="成员" />
+        <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:text="@string/family_member" />
         <TextView android:textColor="@color/text_color_gray" android:gravity="center_vertical" android:id="@id/manual_weight_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" />
     </RelativeLayout>
     <View android:background="@color/line_color_gray" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />

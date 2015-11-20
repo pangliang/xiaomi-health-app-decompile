@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/shoes_icon_name" android:background="@color/font_color_c7_v2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/shoes_icon" android:layout_width="170.0dip" android:layout_height="170.0dip" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/shoes_organization_logo" android:background="@drawable/shoes_lining_logo_smart" android:visibility="gone" android:layout_width="170.0dip" android:layout_height="wrap_content" android:layout_marginTop="49.0dip" android:layout_below="@id/shoes_icon" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/font_size_v2_f3" android:textColor="@color/font_color_c8" android:gravity="center" android:id="@id/shoes_brand_name" android:paddingLeft="50.0dip" android:paddingRight="50.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/shoes_icon" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/font_size_v2_f4" android:textColor="@color/font_color_c8" android:gravity="center" android:id="@id/connection_attension" android:paddingLeft="50.0dip" android:paddingRight="50.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/shoes_connection_attension" android:layout_below="@id/shoes_brand_name" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/font_size_f3" android:textColor="@color/font_color_c8" android:gravity="center" android:id="@id/reminder" android:paddingLeft="50.0dip" android:paddingRight="50.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/shoes_reminder" android:layout_below="@id/connection_attension" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

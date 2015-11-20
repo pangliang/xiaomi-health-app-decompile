@@ -2,7 +2,15 @@
 <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/fw_upgrade_all" android:background="#ee008ed0" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android_custom="http://schemas.android.com/apk/res-auto">
     <TextView android:textSize="28.0sp" android:textColor="@android:color/white" android:id="@id/fw_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="45.0dip" android:text="@string/fw_upgrade" />
-    <TextView android:textSize="12.0sp" android:textColor="#ffaad2e4" android:id="@id/fw_tips_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/fw_upgrade_tips" />
-    <cn.com.smartdevices.bracelet.chart.LinePieChartView android:id="@id/line_pie_chart" android:layout_width="159.0dip" android:layout_height="159.0dip" android:layout_marginTop="90.0dip" app:line_mode="0" app:center_img="@drawable/fw_upgrade_icon" xmlns:app="http://schemas.android.com/apk/res-auto" />
-    <TextView android:textColor="#ffaad2e4" android:id="@id/fw_progress_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/fw_tips_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/fw_upgrade_tips" />
+    <RelativeLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="90.0dip">
+        <cn.com.smartdevices.bracelet.chart.LinePieChartView android:id="@id/line_pie_chart" android:layout_width="159.0dip" android:layout_height="159.0dip" app:line_mode="0" app:center_img="@drawable/fw_upgrade_icon" xmlns:app="http://schemas.android.com/apk/res-auto" />
+        <RelativeLayout android:id="@id/shoes_layout" android:visibility="gone" android:layout_width="118.0dip" android:layout_height="132.0dip">
+            <cn.com.smartdevices.bracelet.view.FirmwareUpgradeShoesView android:id="@id/shoe_update_progress" android:layout_width="118.0dip" android:layout_height="132.0dip" />
+            <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:background="@drawable/fw_upgrade_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:textColor="@android:color/white" android:id="@id/fw_progress_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
 </LinearLayout>

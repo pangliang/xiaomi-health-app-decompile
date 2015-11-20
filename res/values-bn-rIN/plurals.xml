@@ -5,11 +5,15 @@
         <item quantity="one">আইটেম %d আপডেট হয়েছে৷</item>
     </plurals>
     <plurals name="numberFoot">
-        <item quantity="other">%s feet</item>
-        <item quantity="one">%s ft</item>
+        <item quantity="other">%s ফুট</item>
+        <item quantity="one">%s ফুট</item>
     </plurals>
     <plurals name="numberInch">
-        <item quantity="other">%s inches</item>
-        <item quantity="one">%s inch</item>
+        <item quantity="other">%s ইঞ্চি</item>
+        <item quantity="one">%s ইঞ্চি</item>
+    </plurals>
+    <plurals name="weight_match_user">
+        <item quantity="other">%1$d টি মিল</item>
+        <item quantity="one">%1$d টি মিল</item>
     </plurals>
 </resources>

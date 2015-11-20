@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="running_months">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
     <string-array name="weeks">
-        <item>సోమ.</item>
-        <item>మంగళ.</item>
-        <item>బుధ.</item>
-        <item>గురు.</item>
-        <item>శుక్ర.</item>
-        <item>శని.</item>
-        <item>ఆది.</item>
+        <item>సోమవారం</item>
+        <item>మంగళవారం</item>
+        <item>బుధవారం</item>
+        <item>గురువారం</item>
+        <item>శుక్రవారం</item>
+        <item>శనివారం</item>
+        <item>ఆదివారం</item>
     </string-array>
     <string-array name="weeks_short">
         <item>సోమ.</item>
@@ -60,13 +74,20 @@
     </string-array>
     <string-array name="weight_unit">
         <item>కి.గ్రా</item>
-        <item>jin</item>
+        <item>జిన్</item>
         <item>పౌం</item>
     </string-array>
     <string-array name="weight_body_figures">
         <item>తక్కువ బరువు</item>
-        <item>సాధారణ బరువు</item>
+        <item>సాధారణం</item>
         <item>ఎక్కువ బరువు</item>
+        <item>స్థూలకాయం</item>
+        <item>స్థూలకాయం</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>తక్కువ బరువు</item>
+        <item>సాధారణ బరువు</item>
+        <item>అధిక బరువు</item>
         <item>స్థూలకాయం</item>
         <item>స్థూలకాయం</item>
     </string-array>
@@ -78,13 +99,13 @@
     </string-array>
     <string-array name="weight_report_suggestions_boy">
         <item>మీ బరువుని నిర్వహించడంలో సహాయపడేందుకు ఒక లక్ష్యాన్ని సెట్ చేయండి.</item>
-        <item>శుభాకాంక్షలు! మీరు మీ లక్షిత బరువు దగ్గర ఉన్నారు.</item>
+        <item>అభినందనలు! మీరు మీ లక్ష్య బరువుని కలిగి ఉన్నారు.</item>
         <item>మీరు మీ లక్షిత బరువు కంటే తక్కువ బరువు ఉన్నారు</item>
         <item>మీరు మీ లక్షిత బరువు కంటే ఎక్కువ బరువు ఉన్నారు</item>
     </string-array>
     <string-array name="weight_report_suggestions_girl">
         <item>మీ బరువుని నిర్వహించడంలో సహాయపడేందుకు ఒక లక్ష్యాన్ని సెట్ చేయండి.</item>
-        <item>శుభాకాంక్షలు! మీరు మీ లక్షిత బరువు దగ్గర ఉన్నారు.</item>
+        <item>అభినందనలు! మీరు మీ లక్ష్య బరువుని కలిగి ఉన్నారు.</item>
         <item>మీరు మీ లక్షిత బరువు కంటే తక్కువ బరువు ఉన్నారు</item>
         <item>మీరు మీ లక్షిత బరువు కంటే ఎక్కువ బరువు ఉన్నారు</item>
     </string-array>
@@ -104,5 +125,14 @@
         <item>మీరు మీ లక్ష్యాన్ని ఇంకా చేరుకోలేదు</item>
         <item>మీరు మీ లక్ష్యాన్ని ఇంకా చేరుకోలేదు</item>
         <item>మీరు మీ లక్ష్యాన్ని (%1$s%2$s) చేరుకున్నారు!</item>
+    </string-array>
+    <string-array name="phone_notify_tips">
+        <item>జత చేసిన పరికరానికి కాల్ వచ్చినప్పుడు బ్యాండ్‌ని వైబ్రేట్ చేయి</item>
+        <item>జత చేసిన పరికరంలో అలారం మోగినప్పుడు బ్యాండ్‌ని వైబ్రేట్ చేయి</item>
+        <item>జత చేసిన పరికరానికి SMS సందేశం వచ్చినప్పుడు బ్యాండ్‌ని వైబ్రేట్ చేయి</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>పరిచయాల నుండి వచ్చే కాల్‌లకు మాత్రమే</item>
+        <item>పరిచయాల నుండి వచ్చే SMSకు మాత్రమే</item>
     </string-array>
 </resources>

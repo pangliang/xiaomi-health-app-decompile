@@ -3,4 +3,5 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <android.support.v4.view.ViewPager android:id="@id/view_pager" android:background="@color/bg_mode_step" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
     <cn.com.smartdevices.bracelet.ui.widget.CirclePageIndicator android:layout_gravity="center_horizontal" android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="352.0dip" app:strokeWidth="0.0dip" app:fillColor="#ffffffff" app:pageColor="#33ffffff" app:radius="2.5999756dip" app:gap="8.0dip" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <TextView android:textColor="#99ffffff" android:gravity="center" android:layout_gravity="end" android:id="@id/shortcut" android:background="@drawable/report_weight_button_selector" android:visibility="visible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="300.0dip" android:paddingStart="15.0dip" android:paddingEnd="10.0dip" />
 </FrameLayout>

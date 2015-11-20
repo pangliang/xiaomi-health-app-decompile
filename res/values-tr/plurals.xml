@@ -6,10 +6,14 @@
     </plurals>
     <plurals name="numberFoot">
         <item quantity="other">%s fit</item>
-        <item quantity="one">%s ft</item>
+        <item quantity="one">%s fit</item>
     </plurals>
     <plurals name="numberInch">
         <item quantity="other">%s inç</item>
         <item quantity="one">%s inç</item>
+    </plurals>
+    <plurals name="weight_match_user">
+        <item quantity="other">%1$d eşleşme.</item>
+        <item quantity="one">%1$d eşleşme.</item>
     </plurals>
 </resources>

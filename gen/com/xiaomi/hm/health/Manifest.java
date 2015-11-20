@@ -10,6 +10,8 @@ package com.xiaomi.hm.health;
 public final class Manifest {
     public static final class permission {
         public static final String CONFIG="com.xiaomi.hm.health.permission.CONFIG";
+        public static final String HONOR_RECEIVE="com.xiaomi.hm.health.permission.HONOR_RECEIVE";
+        public static final String HONOR_SEND="com.xiaomi.hm.health.permission.HONOR_SEND";
         public static final String MIPUSH_RECEIVE="com.xiaomi.hm.health.permission.MIPUSH_RECEIVE";
     }
 }

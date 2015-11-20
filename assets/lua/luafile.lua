@@ -39,6 +39,7 @@ COLOR_NORMAL_BLACK =  0x000000
 ---=============== end of Colors ===============
 
 g_is24HourFormat = true;
+g_isNonChineseLocale = false ;
 
 function getCaloriesString(calories)
     log('cal :'..calories)
@@ -281,9 +282,19 @@ function getTimebyMinutes(minutes)
         return ""..h1..":"..sm1
     else
         if (h1 < 12) then
-            return string.format(getString('am_format'), ""..h1..":"..sm1)
-        else
+            if (h1 < 6) then
+                if(g_isNonChineseLocale) then
+                    return string.format(getString('am_format'), ""..h1..":"..sm1)
+                else
+                    return string.format(getString('weehour_format'), ""..h1..":"..sm1)
+                end
+            else
+                return string.format(getString('am_format'), ""..h1..":"..sm1)
+            end
+        elseif(h1 ==12) then
             return string.format(getString('pm_format'), ""..h1..":"..sm1)
+        else
+            return string.format(getString('pm_format'), ""..(h1-12)..":"..sm1)
         end
     end
 end
@@ -319,7 +330,10 @@ function setMessageByExpireDate(listDao, table, expireDate)
     listItem:setScriptVersion(""..__luaVersion)
 
     if (expireDate ~= nil) then
-        listItem:setExpireTime(expireDate)
+        time = expireDate..'' --number --> string
+        log('Lua-expire = '..expireDate..' start')
+        listItem:setExpireTime(time)
+        log('Lua-expire = '..expireDate..' end')
     end
 
     -- 2 set item according to table
@@ -506,8 +520,13 @@ function showWelcomeIntro(listDao, ConfigInfo)
 
     t = {}
 
-    if (ConfigInfo:isSupportWeight()) then
-        t.t1 = getString('select_devices')
+    shoesBound   = ConfigInfo:getShoesBound()
+    if (ConfigInfo:isSupportWeight() or ConfigInfo:isShoesSupported()) then
+        if (shoesBound) then
+            t.t1 = getString('not_binded_hint')
+        else
+            t.t1 = getString('select_devices')
+        end
     else
         t.t1 = getString('not_binded_hint')
     end
@@ -606,7 +625,6 @@ function welcome(listDao,ConfigInfo)
 
     if (weightBinded or bandBinded) then
         clearWelcomeIntro(listDao, ConfigInfo)
-
         if (ConfigInfo:getNewUser()) then
             log("welcome, is new user")
             if (bandBinded) then
@@ -2052,6 +2070,15 @@ function set24HourFormat(is24Hour)
     g_is24HourFormat = is24Hour;
 end
 
+function setNonChineseLocale(isNonChineseLocale)
+    if (isNonChineseLocale) then
+        log("lua-isNonChineseLocale: true")
+    else
+        log("lua-isNonChineseLocale: false")
+    end
+
+    g_isNonChineseLocale = isNonChineseLocale;
+end
 -----====================== Show LuaItem from java ==============================----
 function showLuaItem(listDao, configInfo, luaItem)
     log("============= showLuaItem =============")
@@ -2064,25 +2091,11 @@ function showLuaItem(listDao, configInfo, luaItem)
     t.right = luaItem:getRight();
     expiredStamp = luaItem:getExpire();
 
-    log('expire = '..expiredStamp)
+    log('Lua-expire txt1:'..t.t1..'; expire time:'..expiredStamp)
     if (expiredStamp ~= 0) then
         clearRecord(listDao, configInfo:getLuaAction(), t.stype)
-
-        expireDate = "" .. os.date("%Y-%m-%d", expiredStamp)
-        if (expireDate == nil) then
-            log('expire date is nil')
-        else
-            log('expire date = ' .. expireDate)
-        end
-
-        daydif = 0;
-        if (expiredStamp > 0) then
-            daydif = getDayDif(expiredStamp)
-        end
-
-        if (daydif >= 0) then
-            setMessageByExpireDate(listDao, t, expireDate)
-        end
+        log('Lua-expire = '..expiredStamp..'; os time:'..os.time())
+        setMessageByExpireDate(listDao, t, expiredStamp)
     else
         uniqueMsg(listDao, configInfo, t)
     end

@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="numberOfPullUpdateReport">
-        <item quantity="other">Updated %d items.</item>
-        <item quantity="one">Updated %d item.</item>
+        <item quantity="other">%d ഇനങ്ങൾ അപ്‌ഡേറ്റ് ചെയ്തു.</item>
+        <item quantity="one">%d ഇനം അപ്‌ഡേറ്റ് ചെയ്തു.</item>
     </plurals>
     <plurals name="numberFoot">
-        <item quantity="other">%s feet</item>
-        <item quantity="one">%s ft</item>
+        <item quantity="other">%s അടി</item>
+        <item quantity="one">%s അടി</item>
     </plurals>
     <plurals name="numberInch">
-        <item quantity="other">%s inches</item>
-        <item quantity="one">%s inch</item>
+        <item quantity="other">%s ഇഞ്ചുകൾ</item>
+        <item quantity="one">%s ഇഞ്ച്</item>
+    </plurals>
+    <plurals name="weight_match_user">
+        <item quantity="other">%1$d പൊരുത്തങ്ങൾ.</item>
+        <item quantity="one">%1$d പൊരുത്തം.</item>
     </plurals>
 </resources>

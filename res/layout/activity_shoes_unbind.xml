@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/shoes_gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/lower_half_part_layout">
+        <ImageView android:id="@id/shoes_unbind_icon" android:layout_width="290.0dip" android:layout_height="110.0dip" android:layout_marginTop="90.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/lower_half_part_layout" android:background="@color/font_color_c5" android:layout_width="fill_parent" android:layout_height="245.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/font_size_v2_f4" android:textColor="@color/font_color_c1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="90.0dip" android:text="@string/shoes_unbind_prompt" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="24.0dip" android:layout_alignParentBottom="true">
+            <Button android:textSize="@dimen/font_size_v2_f6" android:textColor="@color/font_color_c1" android:id="@id/shoes_unbind_btn" android:background="@drawable/shoes_round_corner_left_btn_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="-1.0px" android:text="@string/shoes_unbind" android:layout_weight="1.0" />
+            <Button android:textSize="@dimen/font_size_v2_f6" android:textColor="@color/font_color_c1" android:id="@id/shoes_cancel_btn" android:background="@drawable/shoes_round_corner_right_btn_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="-1.0px" android:text="@string/shoes_cancel" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -87,4 +87,8 @@
         <item>當手環和手機連接時，手機鬧鐘響鈴，手環會同步震動</item>
         <item>當手環和手機連接時，手機有新簡訊，手環會同步震動</item>
     </string-array>
+    <string-array name="contacts_notify_title">
+        <item>只提醒聯絡人的來電</item>
+        <item>只提醒聯絡人的簡訊</item>
+    </string-array>
 </resources>

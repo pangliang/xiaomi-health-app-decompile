@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="running_months">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>တနင်္လာ</item>
+        <item>အင်္ဂါ</item>
+        <item>ဗုဒ္ဓဟူး</item>
+        <item>ကြာသပတေး</item>
+        <item>သောကြာ</item>
+        <item>စနေ</item>
+        <item>တနင်္ဂနွေ</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>လာ</item>
+        <item>ဂါ</item>
+        <item>ဟူး</item>
+        <item>ကြာ</item>
+        <item>သော</item>
+        <item>နေ</item>
+        <item>နွေ</item>
+    </string-array>
+    <string-array name="months">
+        <item>ဇန်နဝါရီ</item>
+        <item>ဖေဖော်ဝါရီ</item>
+        <item>မတ်</item>
+        <item>ဧပြီ</item>
+        <item>မေ</item>
+        <item>ဇွန်</item>
+        <item>ဇူလိုင်</item>
+        <item>သြဂုတ်</item>
+        <item>စက်တင်ဘာ</item>
+        <item>အောက်တိုဘာ</item>
+        <item>နိုဝင်ဘာ</item>
+        <item>ဒီဇင်ဘာ</item>
+    </string-array>
+    <string-array name="select_days_simple">
+        <item>တစ်ကြိမ်</item>
+        <item>နေ့တိုင်း</item>
+        <item>ရုံးဖွင့်ရက်များ</item>
+        <item>စိတ်ကြိုက်လုပ်</item>
+    </string-array>
+    <string-array name="fortune">
+        <item>တစ်သမတ်တည်းဖြစ်နိုင်မှုအား အစားထိုးနိုင်သည့်အရာမရှိပါ။</item>
+        <item>တိုးတက်အောင်ရုန်းကန်ပါ၊ ပြည့်စုံအောင်မကြိုးစားပါနှင့်။</item>
+        <item>ထပ်ခါတစ်လဲလဲ လေ့ကျင့်ခြင်းမှာ အောင်မြင်မှု၏ ဖခင်ဖြစ်ပါသည်။</item>
+        <item>စွမ်းအင်နှင့် မဆုတ်မနစ်ကြိုးပမ်းမှုသည် အားလုံးကို အနိုင်ရနိုင်ပါသည်</item>
+        <item>ရည်မှန်းချက်သေးသေးလေးများ သတ်မှတ်ပြီး ၄င်းတို့အား ပြီးအောင်လုပ်ပါ။</item>
+        <item>ခရီးရှည်တိုင်းဟာ ခြေလှမ်းတစ်လှမ်းကနေ စခဲ့ကြတာပါ။</item>
+        <item>တစ်ရက်တွင် ရည်မှန်းချက်တစ်ခုစီ ပြီးအောင်လုပ်ပါ</item>
+        <item>သင်ဘယ်လောက်ပဲ နှေးနေပါစေ၊ ထိုင်နေထက်လူတွေထက်တော့သာပါတယ်။</item>
+        <item>ပြ​ေးနိုင်လျှင်ပြေးလိုက်ပါ၊ မပြေနိုင်က လမ်းလျှောက်လိုက်ပါ၊ လမ်းမလျှောက်နိုင်ပါက တွားသွားပါ၊ ဘယ်တော့မှ အရှုံးမပေးပါနှင့်။</item>
+        <item>ကိုယ်ကာယ အားကစားလုပ်၍ရလာသော ခံစားချက်သည် အားကစားလုပ်မည်ဟု စိတ်ထဲတွေးပြီး ထိုင်နေသည့် ခံစားချက်ထက် သာလွန်ကြောင်း အမှတ်ရပါ။</item>
+    </string-array>
+    <string-array name="weather_aqi_descriptions">
+        <item>အလွန်ကောင်း</item>
+        <item>ကောင်း</item>
+        <item>သင့်တင့်</item>
+        <item>သတိထား</item>
+        <item>ကျန်းမာရေးနှင့် မညီသော</item>
+        <item>ကျန်းမာရေးနှင့် လွန်စွာ မညီညွတ်သော</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>kg</item>
+        <item>jin</item>
+        <item>lb</item>
+    </string-array>
+    <string-array name="weight_body_figures">
+        <item>ကိုယ်လေးချိန်နည်းနေ</item>
+        <item>ပုံမှန်</item>
+        <item>ကိုယ်အလေးချိန်ပို</item>
+        <item>အဝလွန်</item>
+        <item>အဝလွန်</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>ကိုယ်လေးချိန်နည်းနေ</item>
+        <item>ပုံမှန်</item>
+        <item>ကိုယ်အလေးချိန်ပို</item>
+        <item>အဝလွန်</item>
+        <item>အဝလွန်</item>
+    </string-array>
+    <string-array name="weight_dynamic_list_bmi_tips">
+        <item>BMI အမျိုးအစား− ကိုယ်အလေးချိန်နည်း</item>
+        <item>BMI အမျိုးအစား− ပုံမှန် ကိုယ်အလေးချိန်</item>
+        <item>BMI အမျိုးအစား− ကိုယ်အလေးချိန်များနေ</item>
+        <item>BMI အမျိုးအစား− အဝလွန်နေ</item>
+    </string-array>
+    <string-array name="weight_report_suggestions_boy">
+        <item>သင့်အလေးချိန်အား ကူညီစီမံရန် ရည်မှန်းချက်တစ်ခု သတ်မှတ်ပါ</item>
+        <item>ဂုဏ်ယူပါတယ်!</item>
+        <item>သင်သည် သင့်ရည်မှန်းချက် ကိုယ်အလေးချိန်အောက်ရှိနေပါသည်</item>
+        <item>သင်သည် သင့်ရည်မှန်းချက် ကိုယ်အလေးချိန်အထက်တွင် ရှိနေပါသည်</item>
+    </string-array>
+    <string-array name="weight_report_suggestions_girl">
+        <item>သင့်အလေးချိန်အား ကူညီစီမံရန် ရည်မှန်းချက်တစ်ခု သတ်မှတ်ပါ</item>
+        <item>ဂုဏ်ယူပါတယ်！သင့်ရည်မှန်းချက် ကိုယ်အလေးချိန်သို့ ရောက်ရှိပါပြီ။</item>
+        <item>သင်သည် သင့်ရည်မှန်းချက် ကိုယ်အလေးချိန်အောက်ရှိနေပါသည်</item>
+        <item>သင်သည် သင့်ရည်မှန်းချက် ကိုယ်အလေးချိန်အထက်တွင် ရှိနေပါသည်</item>
+    </string-array>
+    <string-array name="weight_report_result_without_goal">
+        <item>ရည်မှန်းချက်အား ကျော်လွန်ခဲ့ပြီ</item>
+        <item>သင့်ရည်မှန်းချက်သို့ မရောက်နိုင်ခဲ့ပါ</item>
+        <item>သင်၏ဦးတည်ချက်သို့ရောက်ရှိပြီ!</item>
+    </string-array>
+    <string-array name="weight_report_result_with_goal_gainweight">
+        <item>သင့်ရည်မှန်းချက်သို့ မရောက်ရှိသေးပါ</item>
+        <item>သင့်ရည်မှန်းချက်သို့ မရောက်ရှိသေးပါ</item>
+        <item>သင့်ရည်မှန်းချက်သို့ မရောက်ရှိသေးပါ</item>
+        <item>သင့်ရည်မှန်းချက်သို့ မရောက်ရှိသေးပါ(%1$s%2$s)!</item>
+    </string-array>
+    <string-array name="weight_report_result_with_goal_loseweight">
+        <item>သင့်ရည်မှန်းချက်သို့ မရောက်ရှိသေးပါ</item>
+        <item>သင့်ရည်မှန်းချက်သို့ မရောက်ရှိသေးပါ</item>
+        <item>သင့်ရည်မှန်းချက်သို့ မရောက်ရှိသေးပါ</item>
+        <item>သင့်ရည်မှန်းချက်သို့ မရောက်ရှိသေးပါ(%1$s%2$s)!</item>
+    </string-array>
+    <string-array name="phone_notify_tips">
+        <item>တွဲချိတ်ထားသော စက်တွင် အဝင်ခေါ်ဆိုမှုရှိပါက လက်ပတ်အား တုန်ခါပါ</item>
+        <item>တွဲထားသော စက်တွင် နှိုးစက်မည်ပါက လက်ပတ်အား တုန်ခါပါ</item>
+        <item>တွဲထားသောစက်တွင် SMS လက်ခံရရှိပါက တုန်ခါပါ</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>အဆက်အသွယ်များမှ ခေါ်ဆိုမှုသာ</item>
+        <item>အဆက်အသွယ်များမှ SMS မျှသာ</item>
+    </string-array>
+</resources>

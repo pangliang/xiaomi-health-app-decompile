@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/running_gps_dialog_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="96.0dip" android:layout_marginTop="28.0dip" android:src="@drawable/run_alert_pic_bluetooth" android:scaleType="centerInside" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/running_gps_dialog_title" android:textColor="@color/running_gps_dialog_title" android:gravity="center" android:id="@id/remind" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/running_tip_open_ble_label" android:layout_below="@id/image" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/running_gps_dialog_desc" android:textColor="@color/running_gps_dialog_desc" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/running_tip_open_ble_content" android:layout_below="@id/remind" android:layout_centerHorizontal="true" />
+    <Button android:textSize="@dimen/running_gps_dialog_button" android:textColor="@drawable/btn_text" android:id="@id/confirm" android:background="@drawable/running_gps_dialog_btn_bg" android:layout_width="123.0dip" android:layout_height="35.0dip" android:layout_marginTop="24.0dip" android:layout_marginBottom="30.0dip" android:text="@string/running_tip_known" android:layout_below="@id/label" android:layout_centerHorizontal="true" />
+</RelativeLayout>

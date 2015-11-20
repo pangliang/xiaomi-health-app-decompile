@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="running_months">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
     <string-array name="weeks">
-        <item>Lun.</item>
-        <item>Mar.</item>
-        <item>Mer.</item>
-        <item>Gio.</item>
-        <item>Ven.</item>
-        <item>Sab.</item>
-        <item>Dom.</item>
+        <item>Lunedì</item>
+        <item>Martedì</item>
+        <item>Mercoledì</item>
+        <item>Giovedì</item>
+        <item>Venerdì</item>
+        <item>Sabato</item>
+        <item>Domenica</item>
     </string-array>
     <string-array name="weeks_short">
         <item>Lun.</item>
@@ -65,7 +79,14 @@
     </string-array>
     <string-array name="weight_body_figures">
         <item>Sotto peso</item>
-        <item>Peso nella norma</item>
+        <item>Normale</item>
+        <item>Sovrappeso</item>
+        <item>Obeso</item>
+        <item>Obeso</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>Sottopeso</item>
+        <item>Normale</item>
         <item>Sovrappeso</item>
         <item>Obeso</item>
         <item>Obeso</item>
@@ -78,13 +99,13 @@
     </string-array>
     <string-array name="weight_report_suggestions_boy">
         <item>Imposta un obiettivo per aiutarti a gestire il tuo peso.</item>
-        <item>Congratulazioni! Hai raggiunto il peso che avevi stabilito.</item>
+        <item>Congratulazioni! Hai raggiunto il tuo peso obiettivo.</item>
         <item>Sei sotto al peso che desideravi raggiungere</item>
         <item>Sei sopra al peso che desideravi raggiungere</item>
     </string-array>
     <string-array name="weight_report_suggestions_girl">
         <item>Imposta un obiettivo per aiutarti a gestire il tuo peso.</item>
-        <item>Congratulazioni! Hai raggiunto il peso che avevi stabilito.</item>
+        <item>Congratulazioni! Hai raggiunto il tuo peso obiettivo.</item>
         <item>Sei sotto al peso che desideravi raggiungere</item>
         <item>Sei sopra al peso che desideravi raggiungere</item>
     </string-array>
@@ -104,5 +125,14 @@
         <item>Non hai ancora raggiunto il tuo obbiettivo</item>
         <item>Non hai ancora raggiunto il tuo obbiettivo</item>
         <item>Hai raggiunto il tuo obbiettivo (%1$s %2$s)!</item>
+    </string-array>
+    <string-array name="phone_notify_tips">
+        <item>Vibrate band when paired device has an incoming call</item>
+        <item>Mi Band vibra quando la sveglia suona sul dispositivo associato</item>
+        <item>Vibrate band when paired device receives an SMS message</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>Only for calls from contacts</item>
+        <item>Only for SMS from contacts</item>
     </string-array>
 </resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="running_months">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>સોમ.</item>
+        <item>મંગળ.</item>
+        <item>બુધ.</item>
+        <item>ગુરુ.</item>
+        <item>શુક્ર.</item>
+        <item>શનિ.</item>
+        <item>રવિ.</item>
+    </string-array>
+    <string-array name="months">
+        <item>જાન્યુઆરી</item>
+        <item>ફેબ્રુઆરી</item>
+        <item>માર્ચ</item>
+        <item>એપ્રિલ</item>
+        <item>મે</item>
+        <item>જૂન</item>
+        <item>જુલાઈ</item>
+        <item>ઓગસ્ટ</item>
+        <item>સપ્ટેમ્બર</item>
+        <item>ઓક્ટોબર</item>
+        <item>નવેમ્બર</item>
+        <item>ડિસેમ્બર</item>
+    </string-array>
+    <string-array name="select_days_simple">
+        <item>એક વખત</item>
+        <item>રોજિંદા</item>
+        <item>અઠવાડિયાન દિવસ</item>
+        <item>કસ્ટમાઇઝ કરો</item>
+    </string-array>
+    <string-array name="fortune">
+        <item>સંગતતા માટે કોઈ અવેજી નથી.</item>
+        <item>પ્રગતિ માટે મહેનત કરો, પૂર્ણતા માટે નહીં.</item>
+        <item>પુનરાવર્તન એ સફળતાનો પ્રણેતા છે.</item>
+        <item>ઊર્જા અને ધૈર્ય બધી વસ્તુને પરાજિત કરે છે.</item>
+        <item>નાના લક્ષ્યો નિર્ધારિત કરો અને તેના પર નિર્માણ કરો.</item>
+        <item>દરેક યાત્રા માત્ર એક પગલાંથી જ ચાલુ થાય છે.</item>
+        <item>દિવસમાં એક લક્ષ્ય પ્રાપ્ત કરો.</item>
+        <item>તમે કેટલા ધીમા જાઓ છો તે મહત્વનું નથી, પરંતુ તમે હજી પણ તમાર લક્ષ્ય પર આગળ વધી રહ્યાં છો.</item>
+        <item>તમે દોડી શકો ત્યારે દોડો. તમારે ચાલવું હોય ત્યારે ચાલો. જો તમે અવશ્ય હોય, તો અત્યંત ધીમે ચાલો. ક્યારેય પણ છોડવું નહી.</item>
+        <item>યાદ રાખો, કે તમને સારા વ્યાયામથી થતી અનુભૂતિ એ આમતેમ બેસીને વ્યાયામ કરવાની ઇચ્છા કરવાથી થતી અનુભૂતિ કરવા કરતા ઘણી સારી છે.</item>
+    </string-array>
+    <string-array name="weather_aqi_descriptions">
+        <item>સરસ</item>
+        <item>સારું</item>
+        <item>મધ્યમ</item>
+        <item>ચેતવણી</item>
+        <item>અસ્વસ્થ</item>
+        <item>ખૂબ અસ્વસ્થ</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>કિ.ગ્રા.</item>
+        <item>જિન</item>
+        <item>lb</item>
+    </string-array>
+    <string-array name="weight_body_figures">
+        <item>સામાન્યથી ઓછું વજન</item>
+        <item>સામાન્ય</item>
+        <item>સામાન્યથી વધુ વજન</item>
+        <item>સ્થૂળ</item>
+        <item>સ્થૂળ</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>સામાન્યથી ઓછું વજન</item>
+        <item>સામાન્ય</item>
+        <item>સામાન્યથી વધુ વજન</item>
+        <item>સ્થૂળ</item>
+        <item>સ્થૂળ</item>
+    </string-array>
+    <string-array name="weight_dynamic_list_bmi_tips">
+        <item>BMI શ્રેણી: સામાન્યથી ઓછું વજન</item>
+        <item>BMI શ્રેણી: સામાન્ય વજન</item>
+        <item>BMI શ્રેણી: સામાન્યથી વધુ વજન</item>
+        <item>BMI શ્રેણી: સ્થૂળ</item>
+    </string-array>
+    <string-array name="weight_report_suggestions_boy">
+        <item>તમારું વજન સંચાલિત કરવામાં મદદ માટે લક્ષ્ય સેટ કરો.</item>
+        <item>અભિનંદન! તમે તમારા લક્ષ્ય વજન પર છે.</item>
+        <item>તમે તમારા લક્ષ્ય વજનની નીચે છો</item>
+        <item>તમે તમારા લક્ષ્ય વજનની ઉપર છો</item>
+    </string-array>
+    <string-array name="weight_report_suggestions_girl">
+        <item>તમારું વજન સંચાલિત કરવામાં મદદ માટે લક્ષ્ય સેટ કરો.</item>
+        <item>અભિનંદન! તમે તમારા લક્ષ્ય વજન પર છે.</item>
+        <item>તમે તમારા લક્ષ્ય વજનની નીચે છો</item>
+        <item>તમે તમારા લક્ષ્ય વજનની ઉપર છો</item>
+    </string-array>
+    <string-array name="weight_report_result_without_goal">
+        <item>લક્ષ્ય પાર કર્યુ</item>
+        <item>તમારા લક્ષ્ય પર પહોંચ્યા નથી</item>
+        <item>તમે તમારા લક્ષ્ય પર પહોંચ્યાં!</item>
+    </string-array>
+    <string-array name="weight_report_result_with_goal_gainweight">
+        <item>તમે હજુ સુધી તમારા લક્ષ્ય પર પહોંચ્યાં નથી</item>
+        <item>તમે હજુ સુધી તમારા લક્ષ્ય પર પહોંચ્યાં નથી</item>
+        <item>તમે હજુ સુધી તમારા લક્ષ્ય પર પહોંચ્યાં નથી</item>
+        <item>તમે તમારા લક્ષ્ય (%1$s%2$s) પર પહોંચ્યાં!</item>
+    </string-array>
+    <string-array name="weight_report_result_with_goal_loseweight">
+        <item>તમે હજુ સુધી તમારા લક્ષ્ય પર પહોંચ્યાં નથી</item>
+        <item>તમે હજુ સુધી તમારા લક્ષ્ય પર પહોંચ્યાં નથી</item>
+        <item>તમે હજુ સુધી તમારા લક્ષ્ય પર પહોંચ્યાં નથી</item>
+        <item>તમે તમારા લક્ષ્ય (%1$s%2$s) પર પહોંચ્યાં!</item>
+    </string-array>
+    <string-array name="phone_notify_tips">
+        <item>જ્યારે જોડી બનાવેલ ઉપકરણમાં ઇનકમિંગ કૉલ હોય ત્યારે બેંડ કંપન કરો</item>
+        <item>જોડી બેનાવેલ ઉપકરણ પર એલાર્મ ધ્વનિ કરી ત્યારે બેંડ કંપન કરો</item>
+        <item>જોડી બનાવેલ ઉપકરણમાં SMS સંદેશ પ્રાપ્ત થાય તયરે કંપન કરો</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>ફક્ત સંપર્કો તરફથી કૉલ્સ</item>
+        <item>ફક્ત સંપર્કો તરફથી SMS</item>
+    </string-array>
+</resources>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="numberOfPullUpdateReport">
-        <item quantity="other">อัพเดต %d รายการแล้ว</item>
+        <item quantity="other">อัพเดท %d รายการแล้ว</item>
     </plurals>
     <plurals name="numberFoot">
         <item quantity="other">%s ฟุต</item>
     </plurals>
     <plurals name="numberInch">
         <item quantity="other">%s นิ้ว</item>
+    </plurals>
+    <plurals name="weight_match_user">
+        <item quantity="other">พบผู้ใช้งาน %1$d คน</item>
     </plurals>
 </resources>

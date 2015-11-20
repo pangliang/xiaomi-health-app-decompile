@@ -5,11 +5,15 @@
         <item quantity="one">%d आइटम अपडेट किए गए</item>
     </plurals>
     <plurals name="numberFoot">
-        <item quantity="other">%s feet</item>
-        <item quantity="one">%s ft</item>
+        <item quantity="other">%s फ़ीट</item>
+        <item quantity="one">%s फ़ीट</item>
     </plurals>
     <plurals name="numberInch">
-        <item quantity="other">%s inches</item>
-        <item quantity="one">%s inch</item>
+        <item quantity="other">%s इंच</item>
+        <item quantity="one">%s इंच</item>
+    </plurals>
+    <plurals name="weight_match_user">
+        <item quantity="other">%1$d मेल.</item>
+        <item quantity="one">%1$d मेल.</item>
     </plurals>
 </resources>

@@ -38,6 +38,7 @@
             <cn.com.smartdevices.bracelet.chart.typeface.TypefaceTextView android:textSize="68.0sp" android:textColor="@color/weight_report_white_90" android:gravity="center" android:id="@id/current_weight_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:fontFamily="miui-light" />
             <TextView android:textSize="15.0sp" android:textColor="@color/weight_report_white_70" android:gravity="center" android:id="@id/current_weight_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
             <View android:background="@color/weight_report_white_30" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="35.0dip" />
+            <include layout="@layout/baby_weight_report_info" />
             <RelativeLayout android:layout_gravity="center" android:id="@id/bmi_layout" android:layout_width="fill_parent" android:layout_height="180.0dip">
                 <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="42.0dip" android:layout_toLeftOf="@id/middle_line">
                     <ImageView android:id="@id/weight_report_figure" android:background="@drawable/weight_report_figure" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_centerHorizontal="true" />

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/bg_mode_heartrate" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="37.0dip" android:src="@drawable/heart_tips" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0sp" android:textColor="#99ffffff" android:gravity="center" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:text="@string/measure_reminder" android:layout_below="@id/image" android:layout_centerHorizontal="true" />
+    <cn.com.smartdevices.bracelet.chart.typeface.TypefaceTextView android:textSize="50.0dip" android:textStyle="bold" android:textColor="@color/bg_color_white" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:text="5" android:layout_below="@id/text" android:layout_centerHorizontal="true" android:fontFamily="miui" />
+    <TextView android:textSize="12.0sp" android:textColor="#99ffffff" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/label_countdown" android:layout_below="@id/time" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="15.5sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/bt_measure" android:layout_width="171.0dip" android:layout_height="36.0dip" android:layout_marginTop="26.0dip" android:text="@string/no_measure_tips" android:layout_below="@id/label" android:layout_centerHorizontal="true" />
+</RelativeLayout>

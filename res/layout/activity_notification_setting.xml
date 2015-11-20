@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/bg_color_blue" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/home_back" android:text="@string/phone_app_notifi" style="@style/BackButton" />
+    </FrameLayout>
+    <LinearLayout android:id="@id/notification_enable_setting" android:background="@drawable/bg_item" android:paddingLeft="@dimen/mili_margin" android:paddingRight="@dimen/mili_margin" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/common_list_item_2_height" android:layout_marginTop="@dimen/stroke_width_minus" android:layout_marginBottom="@dimen/stroke_width_minus" android:minHeight="@dimen/item_height">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/common_list_item_main_font" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/phone_app_notifi_enable" style="@style/ListItemTitleText" />
+            <TextView android:textSize="@dimen/common_list_item_sub_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_app_notifi_access_service_tip" style="@style/ListItemValueText" />
+        </LinearLayout>
+        <Switch android:layout_gravity="center" android:id="@id/enable_notification" android:background="@drawable/switch_track_enable" android:focusable="false" android:focusableInTouchMode="false" android:clickable="true" android:layout_width="40.0dip" android:layout_height="21.0dip" android:textOn="" android:textOff="" android:thumb="@drawable/switch_thumb" android:onClick="onClickEnableNotification" android:track="@drawable/switch_track_trans" android:switchMinWidth="38.0dip" android:thumbTextPadding="10.0dip" />
+    </LinearLayout>
+    <include layout="@layout/split_line_with_margin" />
+    <LinearLayout android:id="@id/notification_apps" android:background="@drawable/bg_item" android:paddingLeft="@dimen/mili_margin" android:paddingRight="@dimen/mili_margin" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/stroke_width_minus" android:layout_marginBottom="@dimen/stroke_width_minus" android:minHeight="@dimen/item_height" android:onClick="onClickPickNotificationApps">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/common_list_item_main_font" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/phone_app_notifi_manager" style="@style/ListItemTitleText" />
+            <TextView android:textSize="@dimen/common_list_item_sub_font" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_app_notifi_limit_tip" style="@style/ListItemValueText" />
+        </LinearLayout>
+        <TextView android:id="@id/notification_apps_state" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/ListItemValueText" />
+        <ImageView android:layout_gravity="right|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_indicator_right_arrow" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/notifi_app_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="numberOfPullUpdateReport">
+        <item quantity="other">Updated %d items.</item>
+    </plurals>
+    <plurals name="numberFoot">
+        <item quantity="other">%s feet</item>
+    </plurals>
+    <plurals name="numberInch">
+        <item quantity="other">%s inches</item>
+    </plurals>
+    <plurals name="weight_match_user">
+        <item quantity="other">%1$d matches.</item>
+    </plurals>
+</resources>

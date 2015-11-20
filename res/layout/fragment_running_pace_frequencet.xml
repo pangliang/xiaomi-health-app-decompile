@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/bg_color_white" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/running_help_pace_freq_label" style="@style/RunningHelpLabel" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/running_help_pace_freq_illustra" style="@style/RunningHelpContent" />
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.799988dip" android:src="@drawable/run_stephz_p1" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/running_help_pace_freq_suggest1" style="@style/RunningHelpLabel" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/running_help_pace_freq_suggest2" style="@style/RunningHelpContent" />
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.799988dip" android:src="@drawable/run_stephz_p2" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/running_help_pace_freq_target" style="@style/RunningHelpLabel" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/running_help_pace_freq_suggest3" style="@style/RunningHelpContent" />
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.799988dip" android:src="@drawable/run_stephz_p3" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/running_help_pace_freq_suggest4" style="@style/RunningHelpLabel" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/running_help_pace_freq_suggest5" style="@style/RunningHelpContent" />
+    </LinearLayout>
+</ScrollView>

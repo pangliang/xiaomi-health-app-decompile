@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="running_months">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
     <string-array name="weeks">
-        <item>Sen.</item>
-        <item>Sel.</item>
-        <item>Rab.</item>
-        <item>Kam.</item>
-        <item>Jum.</item>
-        <item>Sab.</item>
-        <item>Min.</item>
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>Jumat</item>
+        <item>Sabtu</item>
+        <item>Minggu</item>
     </string-array>
     <string-array name="weeks_short">
         <item>Sen.</item>
@@ -43,7 +57,7 @@
         <item>Berjuang untuk kemajuan, bukan kesempurnaan.</item>
         <item>Pengulangan adalah kunci kesuksesan.</item>
         <item>Semangat dan ketekunan menaklukkan segalanya.</item>
-        <item>Tentukan target yang kecil dan kembangkan di atasnya.</item>
+        <item>Tentukan target yang kecil, lalu tingkatkan per tahap.</item>
         <item>Setiap perjalanan dimulai dengan satu langkah.</item>
         <item>Capai satu target tiap harinya.</item>
         <item>Tak peduli seberapa lambat Anda berjalan, Anda masih melewati orang yg duduk di sofa.</item>
@@ -60,21 +74,28 @@
     </string-array>
     <string-array name="weight_unit">
         <item>kg</item>
-        <item>jin</item>
+        <item>1/2kg</item>
         <item>pon</item>
     </string-array>
     <string-array name="weight_body_figures">
-        <item>Di bawah normal</item>
-        <item>Berat normal</item>
-        <item>Di atas normal</item>
-        <item>Jauh di atas normal</item>
-        <item>Jauh di atas normal</item>
+        <item>Kurus</item>
+        <item>Ideal</item>
+        <item>Gemuk</item>
+        <item>Obesitas</item>
+        <item>Obesitas</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>Kurus</item>
+        <item>Ideal</item>
+        <item>Gemuk</item>
+        <item>Obesitas</item>
+        <item>Obesitas</item>
     </string-array>
     <string-array name="weight_dynamic_list_bmi_tips">
-        <item>Kategori BMI: Di bawah normal</item>
-        <item>Kategori BMI: Berat normal</item>
-        <item>Kategori BMI: Di atas normal</item>
-        <item>Kategori BMI: Jauh di atas normal</item>
+        <item>Kategori BMI: Kurus</item>
+        <item>Kategori BMI: Ideal</item>
+        <item>Kategori BMI: Gemuk</item>
+        <item>Kategori BMI:Obesitas</item>
     </string-array>
     <string-array name="weight_report_suggestions_boy">
         <item>Tentukan target untuk kelola berat Anda.</item>
@@ -104,5 +125,14 @@
         <item>Anda belum mencapai target</item>
         <item>Anda belum mencapai target</item>
         <item>Anda telah mencapai target (%1$s%2$s)!</item>
+    </string-array>
+    <string-array name="phone_notify_tips">
+        <item>Getarkan gelang saat ada panggilan masuk di perangkat terpasang</item>
+        <item>Getarkan gelang saat alarm berbunyi di perangkat terpasang</item>
+        <item>Getarkan gelang saat perangkat terpasang menerima SMS</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>Hanya panggilan dari kontak</item>
+        <item>Hanya SMS dari kontak</item>
     </string-array>
 </resources>

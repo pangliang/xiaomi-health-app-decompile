@@ -48,12 +48,16 @@ localization_table = {
     { 'zh_CN', localization_zh_rCN_table},
     { 'zh_TW', localization_zh_rTW_table},
     { 'zh_HK', localization_zh_rTW_table},
+    { 'as_IN' , localization_as_rIN_table},
     { 'hi' , localization_hi_rIN_table},
     { 'bn_IN' , localization_bn_rIN_table},
     { 'kn_IN' , localization_kn_rIN_table},
     { 'ml_IN' , localization_ml_rIN_table},
+    { 'mr_IN' , localization_mr_rIN_table},
     { 'ta_IN' , localization_ta_rIN_table},
     { 'te_IN' , localization_te_rIN_table},
+    { 'gu_IN' , localization_gu_rIN_table},
+    { 'pa_IN' , localization_pa_rIN_table},
     { 'id', localization_in_rID_table},
     { 'ms_MY' , localization_ms_rMY_table},
     { 'pt_BR' , localization_pt_rBR_table},
@@ -65,6 +69,10 @@ localization_table = {
     { 'de' , localization_de_rDE_table},
     { 'fr' , localization_fr_rFR_table},
     { 'it' , localization_it_rIT_table},
+    { 'uk' , localization_uk_rUA_table},
+    { 'es_US' , localization_es_rUS_table},
+    { 'ko' , localization_ko_rKR_table},
+    { 'my_MM' , localization_my_rMM_table},
 
 }
 
@@ -80,13 +88,13 @@ function setCurLocale(locale)
         if string.find(locale, line[1]) == 1 then
             g_curTable = line[2]
             log("find g_curTable = ".. line[1])
-
+            break;
         end
     end
 
     if (g_curTable == nil) then
         log('g_curTable is nil')
-        g_curTable = localization_English_table
+        g_curTable = localization_en_table
     end
 end
 

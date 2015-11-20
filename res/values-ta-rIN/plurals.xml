@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="numberOfPullUpdateReport">
-        <item quantity="other">புதுப்பிக்கப்பட்டது %d உருப்படிகள்.</item>
-        <item quantity="one">புதுப்பிக்கப்பட்டது %d உருப்படி.</item>
+        <item quantity="other">%d உருப்படிகள் புதுப்பிக்கப்பட்டன.</item>
+        <item quantity="one">%d உருப்படி புதுப்பிக்கப்பட்டது.</item>
     </plurals>
     <plurals name="numberFoot">
         <item quantity="other">%s அடி</item>
@@ -11,5 +11,9 @@
     <plurals name="numberInch">
         <item quantity="other">%s அங்குலங்கள்</item>
         <item quantity="one">%s அங்குலம்</item>
+    </plurals>
+    <plurals name="weight_match_user">
+        <item quantity="other">%1$d பொருத்தங்கள்.</item>
+        <item quantity="one">%1$d பொருத்தம்.</item>
     </plurals>
 </resources>

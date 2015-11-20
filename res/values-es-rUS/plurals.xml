@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="numberOfPullUpdateReport">
+        <item quantity="other">Se actualizaron %d elementos.</item>
+        <item quantity="one">Se actualizó %d elemento.</item>
+    </plurals>
+    <plurals name="numberFoot">
+        <item quantity="other">%s pies</item>
+        <item quantity="one">%s pie</item>
+    </plurals>
+    <plurals name="numberInch">
+        <item quantity="other">%s pulgadas</item>
+        <item quantity="one">%s pulgada</item>
+    </plurals>
+    <plurals name="weight_match_user">
+        <item quantity="other">%1$d coincidencias.</item>
+        <item quantity="one">%1$d coincidencia.</item>
+    </plurals>
+</resources>

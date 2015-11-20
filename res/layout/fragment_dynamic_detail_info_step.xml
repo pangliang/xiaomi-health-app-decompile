@@ -20,7 +20,7 @@
     </LinearLayout>
     <TextView android:textSize="@dimen/dynamic_info_title_en" android:text="@string/chart_info_step_running" style="@style/ChartInfoItemTitle" />
     <View android:background="#ffc6c6c6" android:layout_width="fill_parent" android:layout_height="0.34000003dip" android:layout_marginTop="5.0dip" />
-    <LinearLayout android:paddingTop="@dimen/dynamic_info_padding_top_en" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:paddingTop="@dimen/dynamic_info_padding_top_en" android:paddingBottom="@dimen/dynamic_info_padding_bottom_en" android:layout_width="wrap_content" android:layout_height="wrap_content">
         <include android:id="@id/info_step_run_distance" android:layout_width="@dimen/dynamic_info_width_en" android:layout_height="wrap_content" layout="@layout/view_chart_info_item_value" />
         <include android:id="@id/info_step_run_duration" android:layout_width="@dimen/dynamic_info_width_en" android:layout_height="wrap_content" layout="@layout/view_chart_info_item_value_time_length" />
         <include android:id="@id/info_step_run_calorie" android:layout_width="@dimen/dynamic_info_width_en" android:layout_height="wrap_content" layout="@layout/view_chart_info_item_value" />

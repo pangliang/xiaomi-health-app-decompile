@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="numberOfPullUpdateReport">
+        <item quantity="other">%d ਆਇਟਮ ਅੱੱਪਡੇਟ ਕੀਤੇ ਗਏ.</item>
+        <item quantity="one">%d ਆਇਟਮ ਅੱੱਪਡੇਟ ਕੀਤਾ ਗਿਆ.</item>
+    </plurals>
+    <plurals name="numberFoot">
+        <item quantity="other">%s ਫੁੱਟ</item>
+        <item quantity="one">%s ਫੁੱਟ</item>
+    </plurals>
+    <plurals name="numberInch">
+        <item quantity="other">%s ਇੰਚ</item>
+        <item quantity="one">%s ਇੰਚ</item>
+    </plurals>
+    <plurals name="weight_match_user">
+        <item quantity="other">%1$d ਮੇਲ.</item>
+        <item quantity="one">%1$d ਮੇਲ.</item>
+    </plurals>
+</resources>

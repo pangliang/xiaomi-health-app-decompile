@@ -81,6 +81,8 @@ localization_zh_rTW_table = {
     take_a_walk_info="她會隨時記錄你的運動資訊, 做你的健康助手",
     unlock_hint="使用手環智慧解鎖手機螢幕",
     unlock_hint_info="告別傳統密碼解鎖時代",
+    unlock_password_hint="設定鎖屏密碼避免手機隱私洩露",
+    unlock_password_hint_info="小米手環提供最便捷的解鎖體驗",
     no_data_hint_0="運動的要義不在趣味而在繼續持久, 養成習慣",
     no_data_hint_1="慢跑可以幫助你快樂減壓, 讓你保持一份好心情。",
     no_data_hint_2="有氧訓練是減肥、強身的一個重要手段, 它包括健身操、跑步、踩自行車等。",
@@ -147,6 +149,7 @@ localization_zh_rTW_table = {
 
     am_format="上午%s",
     pm_format="下午%s",
+    weehour_format="淩晨%s",
 
     --=================== Game =====================
     game_register="国庆七天日行万步, 赢取小米手机4",

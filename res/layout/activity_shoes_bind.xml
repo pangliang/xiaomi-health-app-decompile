@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/shoes_binding_transparent_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/back_button" android:background="@drawable/ic_indicator_prev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="@dimen/font_size_v2_f6" android:textColor="@color/font_color_c8" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/shoes_bind_title" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/debug_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="150.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/back_button" android:layout_alignParentLeft="true" />
+    <ImageView android:id="@id/shoes_binding_circle" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/shoes_binding_circle" android:layout_centerInParent="true" />
+    <TextView android:textSize="@dimen/font_size_v2_f6" android:textColor="@color/font_color_c8" android:id="@id/shoes_binding_loading_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/shoes_binding" android:layout_below="@id/shoes_binding_circle" android:layout_centerHorizontal="true" />
+</RelativeLayout>

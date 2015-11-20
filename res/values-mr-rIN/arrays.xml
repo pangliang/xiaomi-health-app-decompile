@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="running_months">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>सोमवार</item>
+        <item>मंगळवार</item>
+        <item>बुधवार</item>
+        <item>गुरुवार</item>
+        <item>शुक्रवार</item>
+        <item>शनिवार</item>
+        <item>रविवार</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>सोम.</item>
+        <item>मंगळ.</item>
+        <item>बुध.</item>
+        <item>गुरु.</item>
+        <item>शुक्र.</item>
+        <item>शनि.</item>
+        <item>रवि.</item>
+    </string-array>
+    <string-array name="months">
+        <item>जानेवारी</item>
+        <item>फेब्रुवारी</item>
+        <item>मार्च</item>
+        <item>एप्रिल</item>
+        <item>मे</item>
+        <item>जून</item>
+        <item>जुलै</item>
+        <item>ऑगस्ट</item>
+        <item>सप्टेंबर</item>
+        <item>ऑक्टोबर</item>
+        <item>नोव्हेंबर</item>
+        <item>डिसेंबर</item>
+    </string-array>
+    <string-array name="select_days_simple">
+        <item>एकदा</item>
+        <item>दररोज</item>
+        <item>सोम-शुक्र</item>
+        <item>सानुकूल करा</item>
+    </string-array>
+    <string-array name="fortune">
+        <item>सातत्यास पर्याय नाही.</item>
+        <item>प्रगतीची कास धरा, परिपूर्णतेची नाही.</item>
+        <item>आवर्तीपण यशाचे वडील आहेत.</item>
+        <item>ऊर्जा आणि सातत्य सर्वावर मात करते.</item>
+        <item>ध्येये लहान ठेवा आणि त्यांच्या जोरावर पुढे जा.</item>
+        <item>प्रत्येक प्रवासाची सुरुवात एका पावलाने होते.</item>
+        <item>एका दिवसात एक ध्येय गाठा.</item>
+        <item>आपण हळूहळू धावलात तरी आपण मठ्ठ बसलेल्यांच्या पुढे असता.</item>
+        <item>शक्य असेल तेव्हा धावा. चालावे लागले तर चाला. रांगावे लागले तर रांगा. पण प्रयत्न करणे सोडू नका.</item>
+        <item>लक्षात ठेवा, व्यायाम केल्यानंतरची जाणीव व्यायाम करण्याचे बेत करण्यापेक्षा खूप जास्त समाधानकारक असते.</item>
+    </string-array>
+    <string-array name="weather_aqi_descriptions">
+        <item>खूपच छान</item>
+        <item>चांगले</item>
+        <item>मध्यम</item>
+        <item>सावधगिरी</item>
+        <item>आरोग्यास हानीकारक</item>
+        <item>आरोग्यास खूपच हानीकारक</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>किग्रॅ</item>
+        <item>jin</item>
+        <item>पौ</item>
+    </string-array>
+    <string-array name="weight_body_figures">
+        <item>कमी वजन</item>
+        <item>सामान्य</item>
+        <item>अधिक वजन</item>
+        <item>लठ्ठ</item>
+        <item>लठ्ठ</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>कमी वजन</item>
+        <item>सामान्य</item>
+        <item>अधिक वजन</item>
+        <item>लठ्ठ</item>
+        <item>लठ्ठ</item>
+    </string-array>
+    <string-array name="weight_dynamic_list_bmi_tips">
+        <item>BMI श्रेणी: कमी वजन</item>
+        <item>BMI श्रेणी: सामान्य वजन</item>
+        <item>BMI श्रेणी: जास्त वजन</item>
+        <item>BMI श्रेणी: लठ्ठ</item>
+    </string-array>
+    <string-array name="weight_report_suggestions_boy">
+        <item>आपले वजन सांभाळण्यात मदत म्हणून ध्येय सेट करा.</item>
+        <item>अभिनंदन! आपले वजन आपल्या लक्ष्य वजनाइतके आहे.</item>
+        <item>आपले वजन आपल्या लक्ष्य वजनाहून कमी आहे</item>
+        <item>आपले वजन आपल्या लक्ष्य वजनाहून जास्त आहे</item>
+    </string-array>
+    <string-array name="weight_report_suggestions_girl">
+        <item>आपले वजन सांभाळण्यात मदत म्हणून ध्येय सेट करा.</item>
+        <item>अभिनंदन! आपले वजन आपल्या लक्ष्य वजनाइतके आहे.</item>
+        <item>आपले वजन आपल्या लक्ष्य वजनाहून कमी आहे</item>
+        <item>आपले वजन आपल्या लक्ष्य वजनाहून जास्त आहे</item>
+    </string-array>
+    <string-array name="weight_report_result_without_goal">
+        <item>ध्येय ओलांडले</item>
+        <item>आपले ध्येय गाठले नाही</item>
+        <item>आपण आपले ध्येय गाठले!</item>
+    </string-array>
+    <string-array name="weight_report_result_with_goal_gainweight">
+        <item>आपण अजून आपले ध्येय गाठलेले नाही</item>
+        <item>आपण अजून आपले ध्येय गाठलेले नाही</item>
+        <item>आपण अजून आपले ध्येय गाठलेले नाही</item>
+        <item>आपण आपले ध्येय गाठलेले आहे (%1$s%2$s)!</item>
+    </string-array>
+    <string-array name="weight_report_result_with_goal_loseweight">
+        <item>आपण अजून आपले ध्येय गाठलेले नाही</item>
+        <item>आपण अजून आपले ध्येय गाठलेले नाही</item>
+        <item>आपण अजून आपले ध्येय गाठलेले नाही</item>
+        <item>आपण आपले ध्येय गाठलेले आहे (%1$s%2$s)!</item>
+    </string-array>
+    <string-array name="phone_notify_tips">
+        <item>पेअर केलेल्या डिव्हाईसवर कॉल येईल तेव्हा बॅंड कंपित करा</item>
+        <item>पेअर केलेल्या डिव्हाईसवर अलार्म वाजेल तेव्हा बॅंड कंपित करा</item>
+        <item>पेअर केलेल्या डिव्हाईसवर एसएमएस येईल तेव्हा बॅंड कंपित करा</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>केवळ संपर्कांकडील कॉल</item>
+        <item>केवळ संपर्कांकडील एसएमएस</item>
+    </string-array>
+</resources>

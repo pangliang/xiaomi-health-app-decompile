@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="running_months">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
     <string-array name="weeks">
-        <item>Th 2.</item>
-        <item>Th 3.</item>
-        <item>Th 4.</item>
-        <item>Th 5.</item>
-        <item>Th 6.</item>
-        <item>Th 7.</item>
-        <item>Cn.</item>
+        <item>Thứ hai</item>
+        <item>Thứ ba</item>
+        <item>Thứ tư</item>
+        <item>Thứ năm</item>
+        <item>Thứ sáu</item>
+        <item>Thứ bảy</item>
+        <item>Chủ nhật</item>
     </string-array>
     <string-array name="weeks_short">
         <item>Th 2.</item>
@@ -51,21 +65,28 @@
         <item>Hãy nhớ rằng, cảm giác bạn nhận được khi tập luyện tốt hơn nhiều so với cảm giác bạn nhận được khi chỉ ngồi và ước.</item>
     </string-array>
     <string-array name="weather_aqi_descriptions">
-        <item>Tuyệt</item>
+        <item>Tuyệt vời</item>
         <item>Tốt</item>
         <item>Trung bình</item>
         <item>Ô nhiễm nhẹ</item>
         <item>Không trong lành</item>
-        <item>Rất ô nhiễm</item>
+        <item>Ô nhiễm</item>
     </string-array>
     <string-array name="weight_unit">
         <item>kg</item>
-        <item>0.5 kg</item>
+        <item>jin</item>
         <item>pao</item>
     </string-array>
     <string-array name="weight_body_figures">
         <item>Ốm</item>
-        <item>Cân nặng bình thường</item>
+        <item>Bình thường</item>
+        <item>Thừa cân</item>
+        <item>Béo phì</item>
+        <item>Béo phì</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>Ốm</item>
+        <item>Bình thường</item>
         <item>Thừa cân</item>
         <item>Béo phì</item>
         <item>Béo phì</item>
@@ -104,5 +125,14 @@
         <item>Bạn chưa đạt được mục tiêu</item>
         <item>Bạn chưa đạt được mục tiêu</item>
         <item>Bạn đã đạt được mục tiêu (%1$s%2$s)!</item>
+    </string-array>
+    <string-array name="phone_notify_tips">
+        <item>Mi Band rung khi thiết bị ghép nối có cuộc gọi đến</item>
+        <item>Rung Mi Band khi có báo thức trên thiết bị đã ghép nối</item>
+        <item>Rung Mi Band khi thiết bị đã ghép nối nhận tin nhắn SMS</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>Chỉ cho phép cuộc gọi từ liên hệ</item>
+        <item>Chỉ cho phép SMS từ liên hệ</item>
     </string-array>
 </resources>

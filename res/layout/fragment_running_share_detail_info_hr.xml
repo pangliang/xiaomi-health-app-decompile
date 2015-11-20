@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/share_detail_hr_infos" android:background="@color/running_detail_bg" android:paddingBottom="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/distance_container" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:id="@id/distance_with_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <com.huami.android.view.TypefaceTextView android:textSize="@dimen/running_distance_large_text_size" android:textColor="@color/running_detail_item_value" android:ellipsize="end" android:id="@id/info_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0.00" android:singleLine="true" android:fontFamily="miui-bold" />
+            <TextView android:textSize="@dimen/running_detail_item_value" android:textColor="@color/running_detail_item_value" android:id="@id/distance_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/running_kilometers" />
+        </LinearLayout>
+        <ImageView android:id="@id/to_pace_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/running_right_2" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/split_distance_line" android:background="#22ffffff" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_below="@id/distance_container" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/detail_container_upper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_below="@id/split_distance_line">
+        <include android:layout_gravity="bottom|center" android:id="@id/time_cost" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/running_detail_item" />
+        <include android:layout_gravity="bottom|center" android:id="@id/pace" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/running_detail_item" />
+        <include android:layout_gravity="bottom|center" android:id="@id/calorie" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_weight="1.0" layout="@layout/running_detail_item" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/detail_container_lower" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/detail_container_upper">
+        <RelativeLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/forefoot_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+                <ImageView android:id="@id/forefoot_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/running_shoes_2" />
+                <TextView android:textSize="@dimen/running_detail_item_value" android:textColor="@color/running_detail_item_value" android:gravity="center" android:id="@id/forefoot_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/running_num_unknown" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/forefoot_container" android:layout_centerHorizontal="true">
+                <ImageView android:id="@id/forefoot_help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/help_icon_100" />
+                <TextView android:textSize="@dimen/running_detail_item_desc" android:textColor="@color/running_detail_item_desc" android:id="@id/forefoot_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/running_detail_forefoot_desc" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/step_frequency" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.huami.android.view.TypefaceTextView android:textSize="@dimen/running_detail_item_value" android:textColor="@color/running_detail_item_value" android:id="@id/value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_centerHorizontal="true" android:fontFamily="miui-bold" />
+            <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/value" android:layout_centerHorizontal="true">
+                <ImageView android:id="@id/pace_freq_help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/help_icon_100" />
+                <TextView android:textSize="@dimen/running_detail_item_desc" android:textColor="@color/running_detail_item_desc" android:id="@id/desc" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/hr_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.huami.android.view.TypefaceTextView android:textSize="@dimen/running_detail_item_value" android:textColor="@color/running_detail_item_value" android:id="@id/hr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_centerHorizontal="true" android:fontFamily="miui-bold" />
+            <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/hr" android:layout_centerHorizontal="true">
+                <ImageView android:id="@id/hr_help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/help_icon_100" />
+                <TextView android:textSize="@dimen/running_detail_item_desc" android:textColor="@color/running_detail_item_desc" android:id="@id/hr_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hr_unit_label" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

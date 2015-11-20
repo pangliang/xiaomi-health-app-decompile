@@ -21,5 +21,10 @@
             <SeekBar android:orientation="horizontal" android:id="@id/set_low_pace" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="32" android:progressDrawable="@drawable/running_seekbar_enabled" android:thumb="@drawable/running_seekbar_thumb_enabled" />
             <TextView android:textSize="@dimen/running_sport_desc_text_size" android:textColor="@color/running_light_text" android:id="@id/slow_speed_remide_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:text="@string/running_set_pace_desc" />
         </LinearLayout>
+        <include layout="@layout/split_line_with_margin" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/hr_container" android:paddingLeft="@dimen/mili_margin" android:paddingRight="@dimen/mili_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="63.0dip">
+            <TextView android:textSize="@dimen/running_settings_title" android:textColor="@color/running_settings_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/running_hr_check" android:layout_centerVertical="true" />
+            <Switch android:id="@id/hr_switch" android:background="@drawable/switch_track_enable" android:focusable="false" android:focusableInTouchMode="false" android:clickable="true" android:layout_width="40.0dip" android:layout_height="21.0dip" android:textOn="" android:textOff="" android:thumb="@drawable/switch_thumb" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:track="@drawable/switch_track_trans" android:switchMinWidth="38.0dip" android:thumbTextPadding="10.0dip" />
+        </RelativeLayout>
     </LinearLayout>
 </LinearLayout>

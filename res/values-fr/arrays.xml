@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="running_months">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
     <string-array name="weeks">
-        <item>Lun.</item>
-        <item>Mar.</item>
-        <item>Mer.</item>
-        <item>Jeu.</item>
-        <item>Ven.</item>
-        <item>Sam.</item>
-        <item>Dim.</item>
+        <item>Lundi</item>
+        <item>Mardi</item>
+        <item>Mercredi</item>
+        <item>Jeudi</item>
+        <item>Vendredi</item>
+        <item>Samedi</item>
+        <item>Dimanche</item>
     </string-array>
     <string-array name="weeks_short">
         <item>Lun.</item>
@@ -65,7 +79,14 @@
     </string-array>
     <string-array name="weight_body_figures">
         <item>Sous-poids</item>
-        <item>Poids normal</item>
+        <item>Normal</item>
+        <item>Excès de poids</item>
+        <item>Obèse</item>
+        <item>Obèse</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>Sous-poids</item>
+        <item>Normal</item>
         <item>Excès de poids</item>
         <item>Obèse</item>
         <item>Obèse</item>
@@ -78,13 +99,13 @@
     </string-array>
     <string-array name="weight_report_suggestions_boy">
         <item>Définissez un objectif à atteindre pour gérer votre poids.</item>
-        <item>Félicitations ! Vous avez atteint votre objectif de poids.</item>
+        <item>Félicitation! Vous avez atteint votre objectif de poids.</item>
         <item>Vous êtes en dessous de votre objectif de poids</item>
         <item>Vous êtes au dessus de votre objectif de poids</item>
     </string-array>
     <string-array name="weight_report_suggestions_girl">
         <item>Définissez un objectif à atteindre pour gérer votre poids.</item>
-        <item>Félicitations ! Vous avez atteint votre objectif de poids.</item>
+        <item>Félicitation! Vous avez atteint votre objectif de poids.</item>
         <item>Vous êtes en dessous de votre objectif de poids</item>
         <item>Vous êtes au dessus de votre objectif de poids</item>
     </string-array>
@@ -104,5 +125,14 @@
         <item>"Vous n'avez pas atteint votre objectif"</item>
         <item>"Vous n'avez pas atteint votre objectif"</item>
         <item>Vous avez atteint votre objectif (%1$s%2$s) !</item>
+    </string-array>
+    <string-array name="phone_notify_tips">
+        <item>"Faire vibrer le bracelet quand l'appareil appairé reçoit un appel"</item>
+        <item>"Faire vibrer le bracelet quand l'alarme de l'appareil appairé sonne"</item>
+        <item>"Faire vibrer le bracelet quand l'appareil appairé reçoit un SMS"</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>Seulement pour les appels provenants des contacts</item>
+        <item>Seulement pour les SMS provenants des contacts</item>
     </string-array>
 </resources>

@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="running_months">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
     <string-array name="weeks">
-        <item>Seg.</item>
-        <item>Ter.</item>
-        <item>Qua.</item>
-        <item>Qui.</item>
-        <item>Sex.</item>
-        <item>Sáb.</item>
-        <item>Dom.</item>
+        <item>Segunda</item>
+        <item>Terça-feira</item>
+        <item>Quarta-feira</item>
+        <item>Quinta-Feira</item>
+        <item>Sexta-feira</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
     </string-array>
     <string-array name="weeks_short">
         <item>Seg.</item>
@@ -34,7 +48,7 @@
     </string-array>
     <string-array name="select_days_simple">
         <item>Uma vez</item>
-        <item>Diariamente</item>
+        <item>Todos os dias</item>
         <item>Dias úteis</item>
         <item>Personalizar</item>
     </string-array>
@@ -65,7 +79,14 @@
     </string-array>
     <string-array name="weight_body_figures">
         <item>Abaixo do peso</item>
-        <item>Peso normal</item>
+        <item>Normal</item>
+        <item>Sobrepeso</item>
+        <item>Obeso</item>
+        <item>Obeso</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>Abaixo do peso</item>
+        <item>Normal</item>
         <item>Sobrepeso</item>
         <item>Obeso</item>
         <item>Obeso</item>
@@ -104,5 +125,14 @@
         <item>Você ainda não atingiu sua meta</item>
         <item>Você ainda não atingiu sua meta</item>
         <item>Você atingiu sua meta (%1$s%2$s)!</item>
+    </string-array>
+    <string-array name="phone_notify_tips">
+        <item>Vibrar a Mi Band quando o dispositivo conectado receber uma chamada</item>
+        <item>Vibrar a Mi Band quando o alarme tocar no dispositivo conectado</item>
+        <item>Vibrar a Mi Band quando o dispositivo conectado receber um SMS</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>Somente para chamadas de contatos</item>
+        <item>Somente para SMS de contatos</item>
     </string-array>
 </resources>

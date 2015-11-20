@@ -12,4 +12,8 @@
         <item quantity="other">%s pollici</item>
         <item quantity="one">%s pollice</item>
     </plurals>
+    <plurals name="weight_match_user">
+        <item quantity="other">%1$d matches.</item>
+        <item quantity="one">%1$d match.</item>
+    </plurals>
 </resources>

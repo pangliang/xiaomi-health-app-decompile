@@ -32,7 +32,6 @@
     <dimen name="running_setting_top_margin">35.0dip</dimen>
     <dimen name="running_progressbar_top_margin">11.0dip</dimen>
     <dimen name="running_progressbar_bottom_margin">22.0dip</dimen>
-    <dimen name="main_ui_panel_height">250.0dip</dimen>
     <dimen name="person_page_digit_size">26.0sp</dimen>
     <dimen name="person_page_text_small_size">11.5sp</dimen>
     <dimen name="person_page_nickname_font">18.0sp</dimen>

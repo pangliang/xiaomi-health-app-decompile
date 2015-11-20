@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/share_pane_container" android:background="@color/running_detail_bg" android:paddingBottom="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/strut" android:background="@color/item_stroke" android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_centerHorizontal="true" />
+    <Button android:textSize="13.5sp" android:textColor="@drawable/btn_text" android:id="@id/share_normal" android:background="@drawable/running_click_btn_bg_left_corners" android:clickable="false" android:layout_width="0.0dip" android:layout_height="41.5dip" android:layout_marginLeft="24.0dip" android:text="@string/running_share" android:layout_alignRight="@id/strut" android:layout_alignParentLeft="true" android:onClick="onShare" />
+    <Button android:textSize="13.5sp" android:textColor="@drawable/btn_text" android:id="@id/btn_watermark" android:background="@drawable/running_click_btn_bg_right_corners" android:layout_width="0.0dip" android:layout_height="41.5dip" android:layout_marginRight="24.0dip" android:text="@string/running_watermark" android:layout_alignLeft="@id/strut" android:layout_alignParentRight="true" android:onClick="onWatermark" />
+</RelativeLayout>

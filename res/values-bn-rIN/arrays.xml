@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="running_months">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
     <string-array name="weeks">
-        <item>সোম</item>
-        <item>মঙ্গল</item>
-        <item>বুধ</item>
-        <item>বৃহস্পতি</item>
-        <item>শুক্র</item>
-        <item>শনি</item>
-        <item>রবি</item>
+        <item>সোমবার</item>
+        <item>মঙ্গলবার</item>
+        <item>বুধবার</item>
+        <item>বৃহস্পতিবার</item>
+        <item>শুক্রবার</item>
+        <item>শনিবার</item>
+        <item>রবিবার</item>
     </string-array>
     <string-array name="weeks_short">
         <item>সোম</item>
@@ -59,16 +73,23 @@
         <item>খুব অস্বাস্থ্যকর</item>
     </string-array>
     <string-array name="weight_unit">
-        <item>kg</item>
+        <item>কেজি</item>
         <item>jin</item>
         <item>পাউন্ড</item>
     </string-array>
     <string-array name="weight_body_figures">
         <item>কম ওজন</item>
-        <item>স্বাভাবিক ওজন</item>
+        <item>স্বাভাবিক</item>
         <item>বেশী ওজন</item>
         <item>খুব মোটা</item>
         <item>খুব মোটা</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>কম ওজন</item>
+        <item>স্বাভাবিক</item>
+        <item>বেশী ওজন</item>
+        <item>স্থূলকায়</item>
+        <item>স্থূলকায়</item>
     </string-array>
     <string-array name="weight_dynamic_list_bmi_tips">
         <item>BMI শ্রেণী: কম ওজন</item>
@@ -77,16 +98,16 @@
         <item>BMI শ্রেণী: খুব মোটা</item>
     </string-array>
     <string-array name="weight_report_suggestions_boy">
-        <item>Set a goal to help manage your weight.</item>
-        <item>"Congratulations! You're at your at your target weight."</item>
-        <item>"You're under your target weight"</item>
-        <item>"You're over your target weight"</item>
+        <item>আপনার ওজন নিয়ন্ত্রণে সহায়তা পেতে একটি লক্ষ্য সেট করুন।</item>
+        <item>অভিনন্দন! আপনি ওজনের যে লক্ষ্যমাত্রা স্থির করেছিলেন তাতে পৌঁছে গেছেন।</item>
+        <item>আপনি যে ওজনের লক্ষ্যমাত্রা নিয়েছিলেন, তাতে পৌঁছতে পারেননি</item>
+        <item>আপনি ওজনের যে লক্ষ্যমাত্রা স্থির করেছিলেন তাকে ছাড়িয়ে গেছেন</item>
     </string-array>
     <string-array name="weight_report_suggestions_girl">
-        <item>Set a goal to help manage your weight.</item>
-        <item>"Congratulations! You're at your at your target weight."</item>
-        <item>"You're under your target weight"</item>
-        <item>"You're over your target weight"</item>
+        <item>আপনার ওজন নিয়ন্ত্রণে সহায়তা পেতে একটি লক্ষ্য সেট করুন।</item>
+        <item>অভিনন্দন! আপনি ওজনের যে লক্ষ্যমাত্রা স্থির করেছিলেন তাতে পৌঁছে গেছেন।</item>
+        <item>আপনি যে ওজনের লক্ষ্যমাত্রা নিয়েছিলেন, তাতে পৌঁছতে পারেননি</item>
+        <item>আপনি ওজনের যে লক্ষ্যমাত্রা স্থির করেছিলেন তাকে ছাড়িয়ে গেছেন</item>
     </string-array>
     <string-array name="weight_report_result_without_goal">
         <item>লক্ষ্য ছাড়িয়েছেন</item>
@@ -104,5 +125,14 @@
         <item>আপনি এখনও আপনার লক্ষ্যে পৌঁছাননি</item>
         <item>আপনি এখনও আপনার লক্ষ্যে পৌঁছাননি</item>
         <item>আপনি আপনার লক্ষ্যে পৌঁছেছেন (%1$s%2$s)!</item>
+    </string-array>
+    <string-array name="phone_notify_tips">
+        <item>জোড় বাঁধা ডিভাইসে কোনো ইনকামিং কল এলে ব্যান্ডে কম্পন হয়</item>
+        <item>জোড় বাঁধা ডিভাইসে অ্যালার্মের শব্দ হলে ব্যান্ডে কম্পন হয়</item>
+        <item>জোড় বাঁধা ডিভাইসে কোনো এসএমএস বার্তা এলে ব্যান্ডে কম্পন হয়</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>শুধুমাত্র পরিচিতি থেকে আসা কল</item>
+        <item>শুধুমাত্র পরিচিতি থেকে আসা এসএমএস</item>
     </string-array>
 </resources>

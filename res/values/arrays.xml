@@ -33,13 +33,13 @@
         <item>指导办理住院手续，提供住院注意事项咨询。</item>
     </string-array>
     <string-array name="weeks">
-        <item>Mon.</item>
-        <item>Tues.</item>
-        <item>Wed.</item>
-        <item>Thurs.</item>
-        <item>Fri.</item>
-        <item>Sat.</item>
-        <item>Sun.</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
     </string-array>
     <string-array name="weeks_short">
         <item>Mon.</item>
@@ -102,6 +102,13 @@
         <item>Obese</item>
         <item>Obese</item>
     </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>Underweight</item>
+        <item>Normal</item>
+        <item>Overweight</item>
+        <item>Obese</item>
+        <item>Obese</item>
+    </string-array>
     <string-array name="weight_dynamic_list_bmi_tips">
         <item>BMI Category: Underweight</item>
         <item>BMI Category: Normal weight</item>
@@ -138,8 +145,12 @@
         <item>You reached your goal (%1$s%2$s)!</item>
     </string-array>
     <string-array name="phone_notify_tips">
-        <item>Vibrate band for incoming calls on connected device</item>
-        <item>Vibrate band when alarm sounds on connected device</item>
-        <item>Vibrate band when connected device receives an SMS message</item>
+        <item>Vibrate band when paired device has an incoming call</item>
+        <item>Vibrate band when alarm sounds on paired device</item>
+        <item>Vibrate band when paired device receives an SMS message</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>Only for calls from contacts</item>
+        <item>Only for SMS from contacts</item>
     </string-array>
 </resources>

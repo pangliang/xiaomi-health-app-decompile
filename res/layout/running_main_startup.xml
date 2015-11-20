@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/start_up" android:background="#ff17181b" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/shoe_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="110.0dip" android:src="@drawable/running_screen_shoes" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="21.0dip" android:textColor="#ffffffff" android:id="@id/title1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:text="@string/running_main_startup_title1" android:layout_below="@id/shoe_icon" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:id="@id/sub_title1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:text="@string/running_main_startup_subtitle1" android:layout_below="@id/title1" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:id="@id/sub_title2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/running_main_startup_subtitle2" android:layout_below="@id/sub_title1" android:layout_centerHorizontal="true" />
+    <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/go_now" android:background="@drawable/running_main_startup_button_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="110.0dip" android:text="@string/running_main_go_now" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

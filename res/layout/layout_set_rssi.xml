@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/bg_item" android:paddingLeft="@dimen/mili_margin" android:paddingTop="18.0dip" android:paddingRight="@dimen/mili_margin" android:paddingBottom="6.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="63.0dip" android:layout_marginTop="@dimen/stroke_width_minus" android:layout_marginBottom="@dimen/stroke_width_minus"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="#ffc5c5c5" android:id="@id/set_rssi_tips_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:text="@string/set_rssi_distance" style="@style/ListItemTitleText" />
+    <RadioGroup android:gravity="right|center" android:orientation="horizontal" android:background="@drawable/bg_rssi_radio_group" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip">
+        <RadioButton android:textSize="14.0sp" android:textColor="@drawable/textcolor_rssi_selector" android:gravity="center" android:id="@id/rb_very_close" android:background="@drawable/btn_rssi_veryclose_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:checked="true" android:button="@null" android:text="@string/set_rssi_very_close" android:layout_weight="1.0" />
+        <View android:background="@color/bg_color_blue" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <RadioButton android:textSize="14.0sp" android:textColor="@drawable/textcolor_rssi_selector" android:gravity="center" android:id="@id/rb_close" android:background="@drawable/btn_rssi_nearby_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="@string/set_rssi_close" android:layout_weight="1.0" />
+        <View android:background="@color/bg_color_blue" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <RadioButton android:textSize="14.0sp" android:textColor="@drawable/textcolor_rssi_selector" android:gravity="center" android:id="@id/rb_nearby" android:background="@drawable/btn_rssi_normal_distance_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:button="@null" android:text="@string/set_rssi_nearby" android:layout_weight="1.0" />
+    </RadioGroup>
+</LinearLayout>

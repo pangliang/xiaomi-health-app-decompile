@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/bg_color_white" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hr_tips12" style="@style/RunningHelpLabel" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hr_tips11" style="@style/RunningHelpContent" />
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.799988dip" android:src="@drawable/run_help_heart" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hr_tips10" style="@style/RunningHelpLabel" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hr_tips9" style="@style/RunningHelpContent" />
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.799988dip" android:src="@drawable/run_help_heart2" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hr_tips8" style="@style/RunningHelpLabel" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hr_tips7" style="@style/RunningHelpContent" />
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.799988dip" android:src="@drawable/run_help_heart3" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hr_tips6" style="@style/RunningHelpLabel" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hr_tips5" style="@style/RunningHelpContent" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.799988dip" android:text="@string/hr_tips4" style="@style/RunningHelpLabel" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hr_tips3" style="@style/RunningHelpContent" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.799988dip" android:text="@string/hr_tips2" style="@style/RunningHelpLabel" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hr_tips1" style="@style/RunningHelpContent" />
+    </LinearLayout>
+</ScrollView>

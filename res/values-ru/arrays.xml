@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="running_months">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
     <string-array name="weeks">
-        <item>Пн</item>
-        <item>Вт</item>
-        <item>Ср</item>
-        <item>Чт</item>
-        <item>Пт</item>
-        <item>Сб</item>
-        <item>Вс</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
     </string-array>
     <string-array name="weeks_short">
         <item>Пн</item>
@@ -33,76 +47,92 @@
         <item>Декабрь</item>
     </string-array>
     <string-array name="select_days_simple">
-        <item>Однократно</item>
-        <item>Ежедневно</item>
+        <item>Один раз</item>
+        <item>Каждый день</item>
         <item>По будням</item>
         <item>Выбрать дни</item>
     </string-array>
     <string-array name="fortune">
-        <item>Легко достичь цель сегодня, но не легко каждый день.</item>
-        <item>Не легко достигать цель каждый день</item>
-        <item>Вы ставите рекорды каждый день!</item>
+        <item>Постоянство незаменимо.</item>
+        <item>Стремитесь к прогрессу, а не к совершенству.</item>
+        <item>Повторение - мать учения.</item>
         <item>Наслаждайтесь самосовершенствованием!</item>
-        <item>Set small goals and build upon them.</item>
-        <item>Мы то, что мы делаем</item>
-        <item>Достигнута цель дня</item>
-        <item>Бросьте вызов себе сегодня, чтобы стать лучше завтра.</item>
+        <item>Начинайте со скромных целей.</item>
+        <item>Каждый путь начинается с первого шага.</item>
+        <item>Достигайте по одной цели в день.</item>
+        <item>Как медленно бы вы не шли, вы все равно быстрее тех, кто на диване.</item>
         <item>Просто сделайте это</item>
-        <item>Продолжайте практиковаться</item>
+        <item>Помните, что чувство, полученное от хорошей тренировки, гораздо лучше чувства, возникшего после дня, проведенного на диване в раздумьях, начинать ли тренировку.</item>
     </string-array>
     <string-array name="weather_aqi_descriptions">
-        <item>отличное</item>
-        <item>хорошее</item>
-        <item>умеренное</item>
-        <item>умеренное</item>
-        <item>плохое</item>
-        <item>очень плохое</item>
+        <item>Отличное</item>
+        <item>Хорошее</item>
+        <item>Умеренное</item>
+        <item>Плохое</item>
+        <item>Опасное</item>
+        <item>Очень опасное</item>
     </string-array>
     <string-array name="weight_unit">
-        <item>kg</item>
-        <item>jin</item>
-        <item>lb</item>
+        <item>кг</item>
+        <item>цзинь</item>
+        <item>фунт</item>
     </string-array>
     <string-array name="weight_body_figures">
-        <item>Underweight</item>
-        <item>Normal weight</item>
+        <item>Недостаточный вес</item>
+        <item>Норма</item>
         <item>Избыточный вес</item>
-        <item>Obese</item>
-        <item>Obese</item>
+        <item>Ожирение</item>
+        <item>Ожирение</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>Недостаток веса</item>
+        <item>Норма</item>
+        <item>Избыток веса</item>
+        <item>Ожирение</item>
+        <item>Ожирение</item>
     </string-array>
     <string-array name="weight_dynamic_list_bmi_tips">
-        <item>BMI Category: Underweight</item>
-        <item>BMI Category: Normal weight</item>
-        <item>BMI Category: Overweight</item>
-        <item>BMI Category: Obese</item>
+        <item>Категория ИМТ: Недостаточный вес</item>
+        <item>Категория ИМТ: Нормальный вес</item>
+        <item>Категория ИМТ: Избыточный вес</item>
+        <item>Категория ИМТ: Ожирение</item>
     </string-array>
     <string-array name="weight_report_suggestions_boy">
-        <item>Set a goal to help manage your weight.</item>
-        <item>"Congratulations! You're at your at your target weight."</item>
-        <item>"You're under your target weight"</item>
-        <item>"You're over your target weight"</item>
+        <item>Установите желаемый результат.</item>
+        <item>Поздравляем! Вы достигли цели.</item>
+        <item>Ваш вес ниже желаемого</item>
+        <item>Ваш вес выше желаемого</item>
     </string-array>
     <string-array name="weight_report_suggestions_girl">
-        <item>Set a goal to help manage your weight.</item>
-        <item>"Congratulations! You're at your at your target weight."</item>
-        <item>"You're under your target weight"</item>
-        <item>"You're over your target weight"</item>
+        <item>Установите желаемый результат.</item>
+        <item>Поздравляем! Вы достигли цели.</item>
+        <item>Ваш вес ниже желаемого</item>
+        <item>Ваш вес выше желаемого</item>
     </string-array>
     <string-array name="weight_report_result_without_goal">
-        <item>Surpassed goal</item>
-        <item>"Didn't reach your goal"</item>
-        <item>You reached your goal!</item>
+        <item>Цель превышена</item>
+        <item>Цель не достигнута</item>
+        <item>Вы достигли цели!</item>
     </string-array>
     <string-array name="weight_report_result_with_goal_gainweight">
-        <item>"You haven't reached your goal yet"</item>
-        <item>"You haven't reached your goal yet"</item>
-        <item>"You haven't reached your goal yet"</item>
-        <item>You reached your goal (%1$s%2$s)!</item>
+        <item>Вы еще не достигли цели</item>
+        <item>Вы еще не достигли цели</item>
+        <item>Вы еще не достигли цели</item>
+        <item>Вы достигли цели (%1$s%2$s)!</item>
     </string-array>
     <string-array name="weight_report_result_with_goal_loseweight">
-        <item>"You haven't reached your goal yet"</item>
-        <item>"You haven't reached your goal yet"</item>
-        <item>"You haven't reached your goal yet"</item>
-        <item>You reached your goal (%1$s%2$s)!</item>
+        <item>Вы еще не достигли цели</item>
+        <item>Вы еще не достигли цели</item>
+        <item>Вы еще не достигли цели</item>
+        <item>Вы достигли цели (%1$s%2$s)!</item>
+    </string-array>
+    <string-array name="phone_notify_tips">
+        <item>Вибрация браслета при входящем вызове на подключенном устройстве</item>
+        <item>Вибрация браслета при сигнале будильника на подключенном устройстве</item>
+        <item>Вибрация браслета при получении SMS подключенным устройством</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>Только для вызовов от контактов</item>
+        <item>Только для SMS от контактов</item>
     </string-array>
 </resources>

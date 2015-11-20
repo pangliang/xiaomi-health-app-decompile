@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="running_months">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miércoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>Lun.</item>
+        <item>Mar.</item>
+        <item>Mié.</item>
+        <item>Jue.</item>
+        <item>Vie.</item>
+        <item>Sáb.</item>
+        <item>Dom.</item>
+    </string-array>
+    <string-array name="months">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+    <string-array name="select_days_simple">
+        <item>Una vez</item>
+        <item>Diariamente</item>
+        <item>Días de semana</item>
+        <item>Personalizar</item>
+    </string-array>
+    <string-array name="fortune">
+        <item>No hay sustituto para la consistencia.</item>
+        <item>Luche por el progreso, no por la perfección.</item>
+        <item>La repetición es la clave del éxito.</item>
+        <item>La energía y la persistencia lo conquistan todo.</item>
+        <item>Establezca objetivos pequeños y construya sobre ellos.</item>
+        <item>Todos los viajes comienzan con un solo paso.</item>
+        <item>Logre un objetivo por día.</item>
+        <item>Sin importar lo lento que vaya, siempre le ganará a los que se quedan tirados en el sillón.</item>
+        <item>Corra cuando pueda. Camine si tiene que hacerlo. Gatee si es necesario. Simplemente, nunca se rinda.</item>
+        <item>Recuerde: la sensación que se obtiene a partir de un buen entrenamiento es mucho mejor que la sensación que se tiene al permanecer sentado deseando haber entrenado.</item>
+    </string-array>
+    <string-array name="weather_aqi_descriptions">
+        <item>Genial</item>
+        <item>Bueno</item>
+        <item>Moderado</item>
+        <item>Precaución</item>
+        <item>No saludable</item>
+        <item>Muy poco saludable</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>kg</item>
+        <item>jin</item>
+        <item>lb</item>
+    </string-array>
+    <string-array name="weight_body_figures">
+        <item>Peso demasiado bajo</item>
+        <item>Normal</item>
+        <item>Sobrepeso</item>
+        <item>Obeso</item>
+        <item>Obeso</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>Peso demasiado bajo</item>
+        <item>Normal</item>
+        <item>Sobrepeso</item>
+        <item>Obeso</item>
+        <item>Obeso</item>
+    </string-array>
+    <string-array name="weight_dynamic_list_bmi_tips">
+        <item>Categoría de IMC: peso demasiado bajo</item>
+        <item>Categoría de IMC: normal</item>
+        <item>Categoría de IMC: sobrepeso</item>
+        <item>Categoría de IMC: obeso</item>
+    </string-array>
+    <string-array name="weight_report_suggestions_boy">
+        <item>Establezca un objetivo para ayudar a controlar su peso.</item>
+        <item>¡Felicidades! Está en el peso que estableció como objetivo.</item>
+        <item>Está por debajo del peso que estableció como objetivo</item>
+        <item>Está por encima del peso que estableció como objetivo</item>
+    </string-array>
+    <string-array name="weight_report_suggestions_girl">
+        <item>Establezca un objetivo para ayudar a controlar su peso.</item>
+        <item>¡Felicidades! Está en el peso que estableció como objetivo.</item>
+        <item>Está por debajo del peso que estableció como objetivo</item>
+        <item>Está por encima del peso que estableció como objetivo</item>
+    </string-array>
+    <string-array name="weight_report_result_without_goal">
+        <item>Objetivo superado</item>
+        <item>No alcanzó su objetivo</item>
+        <item>¡Alcanzó su objetivo!</item>
+    </string-array>
+    <string-array name="weight_report_result_with_goal_gainweight">
+        <item>No ha alcanzado su objetivo todavía</item>
+        <item>No ha alcanzado su objetivo todavía</item>
+        <item>No ha alcanzado su objetivo todavía</item>
+        <item>¡Alcanzó su objetivo (%1$s%2$s)!</item>
+    </string-array>
+    <string-array name="weight_report_result_with_goal_loseweight">
+        <item>No ha alcanzado su objetivo todavía</item>
+        <item>No ha alcanzado su objetivo todavía</item>
+        <item>No ha alcanzado su objetivo todavía</item>
+        <item>¡Alcanzó su objetivo (%1$s%2$s)!</item>
+    </string-array>
+    <string-array name="phone_notify_tips">
+        <item>Vibrar banda cuando el dispositivo emparejado reciba una llamada</item>
+        <item>Vibrar banda cuando suena la alarma en el dispositivo emparejado</item>
+        <item>Vibrar banda cuando el dispositivo emparejado reciba un mensaje SMS</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>Solo para llamadas de contactos</item>
+        <item>Solo para mensajes SMS de los contactos</item>
+    </string-array>
+</resources>

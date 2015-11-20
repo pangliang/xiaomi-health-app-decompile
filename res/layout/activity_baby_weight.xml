@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_mode_weight" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/home_back_area" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_h">
+        <TextView android:id="@id/home_back" android:text="@string/baby_weight" style="@style/BackButton" />
+    </LinearLayout>
+    <TextView android:textSize="27.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/baby_weight_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/home_back_area" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/weight_report_white_40" android:gravity="center" android:id="@id/baby_weight_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/baby_weight_title" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/baby_weight_value_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/baby_weight_content">
+        <TextView android:textSize="35.0sp" android:textColor="@android:color/white" android:gravity="bottom" android:id="@id/baby_weight_value" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="0.0" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/weight_report_white_40" android:gravity="bottom" android:id="@id/baby_weight_value_unit" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/baby_weight_no_scale_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:layout_below="@id/baby_weight_content" android:layout_centerHorizontal="true">
+        <cn.com.smartdevices.bracelet.chart.LinePieChartView android:id="@id/searching_pie_chart" android:layout_width="@dimen/line_pie_width" android:layout_height="@dimen/line_pie_width" android:layout_centerInParent="true" app:line_mode="3" xmlns:app="http://schemas.android.com/apk/res-auto" />
+        <ImageView android:id="@id/bracelet_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wrong_mark" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/baby_weight_img_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:layout_below="@id/baby_weight_content" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/baby_weight_img_scale" android:background="@drawable/baby_weight_scale" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip" android:layout_below="@id/baby_weight_img_body" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/baby_weight_img_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

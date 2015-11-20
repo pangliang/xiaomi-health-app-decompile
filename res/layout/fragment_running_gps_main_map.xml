@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.amap.api.maps.MapView android:id="@id/map" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/dim_view" android:background="@drawable/running_gps_main_map_bg" android:layout_width="0.0dip" android:layout_height="450.0dip" android:layout_alignLeft="@id/map" android:layout_alignTop="@id/map" android:layout_alignRight="@id/map" />
+    <com.huami.android.view.TypefaceTextView android:textSize="75.0dip" android:textColor="@color/font_color_c8" android:id="@id/total_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="50.0dip" android:text="0.0" android:layout_alignParentLeft="true" android:fontFamily="miui-bold" />
+    <TextView android:textSize="@dimen/font_size_v2_f3" android:textColor="@color/font_color_c8" android:id="@id/distance_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:text="@string/running_kilometers" android:layout_toRightOf="@id/total_distance" android:layout_alignBaseline="@id/total_distance" />
+    <TextView android:textSize="@dimen/font_size_v2_f3" android:textColor="@color/font_color_c8" android:id="@id/total_cost_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:text="00:00:00" android:layout_alignBaseline="@id/total_distance" android:layout_alignParentRight="true" />
+    <ImageView android:id="@id/total_cost_time_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="9.0dip" android:layout_marginBottom="20.0dip" android:src="@drawable/running_time_2" android:layout_toLeftOf="@id/total_cost_time" android:layout_alignBottom="@id/total_distance" />
+</RelativeLayout>

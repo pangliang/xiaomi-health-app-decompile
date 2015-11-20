@@ -6,7 +6,8 @@
         "loadEnable" : true,
         "healthLinkEnable" : true,
         "QQHealthEnable":true,
-		"WeiboHealthEnable" : true
+		"WeiboHealthEnable" : true,
+        "GoogleFitEnable" : false
     },
 
     "runner" : {
@@ -17,6 +18,11 @@
     "relation" : {
         "enable" : true
     },
+    
+    "honor" : {
+        "enable" : false
+    },
+    
     "mall" : {
         "enable" : true
     },
@@ -51,5 +57,13 @@
     "bluetooth" : {
         "sensorWhiteListEnable" : true,
         "connectedBroadcastEnable" :true
+    },
+
+    "heartrate" : {
+        "enable" : true
+    },
+
+    "shoes" : {
+        "enable" : true
     }
 }

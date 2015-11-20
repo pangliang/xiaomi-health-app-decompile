@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="62.0dip" android:minHeight="62.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:textColor="#ff323232" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mili_margin" android:layout_marginRight="6.0dip" android:layout_centerVertical="true" />
+    <cn.com.smartdevices.bracelet.chart.typeface.TypefaceTextView android:textSize="21.0sp" android:textColor="@color/bg_mode_heartrate" android:id="@id/hr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:layout_toLeftOf="@id/unit" android:layout_centerVertical="true" />
+    <TextView android:textSize="13.0sp" android:textColor="#ff323232" android:id="@id/unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mili_margin" android:text="@string/unit_hr" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:id="@id/divider" android:background="@color/split_color" android:layout_width="wrap_content" android:layout_height="1.0px" android:layout_marginLeft="@dimen/mili_margin" android:layout_marginRight="@dimen/mili_margin" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

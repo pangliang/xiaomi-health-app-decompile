@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@android:color/holo_green_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<RelativeLayout android:id="@id/settings_parent" android:background="@color/font_color_c7_v2" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <TextView android:id="@id/home_back" android:text="          " style="@style/BackButton" />
-    <cn.com.smartdevices.bracelet.ui.widget.CirclePageIndicator android:layout_gravity="bottom|center" android:id="@id/indicator" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="42.0dip" app:strokeWidth="0.0dip" app:fillColor="#ffffffff" app:pageColor="#33ffffff" app:radius="2.5dip" app:gap="4.5999756dip" xmlns:app="http://schemas.android.com/apk/res-auto" />
-    <LinearLayout android:gravity="center" android:paddingTop="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:textSize="16.0sp" android:textColor="@color/title_color" android:id="@id/band_txt" android:paddingLeft="20.0dip" android:paddingTop="10.0dip" android:paddingRight="20.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mi_band" android:alpha="1.0" />
-        <TextView android:textSize="16.0sp" android:textColor="@color/title_color" android:id="@id/weight_txt" android:paddingLeft="20.0dip" android:paddingTop="10.0dip" android:paddingRight="20.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/weight_scale" android:alpha="0.5" />
-    </LinearLayout>
+    <RelativeLayout android:id="@id/top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/home_back" style="@style/BackButton" />
+        <TextView android:textSize="@dimen/common_header_back_title_font" android:textColor="@color/font_color_c8" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/action_pop_my_bracelet" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:id="@id/split_line" android:background="@color/font_color_c8_transparent" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/top_bar" />
+    <fragment android:name="cn.com.smartdevices.bracelet.ui.DeviceListFragment" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/skip_bind" android:layout_below="@id/split_line" />
+    <TextView android:textSize="@dimen/info_content_size" android:textColor="@color/font_color_c8" android:id="@id/skip_bind" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bottom_btn_maring_bottom" android:layout_marginBottom="@dimen/bottom_btn_maring_bottom" android:text="@string/donot_bind" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
 </RelativeLayout>

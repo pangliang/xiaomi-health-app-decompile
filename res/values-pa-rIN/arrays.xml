@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="running_months">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>ਸੋਮਵਾਰ</item>
+        <item>ਮੰਗਲਵਾਰ</item>
+        <item>ਬੁੱਧਵਾਰ</item>
+        <item>ਵੀਰਵਾਰ</item>
+        <item>ਸ਼ੁੱਕਰਵਾਰ</item>
+        <item>ਸ਼ਨਿੱਚਰਵਾਰ</item>
+        <item>ਐਤਵਾਰ</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>ਸੋਮ.</item>
+        <item>ਮੰਗਲ.</item>
+        <item>ਬੁੱਧ.</item>
+        <item>ਵੀਰਵਾਰ.</item>
+        <item>ਸ਼ੁੱਕਰ.</item>
+        <item>ਸ਼ਨਿ.</item>
+        <item>ਐਤਵਾਰ.</item>
+    </string-array>
+    <string-array name="months">
+        <item>ਜਨਵਰੀ</item>
+        <item>ਫਰਵਰੀ</item>
+        <item>ਮਾਰਚ</item>
+        <item>ਅਪ੍ਰੈਲ</item>
+        <item>ਮਈ</item>
+        <item>ਜੂਨ</item>
+        <item>ਜੁਲਾਈ</item>
+        <item>ਅਗਸਤ</item>
+        <item>ਸਤੰਬਰ</item>
+        <item>ਅਕਤੂਬਰ</item>
+        <item>ਨਵੰਬਰ</item>
+        <item>ਦਸੰਬਰ</item>
+    </string-array>
+    <string-array name="select_days_simple">
+        <item>ਇੱਕ ਵਾਰ</item>
+        <item>ਹਰ ਦਿਨ</item>
+        <item>ਹਫਤੇ ਦੇ ਦਿਨ</item>
+        <item>ਅਨੁਕੂਲਿਤ ਕਰੋ</item>
+    </string-array>
+    <string-array name="fortune">
+        <item>ਇਕਸਾਰਤਾ ਦਾ ਕੋਈ ਵਿਕਲਪ ਨਹੀਂ ਹੁੰਦਾ ਹੈ.</item>
+        <item>ਮਿਹਨਤ ਪ੍ਰਗਤੀ ਲਈ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ, ਨਾ ਕਿ ਸਟੀਕਤਾ ਲਈ.</item>
+        <item>ਅਭਿਆਸ ਹੀ ਸਫਲਤਾ ਦੀ ਕੁੰਜੀ ਹੈ.</item>
+        <item>ਊਰਜਾ ਅਤੇ ਧੀਰਜ ਨਾਲ ਸਭ ਕੁਝ ਹਾਸਿਲ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ.</item>
+        <item>ਛੋਟੇ ਟੀਚੇ ਸੈਟ ਕਰੋ ਅਤੇ ਅੱਗੇ ਵਧਦੇ ਜਾਓ.</item>
+        <item>ਹਰੇਕ ਯਾਤਰਾ ਇੱਕ ਕਦਮ ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ.</item>
+        <item>ਇੱਕ ਦਿਨ ਵਿੱਚ ਇੱਕ ਟੀਚਾ ਹਾਸਿਲ ਕਰੋ.</item>
+        <item>"ਤੁਸੀਂ ਚਾਹੇ ਕਿੰਨੀ ਵੀ ਹੌਲੀ ਚੱਲੋ, ਤੁਸੀਂ ਅਜੇ ਵੀ ਸੋਫ਼ੇ 'ਤੇ ਬੈਠੇ ਵਿਅਕਤੀ ਤੋਂ ਅੱਗੇ ਹੋ."</item>
+        <item>ਜਦੋਂ ਤੁਸੀਂ ਦੌੜ ਸਕੋ ਤਾਂ ਦੌੜੋ. ਜ਼ਰੂਰੀ ਹੋ ਤਾਂ ਚੱਲੋ. ਜਿਆਦਾ ਜ਼ਰੂਰੀ ਹੋਵੇ ਤਾਂ ਹੌਲੀ-ਹੌਲੀ ਚੱਲੋ. ਪਰ ਕਦੇ ਹਿੰਮਤ ਨਾ ਹਾਰੋ.</item>
+        <item>ਯਾਦ ਰੱਖੋ, ਚੰਗੀ ਕਸਰਤ ਕਰਨ ਤੋਂ ਬਾਅਦ ਜੋ ਮਹਿਸੂਸ ਹੁੰਦਾ ਹੈ, ਉਹ ਉਸ ਭਾਵਨਾ ਤੋਂ ਕਿਤੇ ਜ਼ਿਆਦਾ ਬਿਹਤਰ ਹੈ ਜੋ ਬੈਠੇ-ਬੈਠੇ ਇਹ ਇੱਛਾ ਕਰਨ ਤੋਂ ਹੁੰਦੀ ਹੈ ਕਿ ਕਾਸ਼ ਤੁਸੀਂ ਕਸਰਤ ਕੀਤੀ ਹੁੰਦੀ.</item>
+    </string-array>
+    <string-array name="weather_aqi_descriptions">
+        <item>ਬਹੁਤ ਵਧੀਆ</item>
+        <item>ਵਧੀਆ</item>
+        <item>ਮੱਧਮ</item>
+        <item>ਚਿਤਾਵਨੀ</item>
+        <item>ਖਰਾਬ</item>
+        <item>ਬਹੁਤ ਖਰਾਬ</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>ਕਿਗ੍ਰਾ</item>
+        <item>jin</item>
+        <item>lb</item>
+    </string-array>
+    <string-array name="weight_body_figures">
+        <item>ਸਧਾਰਨ ਤੋਂ ਘੱਟ ਵਜਨ</item>
+        <item>ਸਧਾਰਨ</item>
+        <item>ਸਧਾਰਨ ਤੋਂ ਵੱਧ ਵਜਨ</item>
+        <item>ਮੋਟਾਪਾ</item>
+        <item>ਮੋਟਾਪਾ</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>ਸਧਾਰਨ ਤੋਂ ਘੱਟ ਵਜਨ</item>
+        <item>ਸਧਾਰਨ</item>
+        <item>ਸਧਾਰਨ ਤੋਂ ਵੱਧ ਵਜਨ</item>
+        <item>ਮੋਟਾਪਾ</item>
+        <item>ਮੋਟਾਪਾ</item>
+    </string-array>
+    <string-array name="weight_dynamic_list_bmi_tips">
+        <item>BMI ਸ਼੍ਰੇਣੀ: ਸਧਾਰਨ ਤੋਂ ਘੱਟ ਵਜਨ</item>
+        <item>BMI ਸ਼੍ਰੇਣੀ: ਸਧਾਰਨ ਵਜਨ</item>
+        <item>BMI ਸ਼੍ਰੇਣੀ: ਸਧਾਰਨ ਤੋਂ ਵੱਧ ਵਜਨ</item>
+        <item>BMI ਸ਼੍ਰੇਣੀ: ਮੋਟਾਪਾ</item>
+    </string-array>
+    <string-array name="weight_report_suggestions_boy">
+        <item>ਆਪਣੇ ਵਜਨ ਨੂੰ ਪ੍ਰਬੰਧਿਤ ਕਰਨ ਵਿੱਚ ਮਦਦ ਲਈ ਟੀਚਾ ਸੈਟ ਕਰੋ.</item>
+        <item>ਵਧਾਈਆਂ! ਤੁਹਾਡਾ ਵਜਨ ਟੀਚਾਗਤ ਵਜਨ ਦੇ ਬਰਾਬਰ ਹੈ.</item>
+        <item>ਤੁਹਾਡਾ ਵਜਨ ਤੁਹਾਡੇ ਟੀਚਾਗਤ ਵਜਨ ਤੋਂ ਘੱਟ ਹੈ</item>
+        <item>ਤੁਹਾਡਾ ਵਜਨ ਤੁਹਾਡੇ ਟੀਚਾਗਤ ਵਜਨ ਤੋਂ ਵੱਧ ਹੈ</item>
+    </string-array>
+    <string-array name="weight_report_suggestions_girl">
+        <item>ਆਪਣੇ ਵਜਨ ਨੂੰ ਪ੍ਰਬੰਧਿਤ ਕਰਨ ਵਿੱਚ ਮਦਦ ਲਈ ਟੀਚਾ ਸੈਟ ਕਰੋ.</item>
+        <item>ਵਧਾਈਆਂ! ਤੁਹਾਡਾ ਵਜਨ ਟੀਚਾਗਤ ਵਜਨ ਦੇ ਬਰਾਬਰ ਹੈ.</item>
+        <item>ਤੁਹਾਡਾ ਵਜਨ ਤੁਹਾਡੇ ਟੀਚਾਗਤ ਵਜਨ ਤੋਂ ਘੱਟ ਹੈ</item>
+        <item>ਤੁਹਾਡਾ ਵਜਨ ਤੁਹਾਡੇ ਟੀਚਾਗਤ ਵਜਨ ਤੋਂ ਵੱਧ ਹੈ</item>
+    </string-array>
+    <string-array name="weight_report_result_without_goal">
+        <item>ਟੀਚਾ ਪਾਰ ਕਰ ਚੁੱਕੇ ਹੋ</item>
+        <item>ਤੁਹਾਡਾ ਟੀਚਾ ਪੂਰਾ ਨਹੀਂ ਹੋਇਆ</item>
+        <item>ਤੁਸੀਂ ਆਪਣਾ ਟੀਚਾ ਪੂਰਾ ਕਰ ਲਿਆ ਹੈ!</item>
+    </string-array>
+    <string-array name="weight_report_result_with_goal_gainweight">
+        <item>ਤੁਸੀਂ ਅਜੇ ਆਪਣਾ ਟੀਚਾ ਪੂਰਾ ਨਹੀਂ ਕੀਤਾ ਹੈ</item>
+        <item>ਤੁਸੀਂ ਅਜੇ ਆਪਣਾ ਟੀਚਾ ਪੂਰਾ ਨਹੀਂ ਕੀਤਾ ਹੈ</item>
+        <item>ਤੁਸੀਂ ਅਜੇ ਆਪਣਾ ਟੀਚਾ ਪੂਰਾ ਨਹੀਂ ਕੀਤਾ ਹੈ</item>
+        <item>ਤੁਸੀਂ ਆਪਣਾ ਟੀਚਾ ਪੂਰਾ ਕਰ ਲਿਆ ਹੈ (%1$s%2$s)!</item>
+    </string-array>
+    <string-array name="weight_report_result_with_goal_loseweight">
+        <item>ਤੁਸੀਂ ਅਜੇ ਆਪਣਾ ਟੀਚਾ ਪੂਰਾ ਨਹੀਂ ਕੀਤਾ ਹੈ</item>
+        <item>ਤੁਸੀਂ ਅਜੇ ਆਪਣਾ ਟੀਚਾ ਪੂਰਾ ਨਹੀਂ ਕੀਤਾ ਹੈ</item>
+        <item>ਤੁਸੀਂ ਅਜੇ ਆਪਣਾ ਟੀਚਾ ਪੂਰਾ ਨਹੀਂ ਕੀਤਾ ਹੈ</item>
+        <item>ਤੁਸੀਂ ਆਪਣਾ ਟੀਚਾ ਪੂਰਾ ਕਰ ਲਿਆ ਹੈ (%1$s%2$s)!</item>
+    </string-array>
+    <string-array name="phone_notify_tips">
+        <item>"ਪੇਅਰ ਕੀਤੇ ਗਏ ਡਿਵਾਈਸ 'ਤੇ ਇਨਕਮਿੰਗ ਕਾਲ ਆਉਣ 'ਤੇ ਬੈਂਡ ਨੂੰ ਵਾਈਬ੍ਰੇਟ ਕਰੋ"</item>
+        <item>"ਪੇਅਰ ਕੀਤੇ ਗਏ ਡਿਵਾਈਸ 'ਤੇ ਅਲਾਰਮ ਵੱਜਣ 'ਤੇ ਬੈਂਡ ਵਾਈਬ੍ਰੇਟ ਕਰੋ"</item>
+        <item>"ਪੇਅਰ ਕੀਤੇ ਗਏ ਡਿਵਾਈਸ 'ਤੇ ਕੋਈ SMS ਸੁਨੇਹਾ ਪ੍ਰਾਪਤ ਹੋਣ 'ਤੇ ਬੈਂਡ ਵਾਈਬ੍ਰੇਟ ਕਰੋ"</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>ਸਿਰਫ ਸੰਪਰਕਾਂ ਵੱਲੋਂ ਆਈਆਂ ਕਾਲਾਂ ਲਈ</item>
+        <item>ਸਿਰਫ ਸੰਪਰਕਾਂ ਤੋਂ ਆਏ SMS ਲਈ</item>
+    </string-array>
+</resources>

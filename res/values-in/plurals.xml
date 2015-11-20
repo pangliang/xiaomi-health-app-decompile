@@ -9,4 +9,7 @@
     <plurals name="numberInch">
         <item quantity="other">%s inci</item>
     </plurals>
+    <plurals name="weight_match_user">
+        <item quantity="other">%1$d cocok.</item>
+    </plurals>
 </resources>

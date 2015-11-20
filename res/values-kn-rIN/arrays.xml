@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="running_months">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
     <string-array name="weeks">
-        <item>ಸೋಮ.</item>
-        <item>ಮಂಗಳ.</item>
-        <item>ಬುಧ.</item>
-        <item>ಗುರು.</item>
-        <item>ಶುಕ್ರ.</item>
-        <item>ಶನಿ.</item>
-        <item>ಭಾನು.</item>
+        <item>ಸೋಮವಾರ</item>
+        <item>ಮಂಗಳವಾರ</item>
+        <item>ಬುಧವಾರ</item>
+        <item>ಗುರುವಾರ</item>
+        <item>ಶುಕ್ರವಾರ</item>
+        <item>ಶನಿವಾರ</item>
+        <item>ರವಿವಾರ</item>
     </string-array>
     <string-array name="weeks_short">
         <item>ಸೋಮ.</item>
@@ -65,7 +79,14 @@
     </string-array>
     <string-array name="weight_body_figures">
         <item>ಕಡಿಮೆ ತೂಕ</item>
-        <item>ಸಾಮಾನ್ಯ ತೂಕ</item>
+        <item>ಸಾಮಾನ್ಯ</item>
+        <item>ಹೆಚ್ಚು ತೂಕ</item>
+        <item>ಬೊಜ್ಜು</item>
+        <item>ಬೊಜ್ಜು</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>ಕಡಿಮೆ ತೂಕ</item>
+        <item>ಸಾಮಾನ್ಯ</item>
         <item>ಹೆಚ್ಚು ತೂಕ</item>
         <item>ಬೊಜ್ಜು</item>
         <item>ಬೊಜ್ಜು</item>
@@ -78,13 +99,13 @@
     </string-array>
     <string-array name="weight_report_suggestions_boy">
         <item>ನಿಮ್ಮ ತೂಕವನ್ನು ನಿರ್ವಹಿಸಲು ಸಹಾಯ ಗುರಿಯನ್ನು ಗೊತ್ತುಪಡಿಸಿ.</item>
-        <item>ಅಭಿನಂದನೆಗಳು! ನೀವು ಅಂದುಕೊಂಡ ತೂಕ ಹೊಂದಿದ್ದೀರಿ.</item>
+        <item>ಅಭಿನಂದನೆಗಳು! ನೀವು ನಿಮ್ಮ ಗುರಿ ಹೊಂದಿದ್ದ ತೂಕವನ್ನು ತಲುಪಿದ್ದೀರಿ.</item>
         <item>ನೀವು ಅಂದುಕೊಂಡ ತೂಕಕ್ಕಿಂತ ಕಡಿಮೆ ಇದ್ದೀರಿ</item>
         <item>ನೀವು ಅಂದುಕೊಂಡ ತೂಕಕ್ಕಿಂತ ಹೆಚ್ಚು ಇದ್ದೀರಿ</item>
     </string-array>
     <string-array name="weight_report_suggestions_girl">
         <item>ನಿಮ್ಮ ತೂಕವನ್ನು ನಿರ್ವಹಿಸಲು ಸಹಾಯ ಗುರಿಯನ್ನು ಗೊತ್ತುಪಡಿಸಿ.</item>
-        <item>ಅಭಿನಂದನೆಗಳು! ನೀವು ಅಂದುಕೊಂಡ ತೂಕ ಹೊಂದಿದ್ದೀರಿ.</item>
+        <item>ಅಭಿನಂದನೆಗಳು! ನೀವು ನಿಮ್ಮ ಗುರಿ ಹೊಂದಿದ್ದ ತೂಕವನ್ನು ತಲುಪಿದ್ದೀರಿ.</item>
         <item>ನೀವು ಅಂದುಕೊಂಡ ತೂಕಕ್ಕಿಂತ ಕಡಿಮೆ ಇದ್ದೀರಿ</item>
         <item>ನೀವು ಅಂದುಕೊಂಡ ತೂಕಕ್ಕಿಂತ ಹೆಚ್ಚು ಇದ್ದೀರಿ</item>
     </string-array>
@@ -104,5 +125,14 @@
         <item>ನಿಮ್ಮ ಗುರಿಯನ್ನು ನೀವು ಇನ್ನೂ ತಲುಪಿಲ್ಲ</item>
         <item>ನಿಮ್ಮ ಗುರಿಯನ್ನು ನೀವು ಇನ್ನೂ ತಲುಪಿಲ್ಲ</item>
         <item>ನಿಮ್ಮ ಗುರಿಯನ್ನು ನೀವು ತಲುಪಿರುವಿರಿ (%1$s%2$s)!</item>
+    </string-array>
+    <string-array name="phone_notify_tips">
+        <item>ಜೋಡಿಗೊಳಿಸಿದ ಫೋನ್‌ನಲ್ಲಿ ಒಳಬರುವ ಕರೆ ಬಂದಾಗ ಬ್ಯಾಂಡ್ ವೈಬ್ರೇಟ್ ಮಾಡು</item>
+        <item>ಜೋಡಿಗೊಳಿಸಿದ ಫೋನ್‌ನಲ್ಲಿ ಅಲಾರಂ ಸೌಂಡ್ ಆದಾಗ ಬ್ಯಾಂಡ್ ವೈಬ್ರೇಟ್ ಮಾಡು</item>
+        <item>ಜೋಡಿಗೊಳಿಸಿದ ಫೋನ್‌ನಲ್ಲಿ ಎಸ್ಎಂಎಸ್ ಸಂದೇಶ ಸ್ವೀಕರಿಸಿದಾಗ ಬ್ಯಾಂಡ್ ವೈಬ್ರೇಟ್ ಮಾಡು</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>ಸಂಪರ್ಕಗಳಿಂದ ಬರುವ ಕರೆಗಳು ಮಾತ್ರ</item>
+        <item>ಸಂಪರ್ಕಗಳಿಂದ ಬರುವ ಎಸ್ಎಂಎಸ್‌ಗಳು ಮಾತ್ರ</item>
     </string-array>
 </resources>

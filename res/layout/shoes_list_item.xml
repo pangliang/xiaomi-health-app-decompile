@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="75.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/shoes_icon" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="24.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/font_size_v2_f6" android:textColor="@color/font_color_c1" android:id="@id/shoes_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_toRightOf="@id/shoes_icon" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/font_size_v2_f6" android:textColor="@color/font_color_c1" android:id="@id/shoes_bind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/shoes_binded" android:layout_toLeftOf="@id/shoes_right_arrow" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/shoes_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:src="@drawable/shoes_right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:background="@color/font_color_c4" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

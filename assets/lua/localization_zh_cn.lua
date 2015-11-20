@@ -149,6 +149,7 @@ localization_zh_rCN_table = {
 
     am_format="上午%s",
     pm_format="下午%s",
+    weehour_format="凌晨%s",
 
     ---=================== Game =====================
     game_register="国庆七天日行万步, 赢取小米手机4",
@@ -195,6 +196,6 @@ localization_zh_rCN_table = {
     welcome_use_weight_scale_not_bind = "点击绑定小米体重秤",
     welcome_use_mi_health="欢迎使用小米运动",
 
-    select_devices="还没有绑定设备哦, 点击绑定吧",
+    select_devices="没有绑定设备，点击绑定",
     daily_steps_not_comlete = "今天还差%s步就达成目标啦！",
 }

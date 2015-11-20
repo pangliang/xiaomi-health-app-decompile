@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="running_months">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>월요일</item>
+        <item>화요일</item>
+        <item>수요일</item>
+        <item>목요일</item>
+        <item>금요일</item>
+        <item>토요일</item>
+        <item>일요일</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>월</item>
+        <item>화요일</item>
+        <item>수</item>
+        <item>목</item>
+        <item>금</item>
+        <item>토</item>
+        <item>일</item>
+    </string-array>
+    <string-array name="months">
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </string-array>
+    <string-array name="select_days_simple">
+        <item>한번</item>
+        <item>매일</item>
+        <item>평일</item>
+        <item>사용자 지정</item>
+    </string-array>
+    <string-array name="fortune">
+        <item>There is no substitute for consistency.</item>
+        <item>Strive for progress, not perfection.</item>
+        <item>Repetition is the father of success.</item>
+        <item>Energy and persistence conquer all things.</item>
+        <item>Set small goals and build upon them.</item>
+        <item>Every journey begins with a single step.</item>
+        <item>Achieve one goal a day.</item>
+        <item>"No matter how slow you go, you're still lapping everybody on the couch."</item>
+        <item>Run when you can. Walk if you have to. Crawl if you must. Just never give up.</item>
+        <item>Remember, the feeling you get from a good workout is far better than the feeling you get from sitting around wishing you had worked out.</item>
+    </string-array>
+    <string-array name="weather_aqi_descriptions">
+        <item>Great</item>
+        <item>Good</item>
+        <item>Moderate</item>
+        <item>Caution</item>
+        <item>Unhealthy</item>
+        <item>Very Unhealthy</item>
+    </string-array>
+    <string-array name="weight_unit">
+        <item>kg</item>
+        <item>jin</item>
+        <item>lb</item>
+    </string-array>
+    <string-array name="weight_body_figures">
+        <item>Underweight</item>
+        <item>Normal</item>
+        <item>Overweight</item>
+        <item>Obese</item>
+        <item>Obese</item>
+    </string-array>
+    <string-array name="weight_body_figures_for_child">
+        <item>Underweight</item>
+        <item>Normal</item>
+        <item>Overweight</item>
+        <item>Obese</item>
+        <item>Obese</item>
+    </string-array>
+    <string-array name="weight_dynamic_list_bmi_tips">
+        <item>BMI Category: Underweight</item>
+        <item>BMI Category: Normal weight</item>
+        <item>BMI Category: Overweight</item>
+        <item>BMI Category: Obese</item>
+    </string-array>
+    <string-array name="weight_report_suggestions_boy">
+        <item>Set a goal to help manage your weight.</item>
+        <item>"Congratulations! You're at your target weight."</item>
+        <item>"You're under your target weight"</item>
+        <item>"You're over your target weight"</item>
+    </string-array>
+    <string-array name="weight_report_suggestions_girl">
+        <item>Set a goal to help manage your weight.</item>
+        <item>"Congratulations! You're at your target weight."</item>
+        <item>"You're under your target weight"</item>
+        <item>"You're over your target weight"</item>
+    </string-array>
+    <string-array name="weight_report_result_without_goal">
+        <item>Surpassed goal</item>
+        <item>"Didn't reach your goal"</item>
+        <item>You reached your goal!</item>
+    </string-array>
+    <string-array name="weight_report_result_with_goal_gainweight">
+        <item>"You haven't reached your goal yet"</item>
+        <item>"You haven't reached your goal yet"</item>
+        <item>"You haven't reached your goal yet"</item>
+        <item>You reached your goal (%1$s%2$s)!</item>
+    </string-array>
+    <string-array name="weight_report_result_with_goal_loseweight">
+        <item>"You haven't reached your goal yet"</item>
+        <item>"You haven't reached your goal yet"</item>
+        <item>"You haven't reached your goal yet"</item>
+        <item>You reached your goal (%1$s%2$s)!</item>
+    </string-array>
+    <string-array name="phone_notify_tips">
+        <item>Vibrate band when paired device has an incoming call</item>
+        <item>Vibrate band when alarm sounds on paired device</item>
+        <item>Vibrate band when paired device receives an SMS message</item>
+    </string-array>
+    <string-array name="contacts_notify_title">
+        <item>Only for calls from contacts</item>
+        <item>Only for SMS from contacts</item>
+    </string-array>
+</resources>

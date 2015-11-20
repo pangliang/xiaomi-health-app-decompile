@@ -6,6 +6,8 @@
     <dimen name="dynamic_info_title">11.0sp</dimen>
     <dimen name="dynamic_info_value">15.0sp</dimen>
     <dimen name="common_list_item_main_font">15.0sp</dimen>
+    <dimen name="running_slider_panel_height">120.0dip</dimen>
+    <dimen name="running_button_bottom">22.799988dip</dimen>
     <dimen name="running_info_width">120.0dip</dimen>
     <dimen name="running_history_item_height">60.0dip</dimen>
     <dimen name="running_detail_wide_width">170.0dip</dimen>
@@ -32,8 +34,7 @@
     <dimen name="running_setting_top_margin">20.0dip</dimen>
     <dimen name="running_progressbar_top_margin">11.0dip</dimen>
     <dimen name="running_progressbar_bottom_margin">22.0dip</dimen>
-    <dimen name="running_slider_panel_height">120.0dip</dimen>
-    <dimen name="running_button_bottom">22.799988dip</dimen>
+    <dimen name="running_water_mark_photo_height">451.79688dip</dimen>
     <dimen name="main_ui_panel_height">248.0dip</dimen>
     <dimen name="person_page_digit_size">24.0sp</dimen>
     <dimen name="person_page_text_small_size">10.5sp</dimen>

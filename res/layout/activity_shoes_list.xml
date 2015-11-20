@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/font_color_c5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/shoes_list" android:background="@color/font_color_c8" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_above="@id/firmware_update" />
+    <TextView android:textSize="@dimen/font_size_v2_f6" android:textColor="@color/font_color_c1" android:gravity="center" android:id="@id/firmware_update" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shoes_firmware_update" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

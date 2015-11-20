@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="numberOfPullUpdateReport">
+        <item quantity="other">Оновлено записів: %d.</item>
+        <item quantity="one">Оновлено записів: %d.</item>
+        <item quantity="few">Оновлено записів: %d.</item>
+    </plurals>
+    <plurals name="numberFoot">
+        <item quantity="other">Футів: %s</item>
+        <item quantity="one">Футів: %s</item>
+        <item quantity="few">Футів: %s</item>
+    </plurals>
+    <plurals name="numberInch">
+        <item quantity="other">Дюймів: %s</item>
+        <item quantity="one">Дюймів: %s</item>
+        <item quantity="few">Дюймів: %s</item>
+    </plurals>
+    <plurals name="weight_match_user">
+        <item quantity="other">%1$d збігів.</item>
+        <item quantity="one">%1$d збіг.</item>
+        <item quantity="few">%1$d збіги.</item>
+    </plurals>
+</resources>

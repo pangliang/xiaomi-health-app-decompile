@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.com.smartdevices.bracelet.lua.SlidingUpPanelLayout android:gravity="bottom" android:id="@id/sliding_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" sothree:panelHeight="@dimen/main_ui_panel_height" sothree:shadowHeight="0.0dip" sothree:paralaxOffset="0.0dip" sothree:dragView="@id/dragView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sothree="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@color/bg_mode_heartrate" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/center_host" android:layout_width="270.0dip" android:layout_height="270.0dip">
+                <FrameLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_margin="48.0dip">
+                    <WebView android:id="@id/heartrate_waveview" android:visibility="invisible" android:layout_width="190.0dip" android:layout_height="110.0dip" />
+                </FrameLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/error_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/fail_icon" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/heart_error" />
+                    <TextView android:textSize="16.0sp" android:textColor="#99ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/measure_fail" />
+                    <TextView android:textSize="12.0sp" android:textColor="#99ffffff" android:id="@id/fail_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/measure_tips" />
+                </LinearLayout>
+                <cn.com.smartdevices.bracelet.chart.DynamicPieChartView android:id="@id/chart" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <RelativeLayout android:id="@id/hr_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="48.0dip">
+                    <cn.com.smartdevices.bracelet.chart.typeface.TypefaceTextView android:textSize="48.0sp" android:textColor="@android:color/white" android:ellipsize="none" android:id="@id/hr" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00" android:singleLine="true" android:layout_centerInParent="true" android:fontFamily="miui" />
+                    <TextView android:textSize="11.0sp" android:textStyle="normal" android:textColor="#99ffffff" android:id="@id/unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginBottom="10.0dip" android:text="@string/unit_hr" android:layout_toRightOf="@id/hr" android:layout_alignBottom="@id/hr" />
+                    <TextView android:textSize="12.0sp" android:textColor="#99ffffff" android:id="@id/hr_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:text="@string/pre_hr_value" android:layout_above="@id/hr" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/measure_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="13.0sp" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/bt_measure" android:background="@drawable/btn_measure_bg" android:layout_width="171.0dip" android:layout_height="36.0dip" android:text="@string/measure" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/measuring" android:visibility="invisible" android:layout_width="182.0dip" android:layout_height="35.0dip" android:text="@string/measuring" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/dragView" android:background="@color/window_bg" android:layout_width="fill_parent" android:layout_height="@dimen/main_ui_dragview_height">
+        <View android:id="@id/divider" android:background="@color/split_color" android:layout_width="wrap_content" android:layout_height="1.0px" android:layout_marginLeft="@dimen/mili_margin" android:layout_marginRight="@dimen/mili_margin" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <cn.com.smartdevices.bracelet.lua.MyListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" android:overScrollMode="never" />
+    </FrameLayout>
+</cn.com.smartdevices.bracelet.lua.SlidingUpPanelLayout>
