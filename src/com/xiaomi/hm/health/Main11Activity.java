@@ -11,7 +11,5 @@ public class Main11Activity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main11);
-		
-		BluetoothGatt
 	}
 }
